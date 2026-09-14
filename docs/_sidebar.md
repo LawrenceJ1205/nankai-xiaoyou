@@ -53,6 +53,7 @@
       - **🎬 九败一胜 · 失败案例**
         - [第 001 期 · AI+SaaS 创业 12 个月](04_chuangye/chuangbar/seed_九败一胜_第001期_失败案例.md)
     - [📡 校友企业家联谊会·公众号监控工作流](04_chuangye/南开校友企业家联谊会·公众号监控工作流.md)
+    - [🎙️ 南开掌门人创业故事（自述体）](04_chuangye/南开掌门人创业故事.md)
     - [💰 南开系投资机构](04_chuangye/Nankai_touzi.md)
     - [🎓 公开课导师候选池](04_chuangye/Gongkaike_Daoshi.md)
     - [王兴：九败一胜](04_chuangye/WangXing.md)
