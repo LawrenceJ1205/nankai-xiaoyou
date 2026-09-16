@@ -16,6 +16,25 @@
       homepage: 'README.md'
     }
   </script>
+  <script>
+    /**
+     * 构建版本号（BUILD）——每发布一次内容就改一个值。
+     * 作用：docsify 是用 XHR 取 .md 文件的，托管层会对同一个地址做启发式缓存，
+     *       导致更新后仍显示旧内容。给每次请求带上 BUILD，等于每次发布都换一批
+     *       全新的地址，缓存自然失效。（托管层会忽略这个参数，不影响取文件）
+     */
+    (function () {
+      var BUILD = 'v2.5.4';
+      var rawOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function (method, url) {
+        var args = Array.prototype.slice.call(arguments);
+        if (typeof url === 'string' && /\.md(\?|#|$)/.test(url)) {
+          args[1] = url + (url.indexOf('?') > -1 ? '&' : '?') + 'b=' + BUILD;
+        }
+        return rawOpen.apply(this, args);
+      };
+    })();
+  </script>
   <script src="vendor/docsify.min.js"></script>
 </body>
 </html>
