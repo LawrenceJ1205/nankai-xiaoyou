@@ -2,7 +2,7 @@
 
 > **一句话定位**：应对 AI 浪潮的系统性"新知框架"——认知前沿 + 工具技能 + 终身学习。**所有人**（不限板块）想开课、想听课，先来这里。
 >
-> **本板块聊吧**：[🌟 **淘知吧**](../03_xinzhi/taozhi/README.md)——就设在本板块里，对应“想不被时代淘汰、要持续充电”的那一群校友。
+> **本板块聊吧**：[🌟 **淘知吧**](03_xinzhi/taozhi/README.md)——就设在本板块里，对应“想不被时代淘汰、要持续充电”的那一群校友。
 
 ---
 
@@ -48,26 +48,26 @@
 
 | 主题 | 摘要 | md |
 |---|---|---|
-| AI 时代生存指南 | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克五位 AI 领袖 | [→](AI_shidai_shengcun.md) |
-| MIT NotebookLM 学习法 | "三问"提示词工程——共识 / 争议 / 深度 | [→](MIT_NotebookLM.md) |
-| Anthropic 多智能体 | MACS 范式 + 线束架构 + AI 自主进化 | [→](Anthropic.md) |
-| Palantir 方法论 | 本体论 + FDE + AIP | [→](Palantir.md) |
-| 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](Hongshan_jieguo.md) |
-| 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](Hongshan_MAD.md) |
-| YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](YC_AI_yuansheng.md) |
-| 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](AI_Skill工具箱/Cloud_Code.md) |
-| 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](AI_Skill工具箱/Hermes_Agent.md) |
+| AI 时代生存指南 | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克五位 AI 领袖 | [→](03_xinzhi/AI_shidai_shengcun.md) |
+| MIT NotebookLM 学习法 | "三问"提示词工程——共识 / 争议 / 深度 | [→](03_xinzhi/MIT_NotebookLM.md) |
+| Anthropic 多智能体 | MACS 范式 + 线束架构 + AI 自主进化 | [→](03_xinzhi/Anthropic.md) |
+| Palantir 方法论 | 本体论 + FDE + AIP | [→](03_xinzhi/Palantir.md) |
+| 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/Hongshan_jieguo.md) |
+| 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/Hongshan_MAD.md) |
+| YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/YC_AI_yuansheng.md) |
+| 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
+| 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 
 ---
 
 ## 🌐 本板块聊吧：淘知吧
 
-> 课程同步答疑、直播互动、课后复盘——都汇聚在 **[🌟 淘知吧](../03_xinzhi/taozhi/README.md)**：
+> 课程同步答疑、直播互动、课后复盘——都汇聚在 **[🌟 淘知吧](03_xinzhi/taozhi/README.md)**：
 > - 淘知精选 10 问（每期课程配套）
 > - 课程同步答疑群
 > - 导师值班答疑（每周固定时段）
 
-👉 [进入淘知吧](../03_xinzhi/taozhi/README.md)
+👉 [进入淘知吧](03_xinzhi/taozhi/README.md)
 
 ---
 
