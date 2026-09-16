@@ -21,7 +21,7 @@
       - [🏠 公社首页](02_jiayuan/gongshe/README.md)
       - **✍️ 我的南开故事**
         - [示例 · 1988数学·学不会的人](02_jiayuan/gongshe/seed_我的南开故事_示例.md)
-        - [江联 · 毕业40年回南开](02_jiayuan/gongshe/seed_江联_毕业40年回南开.md)
+        - [李力 · 南开往事（86 金融）](02_jiayuan/gongshe/seed_李力_南开往事.md)
     - **✨ 参加线上线下兴趣小组** 🆕
       - [小组总览 · 建群机制](02_jiayuan/兴趣小组/README.md)
       - [🏃 慢跑](https://twpitpbt.jsjform.com/f/fkkulD)
