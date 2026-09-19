@@ -1,8 +1,5 @@
 # Hermes Agent 教程
 
-```markdown
-# Hermes Agent简明教程——文科生专用版
-
 ## 🦞 “马”和“虾”，先搞清谁是谁
 
 **Hermes Agent**（被国内圈子里亲切地叫做“爱马仕”/“马”）是AI研究团队Nous Research在2026年2月发布的开源AI智能体框架。它和前段时间很火的“Lobster”（OpenClaw，外号“龙虾”）是同赛道的两大“网红”——只不过Hermes更像一个会自己总结经验的员工，OpenClaw更像一个调用各种工具的调度中心。

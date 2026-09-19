@@ -1,8 +1,5 @@
 # 红杉资本：结果即服务
 
-```markdown
-# 红杉资本《Services: The New Software》：从卖工具到卖结果
-
 > 红杉合伙人Julien Bek 2026年3月报告核心主张：下一个万亿美元公司将是“伪装”成服务公司的软件公司，直接交付“Result-as-a-Service”（结果即服务）。逻辑基石是企业每花1美元买软件就要花6美元请人操作——软件商在争1美元红海，600%体量的服务市场才是真正战场。
 
 ## 核心框架一：Intelligence vs. Judgment

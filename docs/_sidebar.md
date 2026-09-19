@@ -87,12 +87,17 @@
     - [Dan Koe：一人公司](04_chuangye/DanKoe.md)
     - [纳瓦尔：财富与幸福](04_chuangye/Naval.md)
     - [马斯克：第一性原理](04_chuangye/Musk.md)
-    - [YC合伙人JohnXu：四大转变](04_chuangye/YC_JohnXu.md)
+    - **📚 YC 精读 · 一手源前沿趋势**
+      - [专辑首页 · 已收 3 集](04_chuangye/YC精读/README.md)
+      - [YC总裁GarryTan：2026创业复盘四趋势](04_chuangye/YC精读/YC_GarryTan.md)
+      - [Jeff Dean：AI时代创业六个观点](04_chuangye/YC精读/JeffDean.md)
+      - [YC合伙人JohnXu：四大转变](04_chuangye/YC精读/YC_JohnXu.md)
     - [许楚：里程碑MVP](04_chuangye/XuChu_MVP.md)
 
-- **🏆 骄人南开校友企业** ⭐ 独立板块
+- **🏆 骄人南开校友企业 · 允公南开人** ⭐ 独立板块
   - [板块首页](06_jiaoren/README.md)
-  - [📋 名录总表 · 11 字段](06_jiaoren/骄人南开校友企业.md)
+  - [📋 名录总表 · 27 家](06_jiaoren/骄人南开校友企业.md)
+  - [📡 联谊会公众号名录扩容台账 · 第 1 组](06_jiaoren/联谊会公众号名录扩容台账.md)
   - [🏢 企业卡片 · 19 家](06_jiaoren/企业卡片.md)
   - [💰 金融投资轴 · 机构卡片 · 14 家](06_jiaoren/金融投资轴·机构卡片.md)
   - [⚖️ 法律轴 · 校友卡片 · 9 位](06_jiaoren/法律轴·校友卡片.md)
