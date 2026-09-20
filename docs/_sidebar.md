@@ -59,14 +59,16 @@
 
   - **🚀 南开人创业**
     - [板块首页](04_chuangye/README.md)
+    - [📥 投递商业计划书](https://twpitpbt.jsjform.com/f/nktLE3)
+    - [💰 南开系投资机构及创始人](04_chuangye/Nankai_touzi.md)
+    - [✍️ 报名成为 BP 评审志愿者](https://twpitpbt.jsjform.com/f/sMOVVZ)
+    - [🎤 创业公开课（小鹅通）](04_chuangye/创业公开课.md)
+    - [🎓 公开课导师候选池](04_chuangye/Gongkaike_Daoshi.md)
     - **🎯 小南创吧**（聊吧）
       - [🏠 小南创吧首页](04_chuangye/chuangbar/README.md)
-      - **🎬 九败一胜 · 失败案例**
-        - [第 001 期 · AI+SaaS 创业 12 个月](04_chuangye/chuangbar/seed_九败一胜_第001期_失败案例.md)
-    - [📡 校友企业家联谊会·公众号监控工作流](04_chuangye/南开校友企业家联谊会·公众号监控工作流.md)
     - [🎙️ 南开掌门人创业故事（自述体）](04_chuangye/南开掌门人创业故事.md)
     - **🎖️ 上市校友企业 · 立德立功立言**
-      - [专辑首页 · 12 家总表](04_chuangye/上市校友企业/README.md)
+      - [📁 专辑首页（点开进入）· 12 家总表](04_chuangye/上市校友企业/README.md)
       - [康希诺生物 · 宇学峰](04_chuangye/上市校友企业/康希诺生物·宇学峰.md)
       - [映恩生物 · 朱忠远](04_chuangye/上市校友企业/映恩生物·朱忠远.md)
       - [瑞博生物 · 梁子才](04_chuangye/上市校友企业/瑞博生物·梁子才.md)
@@ -79,23 +81,28 @@
       - [依米康 · 张菀](04_chuangye/上市校友企业/依米康·张菀.md)
       - [北斗星通 · 周儒欣](04_chuangye/上市校友企业/北斗星通·周儒欣.md)
       - [鸿富瀚 · 张定武](04_chuangye/上市校友企业/鸿富瀚·张定武.md)
-    - [💰 南开系投资机构](04_chuangye/Nankai_touzi.md)
-    - [🎓 公开课导师候选池](04_chuangye/Gongkaike_Daoshi.md)
-    - [王兴：九败一胜](04_chuangye/WangXing.md)
-    - [张一鸣：算法思维](04_chuangye/ZhangYiming.md)
-    - [王兴兴：硬科技创业](04_chuangye/WangXingxing.md)
-    - [Dan Koe：一人公司](04_chuangye/DanKoe.md)
-    - [纳瓦尔：财富与幸福](04_chuangye/Naval.md)
-    - [马斯克：第一性原理](04_chuangye/Musk.md)
-    - **📚 YC 精读 · 一手源前沿趋势**
-      - [专辑首页 · 已收 3 集](04_chuangye/YC精读/README.md)
-      - [YC总裁GarryTan：2026创业复盘四趋势](04_chuangye/YC精读/YC_GarryTan.md)
-      - [Jeff Dean：AI时代创业六个观点](04_chuangye/YC精读/JeffDean.md)
-      - [YC合伙人JohnXu：四大转变](04_chuangye/YC精读/YC_JohnXu.md)
-    - [许楚：里程碑MVP](04_chuangye/XuChu_MVP.md)
+    - **🧠 大咖说创业**
+      - [📁 专辑首页（点开进入）· 6 篇](04_chuangye/大咖说创业/README.md)
+      - [王兴：九败一胜](04_chuangye/大咖说创业/WangXing.md)
+      - [张一鸣：算法思维](04_chuangye/大咖说创业/ZhangYiming.md)
+      - [王兴兴：硬科技创业](04_chuangye/大咖说创业/WangXingxing.md)
+      - [Dan Koe：一人公司](04_chuangye/大咖说创业/DanKoe.md)
+      - [纳瓦尔：财富与幸福](04_chuangye/大咖说创业/Naval.md)
+      - [马斯克：第一性原理](04_chuangye/大咖说创业/Musk.md)
+    - **📚 知名风投谈 AI 创业趋势和避坑**
+      - [专辑首页 · 已收 3 集](04_chuangye/知名风投谈AI创业趋势和避坑/README.md)
+      - [YC（硅谷最火风投）总裁 Garry Tan：2026 创业复盘四趋势](04_chuangye/知名风投谈AI创业趋势和避坑/YC_GarryTan.md)
+      - [Jeff Dean（前 Google 首席科学家）：AI 时代创业六个观点](04_chuangye/知名风投谈AI创业趋势和避坑/JeffDean.md)
+      - [YC（硅谷最火风投）合伙人 John Xu：四大转变](04_chuangye/知名风投谈AI创业趋势和避坑/YC_JohnXu.md)
+    - **📚 创业必读书**
+      - [📁 专辑首页（点开进入）· 3 本](04_chuangye/创业必读书/README.md)
+      - [《精益创业》埃里克·莱斯：把创业变成可验证的实验](04_chuangye/创业必读书/精益创业.md)
+      - [《里程碑》许楚：从商业起点到终局推演](04_chuangye/创业必读书/里程碑.md)
+      - [《纳瓦尔宝典》：财富与幸福的指南](04_chuangye/创业必读书/纳瓦尔宝典.md)
 
 - **🏆 骄人南开校友企业 · 允公南开人** ⭐ 独立板块
   - [板块首页](06_jiaoren/README.md)
+  - [✍️ 报名成为 BP 评审志愿者](https://twpitpbt.jsjform.com/f/sMOVVZ)
   - [📋 名录总表 · 27 家](06_jiaoren/骄人南开校友企业.md)
   - [📡 联谊会公众号名录扩容台账 · 第 1 组](06_jiaoren/联谊会公众号名录扩容台账.md)
   - [🏢 企业卡片 · 19 家](06_jiaoren/企业卡片.md)
@@ -105,6 +112,7 @@
   - [❤️ 回馈南开 · 回馈社会](06_jiaoren/回馈南开·回馈社会.md)
   - [🎙️ 掌门人心系南开 · 语录集 · 20 位](06_jiaoren/掌门人心系南开·语录集.md)
   - [🔗 运营设计 · 板块互动与采集入口](06_jiaoren/运营设计·板块互动与采集入口.md)
+  - [📡 联谊会公众号 · 信息入库工作流](06_jiaoren/联谊会公众号·信息入库工作流.md)
 
 - **🏛️ 各院系基础底座**
 
