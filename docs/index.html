@@ -24,7 +24,7 @@
      *       全新的地址，缓存自然失效。（托管层会忽略这个参数，不影响取文件）
      */
     (function () {
-      var BUILD = 'v2.5.11';
+      var BUILD = 'v2.5.12';
       var rawOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (method, url) {
         var args = Array.prototype.slice.call(arguments);
