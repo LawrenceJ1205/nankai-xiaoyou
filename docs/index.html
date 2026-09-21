@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>南开小友</title>
   <link rel="stylesheet" href="vendor/vue.css">
+  <style>
+    /* 南开紫（青莲紫）——南开校色，用于「六大主力板块」等标识 */
+    .nk-purple, strong.nk-purple, .sidebar strong.nk-purple, .markdown-section strong.nk-purple { color: #7E0C6E !important; }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -24,7 +28,7 @@
      *       全新的地址，缓存自然失效。（托管层会忽略这个参数，不影响取文件）
      */
     (function () {
-      var BUILD = 'v2.5.12';
+      var BUILD = 'v2.5.13';
       var rawOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (method, url) {
         var args = Array.prototype.slice.call(arguments);

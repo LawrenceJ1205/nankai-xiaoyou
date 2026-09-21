@@ -91,6 +91,12 @@
 | 单人创始人的时代（40 岁起步）                                                            | The Lightcone · 2026-06-19 | 04 创业           |
 | Summer 2026 Request for Startups：官方 15 个主题                                  | YC 官方                      | 小南创吧 · 选题参考     |
 | 编程智能体横评：Codex vs Claude Code vs Cursor                                      | The Lightcone              | 03 AI Skill 工具箱 |
+| 开源模型改写 AI 经济学（Open Models Change The Economics of AI） | The Lightcone · 2026-09-12 | 03 新知 / 04 创业 |
+| 开源编程智能体 OpenCode：6 个月 20 倍增长与开源 harness（Opencode CEO: Getting Blocked, 20X Growth in 6 Months, Building the Open Harness） | The Lightcone · 2026-07 | 03 AI Skill 工具箱 / 04 创业 |
+| Claude Code 创造者：别再捆住你的 AI（Boris Cherny: Stop Hobbling Your AI） | Startup School 2026 · 2026-07-27 | 03 新知 / 07 允能南开人 |
+| 用 AI 智能体运营公司：Circleback 的「公司大脑」（Recording Meetings With AI Will Become The Norm） | YC 官方播客 · 2026-08-11 | 03 新知 / 04 创业 |
+| Startup School 2026 主舞台对谈：黄仁勋 × Sam Altman | Startup School 2026 · 2026-07-25/26 | 04 创业 / 07 允能南开人 |
+| Fall 2026 Request for Startups：官方 13 个主题 | YC 官方 · 2026-07 | 04 创业 / 小南创吧 · 选题参考 |
 
 ---
 
