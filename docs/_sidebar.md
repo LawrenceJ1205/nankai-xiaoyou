@@ -39,6 +39,9 @@
       - [🖌️ 书法·绘画](https://twpitpbt.jsjform.com/f/sTtFxJ)
       - [🏓 乒乓球](https://twpitpbt.jsjform.com/f/DSDAxS)
       - [🏸 羽毛球](https://twpitpbt.jsjform.com/f/VfmEbm)
+    - **📖 读书汇**（南开人的人文地平线）🆕
+      - [📁 栏目首页 · 1000 字模板与投稿](02_jiayuan/读书汇/README.md)
+      - [✍️ 提交读后感（金数据表单）](https://twpitpbt.jsjform.com/f/ASQzl3)
 
   - **📚 新知小讲堂**
     - [板块首页](03_xinzhi/README.md)
@@ -106,6 +109,7 @@
       - [《精益创业》埃里克·莱斯：把创业变成可验证的实验](04_chuangye/创业必读书/精益创业.md)
       - [《里程碑》许楚：从商业起点到终局推演](04_chuangye/创业必读书/里程碑.md)
       - [《纳瓦尔宝典》：财富与幸福的指南](04_chuangye/创业必读书/纳瓦尔宝典.md)
+    - [🏫 五校系创投全景比较 · 基金、案例与功力剖析](04_chuangye/五校系创投全景比较.md)
 
   - **💼 允能南开人**（小友的主力板块；🎓 关照在校生与年轻校友）
     - [板块首页](07_yunneng/README.md)
