@@ -29,3 +29,6 @@ check_internal_leak.py
 verify_pages.py
 verify_xinzhi.py
 verify_bp.py
+
+# 探针临时目录（curl / DOM 落盘用，不入库）
+_probe/
