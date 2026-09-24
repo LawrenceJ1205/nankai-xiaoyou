@@ -32,3 +32,6 @@ verify_bp.py
 
 # 探针临时目录（curl / DOM 落盘用，不入库）
 _probe/
+
+# 工作产物目录（分析稿 / 侧写等，严禁入站）
+outputs/
