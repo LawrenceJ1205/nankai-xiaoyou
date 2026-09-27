@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+  南开小友 · 校友版入口（alumni.html）
+  --------------------------------------------------------------
+  与 index.html（主入口 / 内部版）共用同一套 md 与 _sidebar.md，唯一区别：
+  本版**隐去内部「工作流驾驶舱」**——侧边栏分组、正文入口与整节、直达路由兜底。
+
+  维护规则：
+    ① BUILD 必须与 index.html 保持一致 —— 发布前跑 check_build_sync.py；
+    ② 要再隐去别的内部页，只改下面插件里的 HIDE_DIRS（目录）或 HIDE_TITLES（标题关键词），
+       不必新增/复制任何 md，两个入口永远共用同一份内容源。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>南开小友</title>
+  <link rel="stylesheet" href="vendor/vue.css">
+  <style>
+    /* 南开紫（青莲紫）——南开校色，用于「六大主力板块」等标识 */
+    .nk-purple, strong.nk-purple, .sidebar strong.nk-purple, .markdown-section strong.nk-purple { color: #7E0C6E !important; }
+    /* 左侧导读条最上端的站名「南开小友」——字号不动，加粗 + 南开紫 */
+    .sidebar > h1.app-name, .sidebar > h1.app-name > a.app-name-link { font-weight: 700 !important; color: #7E0C6E !important; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    /**
+     * 校友版清理插件：把内部内容从界面上彻底拿掉（不改任何 .md）。
+     *   ① 侧边栏：隐藏标题含 HIDE_TITLES 的整个一级分组
+     *   ② 表格单元格：连包裹内部链接的全角括号一起删，避免留下「见 ）」半句
+     *   ③ 正文：隐藏一切仍指向 HIDE_DIRS 的入口块（若父级随之变空，父级一并隐藏）
+     *   ④ 正文：隐藏标题含 HIDE_TITLES 的整节（标题 + 其后同层内容，直到下一个 h1/h2）
+     *   ⑤ 兜底：手输内部路径（如 #/00_cockpit/…）时直接回首页
+     */
+    function nankaiAlumniView(hook) {
+      // ── 校友版隐去清单 ──
+      var HIDE_DIRS = ['00_cockpit'];        // 目录前缀：其下的页面与入口一律隐去
+      var HIDE_TITLES = ['工作流驾驶舱'];    // 标题关键词：整节 + 侧边栏分组
+
+      function hasVisibleChild(box) {
+        var kids = box.children, j;
+        for (j = 0; j < kids.length; j++) {
+          if (kids[j].style.display !== 'none') return true;
+        }
+        return false;
+      }
+
+      function hitTitle(text) {
+        for (var k = 0; k < HIDE_TITLES.length; k++) {
+          if (text.indexOf(HIDE_TITLES[k]) > -1) return true;
+        }
+        return false;
+      }
+
+      hook.doneEach(function () {
+        var i, j, el, node, head, groups, links, heads, cells, sec;
+
+        // ① 侧边栏分组
+        groups = document.querySelectorAll('.sidebar-nav li');
+        for (i = 0; i < groups.length; i++) {
+          head = groups[i].querySelector(':scope > p');
+          if (head && hitTitle(head.textContent)) groups[i].style.display = 'none';
+        }
+
+        // ② 表格单元格里的内部链接：连同其外层的全角括号一起删掉
+        cells = document.querySelectorAll('.markdown-section td, .markdown-section th');
+        for (i = 0; i < cells.length; i++) {
+          var html = cells[i].innerHTML;
+          for (j = 0; j < HIDE_DIRS.length; j++) {
+            if (html.indexOf(HIDE_DIRS[j]) === -1) continue;
+            html = html.replace(
+              new RegExp('（[^（）]*' + HIDE_DIRS[j] + '[^（）]*）', 'g'), ''
+            ).replace(
+              new RegExp('<a[^>]*' + HIDE_DIRS[j] + '[^>]*>.*?</a>', 'g'), ''
+            );
+          }
+          if (html !== cells[i].innerHTML) cells[i].innerHTML = html;
+        }
+
+        // ③ 正文入口块
+        var sel = [];
+        for (j = 0; j < HIDE_DIRS.length; j++) {
+          sel.push('.markdown-section a[href*="' + HIDE_DIRS[j] + '"]');
+        }
+        links = document.querySelectorAll(sel.join(','));
+        for (i = 0; i < links.length; i++) {
+          el = links[i].closest('p, li, h2, h3, blockquote') || links[i];
+          el.style.display = 'none';
+          sec = el.closest('blockquote, ul, ol');
+          if (sec && !hasVisibleChild(sec)) sec.style.display = 'none';
+        }
+
+        // ④ 整节
+        heads = document.querySelectorAll('.markdown-section h1, .markdown-section h2');
+        for (i = 0; i < heads.length; i++) {
+          if (!hitTitle(heads[i].textContent)) continue;
+          head = heads[i];
+          el = head.previousElementSibling;
+          if (el && el.tagName === 'HR') el.style.display = 'none';
+          node = head;
+          while (node) {
+            if (node !== head && /^H[12]$/.test(node.tagName)) break;
+            node.style.display = 'none';
+            node = node.nextElementSibling;
+          }
+        }
+
+        // ⑤ 直达兜底
+        for (j = 0; j < HIDE_DIRS.length; j++) {
+          if (location.hash.indexOf('#/' + HIDE_DIRS[j]) === 0) {
+            location.hash = '#/';
+            break;
+          }
+        }
+      });
+    }
+
+    window.$docsify = {
+      name: '南开小友',
+      nameLink: '#/',
+      loadSidebar: true,
+      auto2top: true,
+      homepage: 'README.md',
+      plugins: [nankaiAlumniView]
+    }
+  </script>
+  <script>
+    /**
+     * 构建版本号（BUILD）——每发布一次内容就改一个值。
+     * 作用：docsify 是用 XHR 取 .md 文件的，托管层会对同一个地址做启发式缓存，
+     *       导致更新后仍显示旧内容。给每次请求带上 BUILD，等于每次发布都换一批
+     *       全新的地址，缓存自然失效。（托管层会忽略这个参数，不影响取文件）
+     * ⚠️ 本值必须与 index.html 中的 BUILD 一致 —— 发布前跑 check_build_sync.py。
+     */
+    (function () {
+      var BUILD = 'v2.5.19';
+      var rawOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function (method, url) {
+        var args = Array.prototype.slice.call(arguments);
+        if (typeof url === 'string' && /\.md(\?|#|$)/.test(url)) {
+          args[1] = url + (url.indexOf('?') > -1 ? '&' : '?') + 'b=' + BUILD;
+        }
+        return rawOpen.apply(this, args);
+      };
+    })();
+  </script>
+  <script src="vendor/docsify.min.js"></script>
+</body>
+</html>
