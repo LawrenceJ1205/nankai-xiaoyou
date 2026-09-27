@@ -7,8 +7,8 @@
 
   维护规则：
     ① BUILD 必须与 index.html 保持一致 —— 发布前跑 check_build_sync.py；
-    ② 要再隐去别的内部页，只改下面插件里的 HIDE_DIRS（目录）或 HIDE_TITLES（标题关键词），
-       不必新增/复制任何 md，两个入口永远共用同一份内容源。
+    ② 要再隐去别的内部页，只改下面插件里的 HIDE_DIRS（目录）/ HIDE_TITLES（标题关键词）/
+       HIDE_BLOCKS（正文块关键词），不必新增/复制任何 md，两个入口永远共用同一份内容源。
 -->
 <html lang="zh-CN">
 <head>
@@ -32,12 +32,16 @@
      *   ② 表格单元格：连包裹内部链接的全角括号一起删，避免留下「见 ）」半句
      *   ③ 正文：隐藏一切仍指向 HIDE_DIRS 的入口块（若父级随之变空，父级一并隐藏）
      *   ④ 正文：隐藏标题含 HIDE_TITLES 的整节（标题 + 其后同层内容，直到下一个 h1/h2）
-     *   ⑤ 兜底：手输内部路径（如 #/00_cockpit/…）时直接回首页
+     *   ⑤ 正文：隐藏正文块关键词命中 HIDE_BLOCKS 的整块（首页版本公告＝内部沿革）——
+     *        显式规则，不再依赖「与驾驶舱同段而被连坐」这一副作用
+     *   ⑥ 兜底：手输内部路径（如 #/00_cockpit/…）时直接回首页
      */
     function nankaiAlumniView(hook) {
       // ── 校友版隐去清单 ──
       var HIDE_DIRS = ['00_cockpit'];        // 目录前缀：其下的页面与入口一律隐去
       var HIDE_TITLES = ['工作流驾驶舱'];    // 标题关键词：整节 + 侧边栏分组
+      // 正文块关键词：命中即隐去承载它的整块（首页 v2.2–v2.5 版本公告＝内部沿革，不对校友露出）
+      var HIDE_BLOCKS = ['2026-09-10 v2.2 信息架构上线'];
 
       function hasVisibleChild(box) {
         var kids = box.children, j;
@@ -54,8 +58,15 @@
         return false;
       }
 
+      function hitBlock(text) {
+        for (var k = 0; k < HIDE_BLOCKS.length; k++) {
+          if (text.indexOf(HIDE_BLOCKS[k]) > -1) return true;
+        }
+        return false;
+      }
+
       hook.doneEach(function () {
-        var i, j, el, node, head, groups, links, heads, cells, sec;
+        var i, j, el, node, head, groups, links, heads, cells, sec, blocks;
 
         // ① 侧边栏分组
         groups = document.querySelectorAll('.sidebar-nav li');
@@ -107,7 +118,17 @@
           }
         }
 
-        // ⑤ 直达兜底
+        // ⑤ 内部沿革块（按关键词显式隐去）
+        blocks = document.querySelectorAll('.markdown-section p, .markdown-section blockquote, .markdown-section li, .markdown-section td');
+        for (i = 0; i < blocks.length; i++) {
+          if (blocks[i].style.display === 'none') continue;
+          if (!hitBlock(blocks[i].textContent)) continue;
+          blocks[i].style.display = 'none';
+          sec = blocks[i].closest('blockquote, ul, ol, table');
+          if (sec && !hasVisibleChild(sec)) sec.style.display = 'none';
+        }
+
+        // ⑥ 直达兜底
         for (j = 0; j < HIDE_DIRS.length; j++) {
           if (location.hash.indexOf('#/' + HIDE_DIRS[j]) === 0) {
             location.hash = '#/';
