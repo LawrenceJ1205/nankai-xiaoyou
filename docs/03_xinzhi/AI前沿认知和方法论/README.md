@@ -1,0 +1,25 @@
+# 🤖 AI 前沿认知和方法论
+
+> **一句话定位**：把全球一线 AI 领袖与顶级机构（哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克、MIT、Anthropic、Palantir、红杉资本、YC）的公开演讲与公开文章，整理成南开人**可以直接抄作业**的认知底稿。**先建认知框架，再学工具技能**——动手部分见隔壁 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)。
+
+## 📚 本辑 7 篇
+
+| # | 篇目 | 一句话 | 讲义 |
+|---|---|---|---|
+| 1 | AI 时代生存指南 | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克五位 AI 领袖 | [→](03_xinzhi/AI前沿认知和方法论/AI_shidai_shengcun.md) |
+| 2 | MIT NotebookLM 学习法 | “三问”提示词工程——共识 / 争议 / 深度 | [→](03_xinzhi/AI前沿认知和方法论/MIT_NotebookLM.md) |
+| 3 | Anthropic 多智能体协作 | MACS 范式 + 线束架构 + AI 自主进化 | [→](03_xinzhi/AI前沿认知和方法论/Anthropic.md) |
+| 4 | Palantir 方法论全拆解 | 本体论 + FDE + AIP | [→](03_xinzhi/AI前沿认知和方法论/Palantir.md) |
+| 5 | 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md) |
+| 6 | 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
+| 7 | YC 合伙人论 AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
+
+## 🧭 怎么读
+
+- **第一次读**：先读第 1 篇《AI 时代生存指南》打底——五位领袖各给一条“个人 AI 三支柱”；再用第 2 篇《MIT NotebookLM 学习法》把它落成自己的学习方法。
+- **想创业/做应用**：重点看第 5、6 篇（红杉）与第 7 篇（YC），并衔接 [🚀 南开人创业](04_chuangye/README.md) 板块的「知名风投谈 AI 创业趋势和避坑」专辑。
+- **想动手**：读完来 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)，Cloud Code / Hermes Agent / Obsidian / Codex 四个工具都有开箱即用教程。
+
+---
+
+> ← 返回 [📚 新知小讲堂](03_xinzhi/README.md)　｜　相关：[🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)　[🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)　[🌟 淘知吧](03_xinzhi/taozhi/README.md)

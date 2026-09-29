@@ -21,6 +21,10 @@
     .nk-purple, strong.nk-purple, .sidebar strong.nk-purple, .markdown-section strong.nk-purple { color: #7E0C6E !important; }
     /* 左侧导读条最上端的站名「南开小友」——字号不动，加粗 + 南开紫 */
     .sidebar > h1.app-name, .sidebar > h1.app-name > a.app-name-link { font-weight: 700 !important; color: #7E0C6E !important; }
+    /* 左侧导读条「文件夹」层级强化：子级缩进＋竖向导引线；可点击的文件夹标题＝南开紫加粗 */
+    .sidebar ul li ul { margin-left: 6px !important; padding-left: 10px !important; border-left: 1px solid rgba(126,12,110,.18); }
+    .sidebar ul li:has(> ul) > a { font-weight: 600; color: #7E0C6E; }
+    .sidebar ul li:has(> ul) > a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>

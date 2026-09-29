@@ -14,8 +14,7 @@
       - [🏛️ 解放北路洋行古建导览 · 21 个故事](01_huixue/导览专辑/解放北路洋行古建导览.md)
     - **🗿 八里台校区重点地标故事** 🆕
       - [专辑总览 · 8 处](01_huixue/八里台校区重点地标故事/README.md)
-      - **🎖️ 伟人地标（6 处）· 南开伟人故事**
-        - [地标总览 · 6 条](01_huixue/八里台校区重点地标故事/南开伟人故事/README.md)
+      - [🎖️ 伟人地标（6 处）· 南开伟人故事](01_huixue/八里台校区重点地标故事/南开伟人故事/README.md)
         - [🧧 严修雕像：严修 · 南开校父](01_huixue/八里台校区重点地标故事/南开伟人故事/严修雕像·严修·南开校父.md)
         - [🏔️ 张伯苓雕像：张伯苓 · 巍巍大校长](01_huixue/八里台校区重点地标故事/南开伟人故事/张伯苓雕像·张伯苓·巍巍大校长.md)
         - [🕊️ 马蹄湖 · 周恩来「我是爱南开的」纪念碑：周恩来 · 南开最好的学生](01_huixue/八里台校区重点地标故事/南开伟人故事/马蹄湖·周恩来纪念碑·周恩来·南开最好的学生.md)
@@ -33,8 +32,7 @@
       - [🏠 公社首页](02_jiayuan/gongshe/README.md)
       - **✍️ 我的南开故事**
         - [李力 · 南开往事（86 金融）](02_jiayuan/gongshe/seed_李力_南开往事.md)
-    - **✨ 参加线上线下兴趣小组** 🆕
-      - [小组总览 · 建群机制](02_jiayuan/兴趣小组/README.md)
+    - [✨ 参加线上线下兴趣小组](02_jiayuan/兴趣小组/README.md) 🆕
       - [🏃 慢跑](https://twpitpbt.jsjform.com/f/fkkulD)
       - [🖌️ 书法·绘画](https://twpitpbt.jsjform.com/f/sTtFxJ)
       - [🏓 乒乓球](https://twpitpbt.jsjform.com/f/DSDAxS)
@@ -52,20 +50,23 @@
     - **② 🎤 小讲堂开课了**
       - [开课与听课机制](03_xinzhi/README.md?id=小讲堂开课了)
       - [🎓 公开课导师候选池 · AI 方向](03_xinzhi/公开课导师候选池·新知小讲堂.md)
-    - **③ 🌱 个人成长方法论** 🆕
+      - [📡 科技趋势演讲清单 · 演讲人与场次](03_xinzhi/科技趋势演讲清单.md)
+    - [🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)
+      - [AI时代生存指南](03_xinzhi/AI前沿认知和方法论/AI_shidai_shengcun.md)
+      - [MIT NotebookLM学习法](03_xinzhi/AI前沿认知和方法论/MIT_NotebookLM.md)
+      - [Anthropic多智能体协作](03_xinzhi/AI前沿认知和方法论/Anthropic.md)
+      - [Palantir方法论全拆解](03_xinzhi/AI前沿认知和方法论/Palantir.md)
+      - [红杉资本：结果即服务](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md)
+      - [红杉资本MAD框架](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md)
+      - [YC合伙人论AI原生公司](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md)
+    - **④ 🌱 个人成长方法论** 🆕
       - [📁 专辑首页（点开进入）](03_xinzhi/个人成长方法论/README.md)
       - [读书 · 耐心 · 延迟满足](03_xinzhi/个人成长方法论/读书与耐心·南开掌门人的成长主线.md)
-    - [AI时代生存指南](03_xinzhi/AI_shidai_shengcun.md)
-    - [MIT NotebookLM学习法](03_xinzhi/MIT_NotebookLM.md)
-    - [Anthropic多智能体协作](03_xinzhi/Anthropic.md)
-    - [Palantir方法论全拆解](03_xinzhi/Palantir.md)
-    - [红杉资本：结果即服务](03_xinzhi/Hongshan_jieguo.md)
-    - [红杉资本MAD框架](03_xinzhi/Hongshan_MAD.md)
-    - [YC合伙人论AI原生公司](03_xinzhi/YC_AI_yuansheng.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
-    - [📡 科技趋势演讲清单 · 演讲人与场次](03_xinzhi/科技趋势演讲清单.md)
+      - [Obsidian教程](03_xinzhi/AI_Skill工具箱/Obsidian.md)
+      - [Codex教程](03_xinzhi/AI_Skill工具箱/Codex.md)
 
   - **🚀 南开人创业**
     - [板块首页](04_chuangye/README.md)
@@ -77,8 +78,7 @@
     - **🎯 小南创吧**（聊吧）
       - [🏠 小南创吧首页](04_chuangye/chuangbar/README.md)
     - [🎙️ 南开掌门人创业故事（自述体）](04_chuangye/南开掌门人创业故事.md)
-    - **🎖️ 上市校友企业 · 立德立功立言**
-      - [📁 专辑首页（点开进入）· 12 家总表](04_chuangye/上市校友企业/README.md)
+    - [🎖️ 上市校友企业 · 立德立功立言 · 12 家](04_chuangye/上市校友企业/README.md)
       - [康希诺生物 · 宇学峰](04_chuangye/上市校友企业/康希诺生物·宇学峰.md)
       - [映恩生物 · 朱忠远](04_chuangye/上市校友企业/映恩生物·朱忠远.md)
       - [瑞博生物 · 梁子才](04_chuangye/上市校友企业/瑞博生物·梁子才.md)
@@ -91,8 +91,7 @@
       - [依米康 · 张菀](04_chuangye/上市校友企业/依米康·张菀.md)
       - [北斗星通 · 周儒欣](04_chuangye/上市校友企业/北斗星通·周儒欣.md)
       - [鸿富瀚 · 张定武](04_chuangye/上市校友企业/鸿富瀚·张定武.md)
-    - **🧠 大咖说创业**
-      - [📁 专辑首页（点开进入）· 6 篇](04_chuangye/大咖说创业/README.md)
+    - [🧠 大咖说创业 · 6 篇](04_chuangye/大咖说创业/README.md)
       - [王兴：九败一胜](04_chuangye/大咖说创业/WangXing.md)
       - [张一鸣：算法思维](04_chuangye/大咖说创业/ZhangYiming.md)
       - [王兴兴：硬科技创业](04_chuangye/大咖说创业/WangXingxing.md)

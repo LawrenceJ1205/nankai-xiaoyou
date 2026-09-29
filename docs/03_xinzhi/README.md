@@ -10,8 +10,8 @@
 
 | # | 板块 | 内容 |
 |---|---|---|
-| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司 |
-| 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / NotebookLM 等开箱即用教程 |
+| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
+| 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / Obsidian / Codex 等开箱即用教程 |
 | 3 | 🎓 **公开课候选导师池** | 校内学者（赵新、李文宇等）+ 校友实践者 + 海外专家（[点击进入](03_xinzhi/公开课导师候选池·新知小讲堂.md)） |
 | 4 | 💬 **淘知精选 10 问** | 每期课程配套 10 问思辨（淘知吧出品）|
 | 5 | 🎤 **小讲堂开课了** ⭐ | **统一开课入口**——任何校友想开课，先来这里发起申请 👉 [**开课申请表（金数据·3 字段）**](https://twpitpbt.jsjform.com/f/bfqrLx) |
@@ -61,15 +61,17 @@
 
 | 主题 | 摘要 | md |
 |---|---|---|
-| AI 时代生存指南 | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克五位 AI 领袖 | [→](03_xinzhi/AI_shidai_shengcun.md) |
-| MIT NotebookLM 学习法 | “三问”提示词工程——共识 / 争议 / 深度 | [→](03_xinzhi/MIT_NotebookLM.md) |
-| Anthropic 多智能体 | MACS 范式 + 线束架构 + AI 自主进化 | [→](03_xinzhi/Anthropic.md) |
-| Palantir 方法论 | 本体论 + FDE + AIP | [→](03_xinzhi/Palantir.md) |
-| 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/Hongshan_jieguo.md) |
-| 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/Hongshan_MAD.md) |
-| YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/YC_AI_yuansheng.md) |
+| AI 时代生存指南 | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克五位 AI 领袖 | [→](03_xinzhi/AI前沿认知和方法论/AI_shidai_shengcun.md) |
+| MIT NotebookLM 学习法 | “三问”提示词工程——共识 / 争议 / 深度 | [→](03_xinzhi/AI前沿认知和方法论/MIT_NotebookLM.md) |
+| Anthropic 多智能体 | MACS 范式 + 线束架构 + AI 自主进化 | [→](03_xinzhi/AI前沿认知和方法论/Anthropic.md) |
+| Palantir 方法论 | 本体论 + FDE + AIP | [→](03_xinzhi/AI前沿认知和方法论/Palantir.md) |
+| 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md) |
+| 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
+| YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
+| 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |
+| 🛠️ Codex 教程 | AI Skill 工具箱 #4 | [→](03_xinzhi/AI_Skill工具箱/Codex.md) |
 
 ---
 
@@ -101,6 +103,14 @@
 > 各校友会请来的嘉宾 + 骄人校友企业在公众场合发表的科技趋势演讲——按“**谁在哪儿讲了什么**”整理成清单。**这是本板块开课与选题的第一手来源库**（清单里出现过的讲者，都是可邀课的候选人）。
 
 - [**📡 科技趋势演讲清单 · 演讲人与场次**](03_xinzhi/科技趋势演讲清单.md)——覆盖新开湖论坛年度峰会 / 北京校友会 AI 俱乐部「龙虾沙龙」/ 日本校友会 AI 沙龙 / 上海校友会 AI 专委会 / 香港 × 北京校友会线上直播 / MBA 校友发展论坛 / 深圳经济高层论坛，以及周儒欣、宇学峰、梁子才、朱忠远、郑保富、崔晓波、丁晨等校友企业家的公开演讲
+
+---
+
+## 🤖 AI 前沿认知和方法论（新增）
+
+> 全球一线 AI 领袖与顶级机构的公开认知与方法论，已辑成一册——**先建认知框架，再学工具技能**。
+
+- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——7 篇：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司
 
 ---
 
