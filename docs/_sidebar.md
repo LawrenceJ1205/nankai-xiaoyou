@@ -62,6 +62,7 @@
     - [④ 🌱 个人成长方法论 🆕](03_xinzhi/个人成长方法论/README.md)
       - [读书 · 耐心 · 延迟满足](03_xinzhi/个人成长方法论/读书与耐心·南开掌门人的成长主线.md)
       - [纳瓦尔：人生回报率最高的 12 个习惯](03_xinzhi/个人成长方法论/纳瓦尔·人生回报率最高的12个习惯.md)
+      - [双回路复盘日记](03_xinzhi/个人成长方法论/双回路复盘日记·每天五分钟的书面反思.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
