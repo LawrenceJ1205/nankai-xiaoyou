@@ -59,9 +59,9 @@
       - [红杉资本：结果即服务](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md)
       - [红杉资本MAD框架](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md)
       - [YC合伙人论AI原生公司](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md)
-    - **④ 🌱 个人成长方法论** 🆕
-      - [📁 专辑首页（点开进入）](03_xinzhi/个人成长方法论/README.md)
+    - [④ 🌱 个人成长方法论 🆕](03_xinzhi/个人成长方法论/README.md)
       - [读书 · 耐心 · 延迟满足](03_xinzhi/个人成长方法论/读书与耐心·南开掌门人的成长主线.md)
+      - [纳瓦尔：人生回报率最高的 12 个习惯](03_xinzhi/个人成长方法论/纳瓦尔·人生回报率最高的12个习惯.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
