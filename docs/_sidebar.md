@@ -64,6 +64,7 @@
       - [纳瓦尔：人生回报率最高的 12 个习惯](03_xinzhi/个人成长方法论/纳瓦尔·人生回报率最高的12个习惯.md)
       - [双回路复盘日记](03_xinzhi/个人成长方法论/双回路复盘日记·每天五分钟的书面反思.md)
       - [Dan Koe：自律不靠意志力](03_xinzhi/个人成长方法论/DanKoe·自律不靠意志力.md)
+      - [所罗门：穿越技术变迁的四种能力](03_xinzhi/个人成长方法论/所罗门·沃顿演讲的四种能力.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
