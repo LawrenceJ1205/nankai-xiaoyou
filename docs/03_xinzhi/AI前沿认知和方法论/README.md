@@ -1,8 +1,8 @@
 # 🤖 AI 前沿认知和方法论
 
-> **一句话定位**：把全球一线 AI 领袖与顶级机构（哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克、MIT、Anthropic、Palantir、红杉资本、YC）的公开演讲与公开文章，整理成南开人**可以直接抄作业**的认知底稿。**先建认知框架，再学工具技能**——动手部分见隔壁 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)。
+> **一句话定位**：把全球一线 AI 领袖与顶级机构（哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克、Dario Amodei、MIT、Anthropic、Palantir、红杉资本、YC）的公开演讲与公开文章，整理成南开人**可以直接抄作业**的认知底稿。**先建认知框架，再学工具技能**——动手部分见隔壁 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)。
 
-## 📚 本辑 7 篇
+## 📚 本辑 8 篇
 
 | # | 篇目 | 一句话 | 讲义 |
 |---|---|---|---|
@@ -13,11 +13,13 @@
 | 5 | 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md) |
 | 6 | 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
 | 7 | YC 合伙人论 AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
+| 8 | **Dario：AI 重写工作的三层价值迁移** | 平滑的指数 · 护城河重新定价 · 前沿溢价（**含底本 × 原件对勘**） | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
 
 ## 🧭 怎么读
 
 - **第一次读**：先读第 1 篇《AI 时代生存指南》打底——五位领袖各给一条“个人 AI 三支柱”；再用第 2 篇《MIT NotebookLM 学习法》把它落成自己的学习方法。
 - **想创业/做应用**：重点看第 5、6 篇（红杉）与第 7 篇（YC），并衔接 [🚀 南开人创业](04_chuangye/README.md) 板块的「知名风投谈 AI 创业趋势和避坑」专辑。
+- **想看清「我的活儿会不会被替代」**：读第 8 篇 Dario——它把「AI 替代工作」拆成**能力 / 公司 / 产业 / 个人**四层，每层给一句可核的原话。
 - **想动手**：读完来 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)，Cloud Code / Hermes Agent / Obsidian / Codex 四个工具都有开箱即用教程。
 
 ---
