@@ -3,9 +3,11 @@
   - [🛰️ 南开小友·工作流驾驶舱](00_cockpit/工作流驾驶舱.md)
   - [📋 平台反馈·v0→v1.0 迭代记录](00_cockpit/平台反馈·v0→v1.0迭代记录.md)
 
+- <span class="nk-gap"></span>
 - **📚 南开小友**
   - [🧭 小友导引 · 首页](README.md)
 
+- <span class="nk-gap"></span>
 - <strong class="nk-purple">🌟 六大主力板块</strong>（v2.5 · "南开人的加油驿站"）
 
   - **🎓 不一样的回南开** ⭐
@@ -25,6 +27,7 @@
       - [🪨 大中路西侧 · 西南联大纪念碑](01_huixue/八里台校区重点地标故事/大中路西侧·西南联大纪念碑.md)
     - [🌠 两个畅想（远期）](01_huixue/畅想·两个南开秀场.md)
 
+  - <span class="nk-gap"></span>
   - **🔍 我的南开家园** 🆕
     - [板块首页](02_jiayuan/README.md)
     - **🌐 南开公社**（聊吧）
@@ -43,6 +46,7 @@
       - [📁 栏目首页 · 1000 字模板与投稿](02_jiayuan/读书汇/README.md)
       - [✍️ 提交读后感（金数据表单）](https://twpitpbt.jsjform.com/f/ASQzl3)
 
+  - <span class="nk-gap"></span>
   - **📚 新知小讲堂**
     - [板块首页](03_xinzhi/README.md)
     - **① 🌟 淘知吧**（聊吧）
@@ -74,6 +78,7 @@
       - [Obsidian教程](03_xinzhi/AI_Skill工具箱/Obsidian.md)
       - [Codex教程](03_xinzhi/AI_Skill工具箱/Codex.md)
 
+  - <span class="nk-gap"></span>
   - **🚀 南开人创业**
     - [板块首页](04_chuangye/README.md)
     - [📥 投递商业计划书](https://twpitpbt.jsjform.com/f/nktLE3)
@@ -123,6 +128,7 @@
       - [张文中案例研究：AI赋能商战 美丽数学人生](04_chuangye/案例研究/张文中案例研究·AI赋能商战·美丽数学人生.md)
       - [WorkBuddy：AI 智能体进实体经济的六个现场](04_chuangye/案例研究/WorkBuddy·AI智能体进实体经济.md)
 
+  - <span class="nk-gap"></span>
   - **💼 允能南开人**（小友的主力板块；🎓 关照在校生与年轻校友）
     - [板块首页](07_yunneng/README.md)
     - **🧭 新开吧**（聊吧 · 在校生提问、学长带路）🆕
@@ -132,6 +138,7 @@
     - [🧭 校友·走进社会的坑与悟](07_yunneng/校友·走进社会的坑与悟.md)
     - [📚 校友推荐书单](07_yunneng/校友推荐书单.md)
 
+  - <span class="nk-gap"></span>
   - **🏆 骄人南开校友企业 · 允公南开人** ⭐
     - [板块首页](06_jiaoren/README.md)
     - [✍️ 报名成为 BP 评审志愿者](https://twpitpbt.jsjform.com/f/sMOVVZ)
@@ -146,10 +153,12 @@
     - [🔗 运营设计 · 板块互动与采集入口](06_jiaoren/运营设计·板块互动与采集入口.md)
     - [📡 联谊会公众号 · 信息入库工作流](06_jiaoren/联谊会公众号·信息入库工作流.md)
 
+- <span class="nk-gap"></span>
 - **🌱 外延服务板块**（保留·降级为基础服务）
 
   - **💬 各地校友会**（为主力板块提供在地化连接）
     - [板块首页](08_xiaoyouhui/README.md)
 
+  - <span class="nk-gap"></span>
   - **❤️ 南开慈善公益**（体现精神底色）
     - [板块首页](09_cishan/README.md)

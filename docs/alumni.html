@@ -28,11 +28,10 @@
     /* 侧栏折叠箭头：南开紫 */
     .sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before { border-right-color: rgba(126,12,110,.55) !important; border-bottom-color: rgba(126,12,110,.55) !important; }
     .sidebar ul li:has(> ul) > a:hover { text-decoration: underline; }
-    /* 大板块之间留空白停歇带：两组之间各留约一整行空白（鼠标的停歇处）
-       ① 顶层分组（工作流驾驶舱 / 小友导引 / 六大主力板块 / 外延服务板块）之间
-       ② 「六大主力板块」「外延服务板块」内部各板块（回南开 / 家园 / 新知 / 创业 / 允能 / 骄人 …）之间 */
-    .sidebar-nav > ul > li + li { margin-top: 22px; }
-    .sidebar-nav > ul > li > ul > li.folder { margin-top: 22px; }
+    /* 大板块之间的空白停歇行：_sidebar.md 里的 .nk-gap 条目（真实空白行）
+       不用 margin 做间距——插件的代理点击会把 margin 落点算到父级文件夹上，点空白即折叠整组 */
+    .sidebar-nav li:has(> .nk-gap) { cursor: default; height: 22px; }
+    .sidebar-nav li:has(> .nk-gap)::before { display: none; }
   </style>
 </head>
 <body>
@@ -169,7 +168,7 @@
      * ⚠️ 本值必须与 index.html 中的 BUILD 一致 —— 发布前跑 check_build_sync.py。
      */
     (function () {
-      var BUILD = 'v2.5.36';
+      var BUILD = 'v2.5.37';
       var rawOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (method, url) {
         var args = Array.prototype.slice.call(arguments);
