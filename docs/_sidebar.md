@@ -37,6 +37,9 @@
       - [🖌️ 书法·绘画](https://twpitpbt.jsjform.com/f/sTtFxJ)
       - [🏓 乒乓球](https://twpitpbt.jsjform.com/f/DSDAxS)
       - [🏸 羽毛球](https://twpitpbt.jsjform.com/f/VfmEbm)
+    - **💼 专业南开人**（跨地区专业交流群）🆕
+      - [📋 栏目首页 · 方向名单与建群机制](02_jiayuan/专业南开人/README.md)
+      - [👉 发起或加入专业群（金数据表单）](https://twpitpbt.jsjform.com/f/TaiNOa)
     - **📖 读书汇**（南开人的人文地平线）🆕
       - [📁 栏目首页 · 1000 字模板与投稿](02_jiayuan/读书汇/README.md)
       - [✍️ 提交读后感（金数据表单）](https://twpitpbt.jsjform.com/f/ASQzl3)

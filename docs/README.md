@@ -58,8 +58,8 @@
 
 | 项 | 内容 |
 |---|---|
-| **边界** | 只做**线上**：故事 · 读书 · 风采 · 聊吧 · 兴趣小组 |
-| **粘合剂** | ✍️ 我的南开故事 · 📖 [读书汇](02_jiayuan/读书汇/README.md)（南开人的人文地平线）· 📍 我的南开风采短视频墙 · 🌐 南开公社聊吧 · ✨ 参加线上线下兴趣小组 |
+| **边界** | 只做**线上**：故事 · 读书 · 风采 · 聊吧 · 兴趣小组 · 专业交流群 |
+| **粘合剂** | ✍️ 我的南开故事 · 📖 [读书汇](02_jiayuan/读书汇/README.md)（南开人的人文地平线）· 📍 我的南开风采短视频墙 · 🌐 南开公社聊吧 · ✨ 参加线上线下兴趣小组 · 💼 [专业南开人](02_jiayuan/专业南开人/README.md)（跨地区专业交流群）|
 | **本板块聊吧** | [🌐 南开公社](02_jiayuan/gongshe/README.md) |
 | **城市兴趣小组**（首期 4 组已上线） | [🏃 慢跑](https://twpitpbt.jsjform.com/f/fkkulD) · [🏓 乒乓球](https://twpitpbt.jsjform.com/f/DSDAxS) · [🏸 羽毛球](https://twpitpbt.jsjform.com/f/VfmEbm) · [🖌️ 书法·绘画（线上）](https://twpitpbt.jsjform.com/f/sTtFxJ) |
 
