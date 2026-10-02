@@ -17,8 +17,8 @@
     /* 侧栏折叠箭头：南开紫 */
     .sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before { border-right-color: rgba(126,12,110,.55) !important; border-bottom-color: rgba(126,12,110,.55) !important; }
     .sidebar ul li:has(> ul) > a:hover { text-decoration: underline; }
-    /* 大板块之间留空白停歇带：侧栏一级分组（L1）之间加间距，首个不加 */
-    .sidebar-nav > ul > li + li { margin-top: 14px; }
+    /* 大板块之间留空白停歇带：侧栏一级分组（L1）之间加约一整行的空白，首个不加 */
+    .sidebar-nav > ul > li + li { margin-top: 22px; }
   </style>
 </head>
 <body>
@@ -40,7 +40,7 @@
      *       全新的地址，缓存自然失效。（托管层会忽略这个参数，不影响取文件）
      */
     (function () {
-      var BUILD = 'v2.5.34';
+      var BUILD = 'v2.5.35';
       var rawOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (method, url) {
         var args = Array.prototype.slice.call(arguments);
