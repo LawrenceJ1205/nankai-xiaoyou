@@ -44,6 +44,8 @@
       - [👉 发起或加入专业群（金数据表单）](https://twpitpbt.jsjform.com/f/TaiNOa)
     - **📖 读书汇**（南开人的人文地平线）🆕
       - [📁 栏目首页 · 1000 字模板与投稿](02_jiayuan/读书汇/README.md)
+      - [张一鸣荐读 ·《活法》拆解](02_jiayuan/读书汇/张一鸣荐读·活法·稻盛和夫.md)
+      - [张一鸣荐读 ·《高效能人士的七个习惯》拆解](02_jiayuan/读书汇/张一鸣荐读·高效能人士的七个习惯·柯维.md)
       - [✍️ 提交读后感（金数据表单）](https://twpitpbt.jsjform.com/f/ASQzl3)
 
   - <span class="nk-gap"></span>
