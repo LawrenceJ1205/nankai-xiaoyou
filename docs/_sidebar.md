@@ -116,6 +116,9 @@
       - [YC（硅谷最火风投）总裁 Garry Tan：2026 创业复盘四趋势](04_chuangye/知名风投谈AI创业趋势和避坑/YC_GarryTan.md)
       - [Jeff Dean（前 Google 首席科学家）：AI 时代创业六个观点](04_chuangye/知名风投谈AI创业趋势和避坑/JeffDean.md)
       - [YC（硅谷最火风投）合伙人 John Xu：四大转变](04_chuangye/知名风投谈AI创业趋势和避坑/YC_JohnXu.md)
+    - **🔤 创业ABC**（创业通识词条卡）
+      - [📁 专辑首页 · 已收 1 条](04_chuangye/创业ABC/README.md)
+      - [徐新：优秀创业者的特质](04_chuangye/创业ABC/徐新·优秀创业者的特质.md)
     - **🔬 案例研究**
       - [📁 专辑首页（点开进入）· 7 篇](04_chuangye/案例研究/README.md)
       - [宇学峰案例研究：十三年与55天](04_chuangye/案例研究/宇学峰案例研究·十三年与55天.md)
