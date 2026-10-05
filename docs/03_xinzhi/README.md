@@ -10,7 +10,7 @@
 
 | # | 板块 | 内容 |
 |---|---|---|
-| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
+| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
 | 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / Obsidian / Codex 等开箱即用教程 |
 | 3 | 🎓 **公开课候选导师池** | 校内学者（赵新、李文宇等）+ 校友实践者 + 海外专家（[点击进入](03_xinzhi/公开课导师候选池·新知小讲堂.md)） |
 | 4 | 💬 **淘知精选 10 问** | 每期课程配套 10 问思辨（淘知吧出品）|
@@ -69,6 +69,7 @@
 | 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
 | YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
 | Dario Amodei · AI 重写工作 | 平滑的指数 / 护城河重新定价 / 前沿溢价（含底本 × 原件对勘） | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
+| Linda Hill · 权力的迁移 | Wayfinding / 微型 CEO / 决策权设计（原文＋千问评论，含核查） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 | 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |

@@ -97,6 +97,8 @@
 | 用 AI 智能体运营公司：Circleback 的「公司大脑」（Recording Meetings With AI Will Become The Norm） | YC 官方播客 · 2026-08-11 | 03 新知 / 04 创业 |
 | Startup School 2026 主舞台对谈：黄仁勋 × Sam Altman | Startup School 2026 · 2026-07-25/26 | 04 创业 / 07 允能南开人 |
 | Fall 2026 Request for Startups：官方 13 个主题 | YC 官方 · 2026-07 | 04 创业 / 小南创吧 · 选题参考 |
+| 外联销售的 8 个改进法（8 Ways To Improve Your Outbound Sales） | YC 官方播客 · 2026-09-13 | 04 创业 / 小南创吧 · 选题课 |
+| 机器人使用智能体：通用模型为何可能赢下机器人（Robot-Use Agents: Why General-Purpose Models May Win in Robotics） | YC 官方播客 · Decoded · 2026-09-26 | 04 创业 / 03 新知 |
 
 ---
 
