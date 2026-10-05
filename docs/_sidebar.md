@@ -124,11 +124,12 @@
       - [纳瓦尔：财富与幸福](04_chuangye/大咖说创业/Naval.md)
       - [马斯克：第一性原理](04_chuangye/大咖说创业/Musk.md)
     - **📚 知名风投谈 AI 创业趋势和避坑**
-      - [专辑首页 · 已收 4 集](04_chuangye/知名风投谈AI创业趋势和避坑/README.md)
+      - [专辑首页 · 已收 5 集](04_chuangye/知名风投谈AI创业趋势和避坑/README.md)
       - [YC（硅谷最火风投）总裁 Garry Tan：2026 创业复盘四趋势](04_chuangye/知名风投谈AI创业趋势和避坑/YC_GarryTan.md)
       - [Jeff Dean（前 Google 首席科学家）：AI 时代创业六个观点](04_chuangye/知名风投谈AI创业趋势和避坑/JeffDean.md)
-      - [YC（硅谷最火风投）合伙人 John Xu：四大转变](04_chuangye/知名风投谈AI创业趋势和避坑/YC_JohnXu.md)
+      - [Patrick Collison（Stripe CEO）：好奇心与最好的创业时代](04_chuangye/知名风投谈AI创业趋势和避坑/PatrickCollison·好奇心与最好的创业时代.md)
       - [徐新×高继扬：迭代是唯一的护城河](04_chuangye/知名风投谈AI创业趋势和避坑/徐新×高继扬·迭代是唯一的护城河.md)
+      - [YC（硅谷最火风投）合伙人 John Xu：四大转变](04_chuangye/知名风投谈AI创业趋势和避坑/YC_JohnXu.md)
     - **🔤 创业ABC**（创业通识词条卡）
       - [📁 专辑首页 · 已收 5 条](04_chuangye/创业ABC/README.md)
       - [徐新：优秀创业者的特质](04_chuangye/创业ABC/徐新·优秀创业者的特质.md)
