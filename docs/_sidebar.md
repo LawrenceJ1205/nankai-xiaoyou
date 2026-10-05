@@ -129,11 +129,12 @@
       - [Jeff Dean（前 Google 首席科学家）：AI 时代创业六个观点](04_chuangye/知名风投谈AI创业趋势和避坑/JeffDean.md)
       - [YC（硅谷最火风投）合伙人 John Xu：四大转变](04_chuangye/知名风投谈AI创业趋势和避坑/YC_JohnXu.md)
     - **🔤 创业ABC**（创业通识词条卡）
-      - [📁 专辑首页 · 已收 4 条](04_chuangye/创业ABC/README.md)
+      - [📁 专辑首页 · 已收 5 条](04_chuangye/创业ABC/README.md)
       - [徐新：优秀创业者的特质](04_chuangye/创业ABC/徐新·优秀创业者的特质.md)
       - [职务发明：先钉死再融资](04_chuangye/创业ABC/职务发明·先钉死再融资.md)
       - [教授不必当 CEO](04_chuangye/创业ABC/教授不必当CEO.md)
       - [沈南鹏：看项目的六条标准](04_chuangye/创业ABC/沈南鹏·看项目的六条标准.md)
+      - [刘小鹰：创业者的三种人才](04_chuangye/创业ABC/刘小鹰·创业者的三种人才.md)
     - **🔬 案例研究**
       - [📁 专辑首页（点开进入）· 7 篇](04_chuangye/案例研究/README.md)
       - [宇学峰案例研究：十三年与55天](04_chuangye/案例研究/宇学峰案例研究·十三年与55天.md)
