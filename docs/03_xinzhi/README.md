@@ -112,7 +112,7 @@
 
 > 全球一线 AI 领袖与顶级机构的公开认知与方法论，已辑成一册——**先建认知框架，再学工具技能**。
 
-- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——8 篇：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / **Dario：AI 重写工作的三层价值迁移**
+- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**10 篇**：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / Dario：AI 重写工作的三层价值迁移 / Linda Hill：权力的迁移 / **Tibo（OpenAI）：交互的变革**（Agent 时代的产品与分发 · **原文照录、只分段**）
 
 ---
 
