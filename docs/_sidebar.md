@@ -32,6 +32,7 @@
     - [板块首页](02_jiayuan/README.md)
     - **🌐 南开公社**（聊吧）
       - [🏠 公社首页](02_jiayuan/gongshe/README.md)
+      - [🎂 107 周年校庆 · 各地校友会活动播报](02_jiayuan/gongshe/107周年校庆·各地校友会活动.md) 🆕
       - **✍️ 我的南开故事**
         - [李力 · 南开往事（86 金融）](02_jiayuan/gongshe/seed_李力_南开往事.md)
     - [✨ 参加线上线下兴趣小组](02_jiayuan/兴趣小组/README.md) 🆕
