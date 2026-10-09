@@ -91,6 +91,7 @@
       - [所罗门：穿越技术变迁的四种能力](03_xinzhi/个人成长方法论/所罗门·沃顿演讲的四种能力.md)
       - [亚当·格兰特：付出者红利](03_xinzhi/个人成长方法论/亚当·格兰特·付出者红利.md)
       - [天涯神贴：心力](03_xinzhi/个人成长方法论/天涯神贴·心力.md)
+      - [纳瓦尔论聚焦你的注意力](03_xinzhi/个人成长方法论/纳瓦尔·聚焦你的注意力.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
