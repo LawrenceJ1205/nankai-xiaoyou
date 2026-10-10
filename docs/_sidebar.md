@@ -1,36 +1,62 @@
-<div class="nk-anniv" role="img" aria-label="庆祝南开大学107岁生日">
+<div class="nk-anniv" role="img" aria-label="南开大学校徽 · 庆祝南开大学107岁生日">
 <svg class="nk-anniv-svg" viewBox="0 0 240 200" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<radialGradient id="nk107-badge" cx="38%" cy="30%" r="85%">
-<stop offset="0%" stop-color="#9A2A89"/>
+<path id="nk107-arc" d="M 83 74 A 37 37 0 0 1 157 74" fill="none"/>
+<radialGradient id="nk107-star" cx="36%" cy="28%" r="88%">
+<stop offset="0%" stop-color="#96268A"/>
 <stop offset="100%" stop-color="#5E0850"/>
 </radialGradient>
 </defs>
-<circle cx="120" cy="72" r="41" fill="none" stroke="rgba(126,12,110,.16)" stroke-width="2"/>
-<circle cx="120" cy="72" r="36" fill="url(#nk107-badge)"/>
-<circle cx="120" cy="72" r="30.5" fill="none" stroke="#FFFFFF" stroke-width="1" opacity=".75"/>
-<text x="120" y="80" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">南开</text>
-<text x="120" y="95" text-anchor="middle" font-family="Georgia,serif" font-size="8" letter-spacing="2.5" fill="#FFFFFF" opacity=".85">1919</text>
-<path d="M 124 142 C 78 146, 44 112, 58 44" fill="none" stroke="#37702F" stroke-width="2.2" stroke-linecap="round"/>
-<g transform="translate(113.2 142.2) rotate(-137.3)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(99.3 140.2) rotate(-205.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(86.8 135.4) rotate(-112.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(76.0 128.0) rotate(-178.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(67.0 118.0) rotate(-84.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(60.4 105.3) rotate(-151.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(56.2 90.1) rotate(-59.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(54.8 72.3) rotate(-129.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(58.0 44.0) rotate(-78.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(240 0) scale(-1 1)"><path d="M 124 142 C 78 146, 44 112, 58 44" fill="none" stroke="#37702F" stroke-width="2.2" stroke-linecap="round"/>
-<g transform="translate(113.2 142.2) rotate(-137.3)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(99.3 140.2) rotate(-205.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(86.8 135.4) rotate(-112.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(76.0 128.0) rotate(-178.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(67.0 118.0) rotate(-84.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(60.4 105.3) rotate(-151.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(56.2 90.1) rotate(-59.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
-<g transform="translate(54.8 72.3) rotate(-129.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
-<g transform="translate(58.0 44.0) rotate(-78.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g></g>
+<circle cx="120" cy="74" r="44.0" fill="#FCF5FB" stroke="#7E0C6E" stroke-width="3"/>
+<circle cx="120" cy="74" r="34.0" fill="none" stroke="#7E0C6E" stroke-width="1.4"/>
+<text font-family="Georgia,'Times New Roman',serif" font-size="5.9" font-weight="600" letter-spacing=".35" fill="#7E0C6E"><textPath href="#nk107-arc" startOffset="50%" text-anchor="middle">NANKAI UNIVERSITY</textPath></text>
+<text x="120" y="115.5" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="7.4" font-weight="700" letter-spacing="1.6" fill="#7E0C6E">1919</text>
+<path d="M 120.00 45.00 L 128.49 53.49 L 140.51 53.49 L 140.51 65.51 L 149.00 74.00 L 140.51 82.49 L 140.51 94.51 L 128.49 94.51 L 120.00 103.00 L 111.51 94.51 L 99.49 94.51 L 99.49 82.49 L 91.00 74.00 L 99.49 65.51 L 99.49 53.49 L 111.51 53.49 Z" fill="url(#nk107-star)"/>
+<text x="120" y="81.4" text-anchor="middle" font-family="'KaiTi','STKaiti','Kaiti SC','Microsoft YaHei',serif" font-size="20" font-weight="700" fill="#FFFFFF">南开</text>
+<path d="M 124 148 C 76 152, 38 116, 54 40" fill="none" stroke="#34682C" stroke-width="2.4" stroke-linecap="round"/>
+<g transform="translate(115.5 147.5) rotate(-139.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(115.5 149.1) rotate(-219.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(102.1 146.1) rotate(-128.6)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(101.8 147.6) rotate(-208.6)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(89.7 142.3) rotate(-117.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(89.1 143.7) rotate(-197.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(78.6 136.1) rotate(-104.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(77.6 137.4) rotate(-184.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(69.0 127.6) rotate(-92.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(67.8 128.7) rotate(-172.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(61.2 116.7) rotate(-79.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(59.8 117.5) rotate(-159.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(55.4 103.4) rotate(-67.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(53.9 103.9) rotate(-147.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(52.0 87.7) rotate(-57.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(50.4 87.9) rotate(-137.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(51.1 69.6) rotate(-48.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(49.5 69.5) rotate(-128.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(52.8 51.2) rotate(-41.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(51.2 51.0) rotate(-121.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(54.0 40.0) rotate(-78.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(240 0) scale(-1 1)"><path d="M 124 148 C 76 152, 38 116, 54 40" fill="none" stroke="#34682C" stroke-width="2.4" stroke-linecap="round"/>
+<g transform="translate(115.5 147.5) rotate(-139.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(115.5 149.1) rotate(-219.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(102.1 146.1) rotate(-128.6)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(101.8 147.6) rotate(-208.6)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(89.7 142.3) rotate(-117.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(89.1 143.7) rotate(-197.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(78.6 136.1) rotate(-104.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(77.6 137.4) rotate(-184.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(69.0 127.6) rotate(-92.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(67.8 128.7) rotate(-172.0)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(61.2 116.7) rotate(-79.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(59.8 117.5) rotate(-159.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(55.4 103.4) rotate(-67.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(53.9 103.9) rotate(-147.8)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(52.0 87.7) rotate(-57.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(50.4 87.9) rotate(-137.4)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(51.1 69.6) rotate(-48.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(49.5 69.5) rotate(-128.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(52.8 51.2) rotate(-41.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#4C8B47"/></g>
+<g transform="translate(51.2 51.0) rotate(-121.5)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g>
+<g transform="translate(54.0 40.0) rotate(-78.1)"><path d="M 0 0 C 3.4 -4.5, 8.8 -5.2, 12.6 -1.4 C 8.8 1.9, 3.4 2.3, 0 0 Z" fill="#6DB05F"/></g></g>
 <text x="120" y="184" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="15.5" font-weight="600" letter-spacing=".5" fill="#7E0C6E">庆祝南开大学107岁生日</text>
 </svg>
 </div>
