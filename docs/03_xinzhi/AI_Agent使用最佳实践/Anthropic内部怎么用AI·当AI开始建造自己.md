@@ -279,4 +279,4 @@ Anthropic 说，它自己已经撞上了阿姆达尔定律的一个典型症状�
 
 ---
 
-> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　｜　相关：[OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)（同一台飞轮的另一端 · 从「改造组织」看）
+> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　｜　相关：[OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)（同一台飞轮的另一端 · 从「改造组织」看）　[麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md)（一家服务企业怎么用 · 从「知识底座 ＋ 员工自建 Agent」看）

@@ -124,6 +124,7 @@
 - [**🧭 AI Agent 使用最佳实践 · 专辑首页**](03_xinzhi/AI_Agent使用最佳实践/README.md)（收录标准 3 条 · 来源矩阵）
 - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)（**依一手原件整理** · 一手原件＝ The Pragmatic Engineer 播客《Building Codex with Tibo Sottiaux》（2026-09-09）；正文只留「Tibo 说了什么」· 12 条英文引语附中译 · 曾据的二手转录稿框架已剔除，见编者注）
 - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)（**整合两份一手报告** · 一手原件＝ Anthropic Institute《When AI builds itself》＋《Measurements…》；正文只留「Anthropic 说了什么」· 15 条英文引语附中译 · 提示性小标题 · 底本引申与点评不收录）
+- [麦肯锡内部怎么用 AI：4 万人身边的 2.5 万个 Agent](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md)（**依一手原件整理** · 一手原件＝ Sternfels 在 CES 2026「All-In」与 HBR IdeaCast 的自述 ＋ 麦肯锡官网关于 Lilli 的署名文章 ＋ 高管对 Bloomberg / Business Insider / Boston Globe 的表述；正文只留「麦肯锡说了什么、做了什么」· 12 条英文引语附中译 · 提示性小标题 · 底本引申与未经核实的「17000 个 Agent」数字不采用，见编者注）
 
 ---
 

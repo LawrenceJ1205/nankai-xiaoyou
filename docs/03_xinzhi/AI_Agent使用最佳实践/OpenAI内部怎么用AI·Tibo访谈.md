@@ -238,4 +238,4 @@ Tibo 把 Codex 与 ChatGPT Work 当**个人 agent** 用：记笔记、问问题�
 
 ---
 
-> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　｜　相关：[Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)（同一台飞轮的另一端 · 从「AI 加速 AI」看）　[Tibo：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)（同一人的另一场访谈 · 讲产品与分发）
+> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　｜　相关：[Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)（同一台飞轮的另一端 · 从「AI 加速 AI」看）　[Tibo：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)（同一人的另一场访谈 · 讲产品与分发）　[麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md)（一家服务企业怎么用 · 从「知识底座 ＋ 员工自建 Agent」看）
