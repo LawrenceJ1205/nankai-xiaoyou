@@ -123,6 +123,7 @@
 
 - [**🧭 AI Agent 使用最佳实践 · 专辑首页**](03_xinzhi/AI_Agent使用最佳实践/README.md)（收录标准 3 条 · 来源矩阵）
 - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)（**依一手原件整理** · 一手原件＝ The Pragmatic Engineer 播客《Building Codex with Tibo Sottiaux》（2026-09-09）；正文只留「Tibo 说了什么」· 12 条英文引语附中译 · 曾据的二手转录稿框架已剔除，见编者注）
+- [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)（**依一手原件整理** · 一手原件＝ Anthropic Institute 两份报告《When AI builds itself》＋《Measurements…》；正文只留「Anthropic 说了什么」· 15 条英文引语附中译 · **底本引申与主理人点评置于文末**）
 
 ---
 

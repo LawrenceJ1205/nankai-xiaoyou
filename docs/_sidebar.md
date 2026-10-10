@@ -85,6 +85,7 @@
       - [Tibo（OpenAI）：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
+      - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)
     - [④ 🌱 个人成长方法论 🆕](03_xinzhi/个人成长方法论/README.md)
       - [读书 · 耐心 · 延迟满足](03_xinzhi/个人成长方法论/读书与耐心·南开掌门人的成长主线.md)
       - [纳瓦尔：人生回报率最高的 12 个习惯](03_xinzhi/个人成长方法论/纳瓦尔·人生回报率最高的12个习惯.md)
