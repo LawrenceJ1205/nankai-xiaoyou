@@ -1,3 +1,41 @@
+<div class="nk-anniv" role="img" aria-label="庆祝南开大学107岁生日">
+<svg class="nk-anniv-svg" viewBox="0 0 240 200" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="nk107-badge" cx="38%" cy="30%" r="85%">
+<stop offset="0%" stop-color="#9A2A89"/>
+<stop offset="100%" stop-color="#5E0850"/>
+</radialGradient>
+</defs>
+<circle cx="120" cy="72" r="41" fill="none" stroke="rgba(126,12,110,.16)" stroke-width="2"/>
+<circle cx="120" cy="72" r="36" fill="url(#nk107-badge)"/>
+<circle cx="120" cy="72" r="30.5" fill="none" stroke="#FFFFFF" stroke-width="1" opacity=".75"/>
+<text x="120" y="80" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">南开</text>
+<text x="120" y="95" text-anchor="middle" font-family="Georgia,serif" font-size="8" letter-spacing="2.5" fill="#FFFFFF" opacity=".85">1919</text>
+<path d="M 124 142 C 78 146, 44 112, 58 44" fill="none" stroke="#37702F" stroke-width="2.2" stroke-linecap="round"/>
+<g transform="translate(113.2 142.2) rotate(-137.3)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(99.3 140.2) rotate(-205.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(86.8 135.4) rotate(-112.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(76.0 128.0) rotate(-178.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(67.0 118.0) rotate(-84.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(60.4 105.3) rotate(-151.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(56.2 90.1) rotate(-59.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(54.8 72.3) rotate(-129.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(58.0 44.0) rotate(-78.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(240 0) scale(-1 1)"><path d="M 124 142 C 78 146, 44 112, 58 44" fill="none" stroke="#37702F" stroke-width="2.2" stroke-linecap="round"/>
+<g transform="translate(113.2 142.2) rotate(-137.3)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(99.3 140.2) rotate(-205.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(86.8 135.4) rotate(-112.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(76.0 128.0) rotate(-178.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(67.0 118.0) rotate(-84.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(60.4 105.3) rotate(-151.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(56.2 90.1) rotate(-59.7)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#4F8F4B"/></g>
+<g transform="translate(54.8 72.3) rotate(-129.6)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g>
+<g transform="translate(58.0 44.0) rotate(-78.4)"><path d="M 0 0 C 3.4 -4.4, 8.6 -5, 12.4 -1.3 C 8.6 1.8, 3.4 2.2, 0 0 Z" fill="#6FAF62"/></g></g>
+<text x="120" y="184" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="15.5" font-weight="600" letter-spacing=".5" fill="#7E0C6E">庆祝南开大学107岁生日</text>
+</svg>
+</div>
+
+- <span class="nk-gap"></span>
 - **🎯 工作流驾驶舱**
   - [板块首页](00_cockpit/README.md)
   - [🛰️ 南开小友·工作流驾驶舱](00_cockpit/工作流驾驶舱.md)

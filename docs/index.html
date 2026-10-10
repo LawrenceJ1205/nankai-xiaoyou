@@ -21,6 +21,10 @@
        不用 margin 做间距——插件的代理点击会把 margin 落点算到父级文件夹上，点空白即折叠整组 */
     .sidebar-nav li:has(> .nk-gap) { cursor: default; height: 22px; }
     .sidebar-nav li:has(> .nk-gap)::before { display: none; }
+    /* 侧栏顶部 · 107 周年校庆图案：紫色校徽＋双橄榄枝托举＋一行紫字（_sidebar.md 顶部 .nk-anniv） */
+    .sidebar .nk-anniv { margin: 2px 0 0; text-align: center; }
+    .sidebar .nk-anniv svg { display: block; width: 100%; max-width: 216px; height: auto; margin: 0 auto; }
+    .sidebar-nav > ul { margin-top: 6px !important; }
   </style>
 </head>
 <body>
