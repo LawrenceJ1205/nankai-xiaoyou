@@ -14,7 +14,7 @@
 | 6 | 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
 | 7 | YC 合伙人论 AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
 | 8 | **Dario：AI 重写工作的三层价值迁移** | 平滑的指数 · 护城河重新定价 · 前沿溢价（**含底本 × 原件对勘**） | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
-| 9 | **Linda Hill：权力的迁移** | Wayfinding · 微型 CEO · 决策权设计（**原文＋千问评论，含核查**） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
+| 9 | **Linda Hill（哈佛商学院教授）：权力的迁移** | Wayfinding · 微型 CEO · 决策权设计（**原文＋千问评论，含核查**） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
 | 10 | **Tibo（OpenAI）：交互的变革** | Agent 时代的产品与分发 · 留存即分发 · 护城河＝脚手架（**原文照录、只分段**，底本千问评论层不收录） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md) |
 
 ## 🧭 怎么读

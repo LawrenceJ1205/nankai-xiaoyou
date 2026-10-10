@@ -81,7 +81,7 @@
       - [红杉资本MAD框架](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md)
       - [YC合伙人论AI原生公司](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md)
       - [Dario：AI 重写工作的三层价值迁移](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md)
-      - [Linda Hill：权力的迁移与AI时代的领导力](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md)
+      - [Linda Hill（哈佛商学院教授）：权力的迁移与AI时代的领导力](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md)
       - [Tibo（OpenAI）：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
