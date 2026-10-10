@@ -2,66 +2,240 @@
 
 > **所属专辑**：[🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)（📚 新知小讲堂）
 >
-> **出处**：微信公众号「6KM企业AI落地」的口播稿转录件（主理人提供 docx，无署名、无日期）。底本转述的是 **OpenAI 核心产品与平台负责人 Tibo Sottiaux（Codex 创建工程师之一）** 的一场长访谈——一手原件＝ **The Pragmatic Engineer 播客《Building Codex with Tibo Sottiaux》**（主持 Gergely Orosz，2026-09 发布，约 1 小时 15 分）。本页**照录原文、只做分段**；核查要点压成文末编者注。
+> **一手原件**：The Pragmatic Engineer 播客《Building Codex with Tibo Sottiaux》—— 主持 Gergely Orosz，2026-09-09 发布，约 1 小时 13 分。嘉宾 Thibault「Tibo」Sottiaux 是 **Codex 的创建工程师之一**，现任 OpenAI **核心产品与平台负责人**（Head of Core Products & Platform）—— ChatGPT 与 Codex 都在这个组织之下。
 >
-> **说明**：底本是中文口播稿，不是逐字原话，并带若干语音转写笔误（「Tibo／Tebow／Table」混写等）——本页一律照录，只在编者注里列明。
+> **本页体例**：**依一手原件整理**——节目官方页的 12 条要点与 15 段章节时间轴，配合可查证的逐字稿引语。凡引语，一律给英文原话并附中译；正文只做「**他说了什么**」的整理，**不掺入第三方转录稿的框架与评论**（相关处理见文末编者注）。
+>
+> **怎么读**：只关心「OpenAI 内部怎么用」，直接跳到**第四节**；想看逐句依据，见文末「引语与出处索引」。
 
 ---
 
-OpenAI现在内部用 AI 已经离谱到什么程度了？各位，来跟着我一起大开眼界，想象力打开，我们一起看看造 AI 的公司怎么用 AI。
+## 一、这场访谈的坐标
 
-以前一个团队一个项目要花一年的时间才能慢慢扩张到几十上百个工程师，现在可能一个周末就突然有上百个 Agent 涌进去开始干活。一个项目进展到哪，为什么当时这么做了决定，现在的管理者已经不是问对应的负责人，而是直接问 AI。新人遇到问题也不是问老人，而是先问 Codex。
+| 项 | 内容 |
+|---|---|
+| **节目** | The Pragmatic Engineer Podcast（主持 Gergely Orosz） |
+| **嘉宾** | Thibault「Tibo」Sottiaux —— 应用数学出身 → 比利时创业 → Google 伦敦 → DeepMind → OpenAI |
+| **嘉宾职务** | Codex 创建工程师之一；现任 OpenAI **核心产品与平台负责人**（Core Products & Platform，含 Codex 与 ChatGPT） |
+| **发布** | 2026-09-09　｜　**时长** 约 1 小时 13 分 |
+| **本页所据** | 节目官方页的 12 条要点、15 段章节时间轴、以及若干可核对的逐字稿引语 |
 
-负责人脑子里冒出一个问题，掏出手机讲几句话，半个小时就能拿到第一版的成果。晚上没做完的事情也就直接丢给 Agent，第二天早上起来看一下结果。这一些都是 Codex 负责人 Tebow 最近一场访谈里透露出来的 OpenAI 内部的工作状态。
+**章节时间轴**（回看原件用）
 
-但注意啊，这一些都只是表面的现象，甚至你把 Tebow 这一个多小时的访谈从头看到尾，都不一定能得出接下来我要说的这一些结论。因为我不是站在一个程序员，也不是站在一个 ChatGPT 的用户视角去看 Codex 到底有多强， ChatGPT 有多强。我是站在一个如果想做 AI 转型企业的一号位的视角去看这场访谈。
+| 时间 | 章节 | 时间 | 章节 |
+|---|---|---|---|
+| 00:00 | 开场 | 41:19 | Codex 背后的研发流程 |
+| 07:21 | 在 Google 的日子 | 46:39 | 代码评审在 Codex 团队 |
+| 12:41 | 什么把他带到 OpenAI | 52:09 | 维护与架构 |
+| 15:19 | Codex 的早期 | 56:43 | AI 工具如何拓宽工程师的能力边界 |
+| 18:20 | 为什么用 Rust 写 | 1:02:30 | 合并：ChatGPT ＋ Codex |
+| 21:15 | 为什么开源 | 1:07:16 | Tibo 自己怎么用 Codex 与 ChatGPT |
+| 25:50 | 为什么 Codex 兼容别家模型 | 1:10:44 | 给想做 AI 的工程师的建议 |
+| 32:09 | Harness 是怎么工作的 | 36:44 | Harness 与模型的相互追赶 |
 
-你把里面零零碎碎的细节拼在一起了，会发现一件比 OpenAI 怎么用 AI 大得多的事情。就是一家真正把 AI native 拉满的公司，它的组织形态已经发生根本性的改变了。它不是给原来的公司流程上装很多 AI 工具，而是慢慢的把公司本身变成一个 AI 在上面可以运行的一个系统。我觉得可以用三个词来概括和理解啊，可读、可操作、可迭代。
+---
 
-我们先说第一层，可读。 Tibo 说啊，在 OpenAI Codex 就已经默认接入了大量的内部信息，内部沟通工具 Slack 啊，各种文档，公司的代码。所以一个新人进来，对公司大量事情都不了解的时候，没有这个上下文的时候，他不一定要找一个老员工或者部门负责人来问了，他直接问 Codex 啊，这个项目现在什么状态？谁在负责？之前为什么这么设计啊？决策怎么做的？公司价值观，当时的思路是怎么样的？
+## 二、Codex 的来路，与三个工程决定
 
-Codex 就会自己去公司历史的数据库、知识库里面找，所以会有在外人看来很反常的现象，就他们很多工作尽量会放在公共频道里去说，文档也会尽量开更广的内部的访问权限，就是为了让这种事情成立。这个细节我觉得特别重要，因为咱们大多数老板谈 AI 转型第一反应就是用哪个模型比较好，我要买什么工具嘛。
+### 1. 它一开始不是产品，是给自家用的工具
 
-但可能真正更底层的一个问题是， AI 到底看不看得见你的公司啊？就你的客户信息有的都在销售自己的微信里面，老板的决策又在几个私聊的小群里面，啊一个员工可能干了五年的经验全部在脑子里，从来就没有沉淀过。项目为什么这么做也从来没有人记录，SOP都已经半年前的了，然后有四五个版本都互相有冲突啊，数据可能也散落在十几个表格系统里面，那这种情况下模型再聪明又会有什么用呢？
+Codex 起初是**为了让 OpenAI 自己的研究与工程跑得更快**而做的内部尝试：团队拿 OpenAI 的 Python 代码库训练模型，再围绕它搭起早期的 agent，要改的是四件事——写代码的速度、代码风格、**架构品味**、基础设施的效率。这个内部项目后来与公司更大范围的「AI 软件工程」计划合流，才有了早期的 Codex 云产品与 CLI。
 
-对AI来说，你公司大量的信息全都是一片黑，所以真正的AI native第一步不是说强制购买一些账号让每个员工都开始用起来，而是让整个组织本身变得机器可读，搭好这一层的基建，让AI先看得见你的公司，那到第2层才是更夸张的，叫可操作，当AI不只是看到公司的信息的时候，而是真正能调用一些工具进入到某些系统开始执行任务以后，AI就会从一个聊天框开始变成一个公司的执行层。
+Tibo 的来路解释了这套偏好。他学的是应用数学，早年做的都是「用数学把系统变高效」的问题——临床试验的药品供应链、钢铁行业的物流、欧洲的电网优化；先在比利时创业，再去 Google 伦敦、DeepMind，最后到 OpenAI。他在 Google 吃过一个教训：一个自己做得很快乐、有几百个用户的广告项目，被副总裁从加州飞来一刀砍掉——回头看才明白，那件事**没有产品市场匹配，用户反馈回路也很差**。他由此养成一个习惯：**持续追问自己手上的工作到底有没有用**。
 
-Tibo Tibo 自己就是一个非常典型的例子啊，他讲到说他现在大量的工作都已经转移到手机上了。开会开一半可能想到一个问题，过去就会先记下来，然后后面说找对应的团队去聊一下，看这个事情怎么做。那现在呢，完全不是，就直接拿起手机开始发一段语音扔出去。比如说某个功能用户的反馈到底怎么样？啊哪些东西最近可能根本没有人用，完全可以砍掉。要的，或者又比如某个团队最近在忙什么事情，那就把这个语音发出去，让 agent 去跑。
+> 他加入 OpenAI 的触发点很具体：2023 年他听说，如此规模的 ChatGPT 其实只由**大约 20 名工程师**建造和维护。他既惊讶于这个数字，也被「研究与产品贴得这么近」这件事吸引。
 
-他说很多问题啊，30 分钟之内就可以拿到第一版的报告成果。即使这些资料之前没有人专门去整理，即使这个问题的复杂度需要调用大量的数据，大量的部门间的问题。
+### 2. 核心为什么用 Rust —— 即使当时模型更会写 Python
 
-所以老板们仔细想一下，这中间真正发生变化的其实不是说省了一两个员工专门去做整理汇报的这个时间啊，而是一个更大的东西，是问题从产生到被处理之间的这个延迟正在被疯狂的压缩。以前一个老板一天可能会冒出来 20 个问题，想法非常多，但最后真正落在组织里值得人力去调查执行的也许可能只有两个到三个，不是说另外的十几个都没有价值，而是没有那么多人能去做。你不可能每冒出一个念头就拉着三五个人去研究个一周的时间。
+Codex 的核心 agent 用 **Rust** 写，而不是当时模型更擅长的 Python 或 TypeScript——这在 AI 工具链里并不常见。理由是先定下的一批设计原则：核心要**健壮、安全、高效、可扩展**，因为他们设想的是「Codex 实例跑在数百万台云端机器上」。Rust 的编译期检查与正确性保证正好对上这件事。
 
-所以本来也很值得被调查被验证被值得尝试的事情，过去直接死在了没有人手这一关。但是当企业的人力成本突然掉了一大个数量级之后，企业真正的增量可能不是说原来需要十个人干的活，现在只需要五个人干了。而是原来因为10个人已经比较贵了，所以有100件事根本不可能都做完，现在终于可以做完那100件事情了，这也是我觉得很多老板今天最容易低估AI的一个地方，就是我们不能一直盯着说AI能不能砍掉一个员工、砍掉两个员工，AI真正夸张的地方是突然让整个公司拥有了一种过去根本消费不起的东西，叫大量随时可调用的认知能力和执行力。
+用不同语言把**产品界面**与**agent 核心**隔开，本身就是一条架构原则：
 
-然后到了第3层可迭代，这层才是OpenAI和普通公司差距开始远远拉开的地方，因为当执行变得极其便宜之后，公司的运转方式也会跟着改变，以前一个想法就是你可能先开会。啊，排资源，排期，看这个事情值不值得干。因为真正开始执行比较贵嘛，所以这里就先花了一堆的时间，然后执行再花一堆的时间。
+> "If you write everything in the same code base, in the same language, it's like, inevitably, you're going to be a little bit sloppy. And you're going to intertwine things more than you should."
+>
+> 「如果你把所有东西写在同一个代码库、用同一种语言，那你不可避免地会松一些，会把本来不该缠在一起的东西缠在一起。」
 
-但 Table 描述的状态越来越接近说我们先做出来再说，就一个产品想法已经不需要太多讨论，而是直接让 A 卷跑一个原型出来，这个架构不满意就直接重新改掉，一个方向不知道行不行，先跑一遍看看反馈怎么样。软件原来很可能几年才经过一次的大迭代的生命周期，现在被压缩的非常短。
+### 3. 为什么开源，以及为什么兼容别家模型
 
-这也是大家最近可以感受到为什么模型发布的频率越来越快越来越快，因为做一次的成本正在急速的下降，不再像过去那样。所以这个时候组织真正的瓶颈会从我们有没有能力把它做出来，慢慢迁移到我们到底应该做什么事情，什么的目标才是对的，什么东西值得去投入，什么叫做好好的标准是什么。所以这本质上是 AI 越强，人越往上游走，在处于一个价值上移的状态。执行越来越便宜，那目标判断取舍品味反而会越来越贵。
+Codex 选择了**开源**。Tibo 讲的好处是**信任**与**贡献者社区**——公开地做，本身就有推动力；新人甚至可以先看仓库和 PR 再决定加入。他也坦承代价：有时团队做出来的东西，会先被别人抄进别的工具里发布，这件事**扎人**，但在开放里做事就是这个价钱。
 
-所以看完这整场的访谈之后啊，我自己最大的感受是今天很多公司所谓的 AI 转型，其实还是在用一个工业时代的组织，传统的流程，外面挂几个 AI 的账号，或者 ChatGPT 或者豆包之类的东西。买几个账号，然后培训员工怎么写prompt啊，做几个自动化的工具流，然后再买几个所谓的通用的智能体啊，这些当然或许会有用啊，但是如果我们把时间往后延伸，真正的AI native肯定不是原来的公司加AI，而是从day one就开始重新假设，如果一家公司的认知能力和执行能力突然变得极其廉价，可以复制，可以并行，可以24小时不停的工作，那这家公司到底应该被怎么样的重新设计？
+开源也解释了另一件事：**Codex 能配别家的模型用**。他最直接的竞争对手（Claude Code）只能配 Anthropic 自家的模型；而即便 Codex 哪天被锁死到某个模型上，任何人仍可 fork 出这个 harness、改几行代码去支持别的模型。他的判断是：**靠「让用户用上最好的模型」取胜，而不是靠锁定**。
 
-信息怎么沉淀？数据库、知识库怎么搭？任务怎么重新拆分重构？管理者到底还要负责什么？最后整个公司都会变成一个AI可以读、可以在上面执行、可以在上面持续迭代的一个系统。
+### 4. 本地跑，还是云上跑
 
-这才是我觉得Tibo这场访谈里面真正值得一个想要做AI转型的一号位去看的地方，当然OpenAI的做法肯定没法直接照搬复制嘛，但是如果你真的准备做AI转型的话，我觉得你一定要去看这些最前沿的公司发生了什么，原因非常简单，就是做转型之前你至少得见过终点线附近或者说现在最前沿的跑在最前面的那些人，那些公司长什么样，你见过AI native拉满之后的那个样板间，你才会知道自己今天改的到底是哪一层，下一步又在哪里，否则我们视野太狭隘了，很容易把说公司全员都开通AI账号，然后做了几个自动化的流程，就误以为自己已经完成了AI转型。想象力打开，研究这些前沿的最佳实践。
+Codex 默认**在你的机器上沙箱运行**，需要额外权限的动作会先问你——这是已经持续一年多的默认形态。也可以放到云上的托管 VM 里跑，那条路更接近 ChatGPT Work 的环境，更可扩展、也更不依赖你手上那台笔记本。长期方向是两者混用、再逐步把编排做得更顺。
+
+---
+
+## 三、Harness 与模型：谁领先谁
+
+这是这期访谈里工程含量最高的一段。**harness** 是模型外面那一层脚手架——它给模型工具，也给它护栏、权限、指令、可操控性与可靠性上的种种弥补。
+
+Tibo 的描述是：**harness 通常比最新模型「领先一步」**——先把缺的能力用脚手架补上，等模型自己学会了，再把这些「拐杖」一根根拆掉。每轮新模型出来，注入上下文的开发者消息会变短，harness 会变小。
+
+团队内部因此反复问同一个问题——**这件事该改 harness，还是该等模型？**
+
+> "It's always a question of like okay we see today that you know we are very good at this but we're not very good at this … this should be like a harness change or should this be a model change."
+>
+> 「总归是那个问题：今天我们这件事做得很好、那件事做得不好——这该是一次 harness 的改动，还是一次模型的改动？」
+
+判断的依据是：模型大概多久能自己学到（一个月？三个月？半年？）。如果答案是「很快」，他们可能干脆不做 harness 的工作，等下一代模型。
+
+一个具体例子：为了把 agent 摁在单一目标上跑上几天甚至几周，团队几个月前加了一个 `/goal` 命令；而按他的说法，**最新的模型已经不需要它了**——你直接让模型干一周就行。自己造的拐杖，自己拆掉。
+
+---
+
+## 四、OpenAI 内部怎么用 Codex
+
+这是本页的正题。
+
+### 1. 新人上手的第一句话是「你问过 Codex 了吗？」
+
+主持人问 Tibo：给新加入 Codex 团队的人什么提示？他的回答是一句反问——
+
+> "Have you asked Codex?"
+
+因为**在 OpenAI，Codex 默认接进了 Slack、每一份文档、以及全部代码**。新人常常惊讶于「什么都能问」：这个项目谁在做、某个决定当初为什么这么定，都能直接问它。
+
+这件事成立，靠的不是模型，而是**组织习惯**：团队**有意把工作放在公开频道里**，**有意把文档开成更宽的权限**。信息是敞开的，agent 才够得着。
+
+### 2. 代码评审：模型已经「超人」，流程被强制接管
+
+Codex 团队很早就训练了专门的代码评审模型，能追踪多层依赖、找出人类评审者要花几小时才能定位的逻辑错误。
+
+> "These models have reached superhuman levels in code review—not just in correctness, but also in security."
+>
+> 「这些模型在代码评审上已经到了超人水平——不只是正确性，安全上也是。」
+
+在 OpenAI，**所有 Pull Request 都要过强制的 AI 安全扫描**；一旦被标出安全问题，PR 会被**自动拦下、不予合并**。
+
+但他给了一个更值得琢磨的判断：代码评审的价值**从来就不只是抓 bug**。
+
+> "It has always been a ritual of information exchange to align teams and spark discussion—ideally occurring before code is written."
+>
+> 「它一直是一种信息交换的仪式——让团队对齐、激发讨论，最好发生在代码被写出来之前。」
+
+所以他的结论是：**正确性与安全的检查会被自动化**；真正该由人花心思的是关于**意图**的讨论——
+
+> "What exactly are you trying to do? Is this worth doing?"
+
+这些讨论不必发生在 PR 里，但必须发生。
+
+### 3. 维护与重构的成本正在塌缩
+
+他把维护称为一笔**为了系统能继续跑而交的税**：升级第三方依赖、打补丁、把系统养在健康状态——过去又贵又烦，团队总往后拖，而它对安全偏偏很要紧。现在这类活大可以交给 agent：**模型能在几小时内扫完整个代码库并直接处理掉**。
+
+更大的位移在重构：
+
+> "In the past, a full architectural refactor might take years. Now, that cost is compressed drastically."
+>
+> 「过去一次完整的架构重构可能要几年；现在这个成本被大幅压缩。」
+
+而成本下降，**不是让架构判断变得不要紧，而是更值钱**：
+
+> "Good abstractions, clear boundaries, and explicit invariants—if you draw the shape correctly, you can change anything inside the 'box' quickly without affecting other services. Design for rapid iteration."
+>
+> 「好的抽象、清晰的边界、明确的不变量——只要『盒子』的形状画对了，你就能快速改它里面的任何东西，而不影响别的服务。**为快速迭代而设计。**」
+
+### 4. 一个周末，100 个 agent 往同一个项目上贡献
+
+> "Collaboration of this scale previously took years to expand; now it happens over a weekend."
+>
+> 「这种规模的协作，过去要花几年才扩张得起来；现在一个周末就发生了。」
+
+（他描述的是 OpenAI 内部有时会出现的情形：**同一个周末里，上百个 agent 往同一个项目上贡献代码**。这句话的两半都是他说的——但请注意它说的是**协作规模**，不是「团队编制」，别读成「一个团队从几十人涨到上百人」。）
+
+### 5. 人往上游走：意图、品味、系统掌控
+
+把上面几节拼起来，他在团队里反复强调的三条原则是：**清晰地表达意图**、**架构品味**、**系统掌控**。他认为 AI 时代最稀缺的是两种能力：
+
+**一是好奇心，和快速读懂系统的能力。**
+
+> "The people who succeed at OpenAI are those who can quickly read a system, dive into a new codebase, and immediately understand its purpose."
+>
+> 「在 OpenAI 做得好的人，是那种能快速读懂一个系统、扎进一个新代码库、立刻明白它是干嘛的人。」
+
+**二是把意图讲清楚，以及架构上的品味。** 当 AI 接手越来越多的执行，工程师更该做的是**把「盒子」的边界划清楚**——它该做什么、必须满足哪些不变量——而不是纠结盒子里面怎么实现：
+
+> "Once you agree on the function and constraints of a box, what happens inside matters less."
+>
+> 「一旦你们对盒子的功能和约束达成一致，里面怎么实现就没那么重要了。」
+
+以及一句近乎提纲的话：
+
+> "If you cannot explain what you are trying to achieve, if you cannot articulate your intent, if you lack connection with the community you serve, or if you lack taste—producing good work becomes significantly harder."
+>
+> 「如果你讲不清自己想达成什么、说不明白自己的意图、跟你所服务的这群人没有连接、或者没有品味——想做出好作品，会难得多。」
+
+---
+
+## 五、合并：ChatGPT ＋ Codex
+
+Codex 起于**本地**的编码 agent，ChatGPT 是**完全托管在云上**的产品——两套技术栈与运营方式都不一样，合并的难处在这里。合并的核心，是**把本地编码 agent 的能力高效地搬到云上**，让它进到每月 20 美元的 Plus 套餐里、服务数以亿计的用户；目前 **ChatGPT Work 里跑的就是 Codex 的 harness**，目标是把两者彻底统一成一个产品——用户在哪种形态里，都能拿到同一份智能。
+
+一个有意思的细节：合并这件事本身，**Codex 也参与了**——干基础设施的活、补文档、跟踪争论与决定、找出两套系统之间的差异。Tibo 形容它**几乎像这个项目的记者**。
+
+---
+
+## 六、他自己怎么用
+
+Tibo 把 Codex 与 ChatGPT Work 当**个人 agent** 用：记笔记、问问题、出报告、做幻灯片、探代码。他重度依赖**口述**、**手机**，以及 **Slack、Notion、Google Docs 的上下文**。
+
+落到具体动作上，他常干这几件事：看某个功能的**用户口碑**、看**生产用量**、找**该废弃的东西**、搞清**别的团队在忙什么**，以及**隔夜把探索性的任务丢给 agent 跑**——早上起来看结果。
+
+他对「待机状态」的看法也变了：早年为难题熬到深夜、进入心流是常态；现在他仍会打开编辑器写一点代码（因为手感舒服），但 AI 带来的好处是**更快拿到更多数据**——与其凭直觉拍板，不如先派个 agent，一分钟内拿数据回来再决定。
+
+---
+
+## 七、他给工程师的建议
+
+- **好奇心**：真的想知道系统是怎么运转的；
+- **快**：能迅速读懂一个新代码库、一个新系统；
+- **持续问「为什么」**：一遍又一遍地问下去；
+- **贴着用户**：清楚自己是在为谁做、用户要什么、产品到底该完成什么；
+- **基本功还在**：系统设计、抽象、清晰、对用户的同理心、学习速度——这些并没有因为 AI 变快而过时。
+
+关于「想做 AI 方向」的工程师，他的落点也很朴素：**品味与意图，和纯技术能力一样重要**。
+
+---
+
+## 📎 引语与出处索引
+
+页内引语均出自该集逐字稿（经公开报道转引）。集中列此，便于核对：
+
+| # | 英文原话 | 位置 |
+|---|---|---|
+| 1 | "If you write everything in the same code base, in the same language, it's like, inevitably, you're going to be a little bit sloppy. And you're going to intertwine things more than you should." | 为什么用 Rust |
+| 2 | "It's always a question of like okay we see today that you know we are very good at this but we're not very good at this … this should be like a harness change or should this be a model change." | Harness 与模型 |
+| 3 | "Have you asked Codex?" | 新人上手 |
+| 4 | "These models have reached superhuman levels in code review—not just in correctness, but also in security." | 代码评审 |
+| 5 | "It has always been a ritual of information exchange to align teams and spark discussion—ideally occurring before code is written." | 代码评审 |
+| 6 | "What exactly are you trying to do? Is this worth doing?" | 代码评审 · 意图 |
+| 7 | "In the past, a full architectural refactor might take years. Now, that cost is compressed drastically." | 维护与架构 |
+| 8 | "Good abstractions, clear boundaries, and explicit invariants—if you draw the shape correctly, you can change anything inside the 'box' quickly without affecting other services. Design for rapid iteration." | 维护与架构 |
+| 9 | "Collaboration of this scale previously took years to expand; now it happens over a weekend." | 协作规模 |
+| 10 | "The people who succeed at OpenAI are those who can quickly read a system, dive into a new codebase, and immediately understand its purpose." | 稀缺能力 |
+| 11 | "Once you agree on the function and constraints of a box, what happens inside matters less." | 稀缺能力 |
+| 12 | "If you cannot explain what you are trying to achieve, if you cannot articulate your intent, if you lack connection with the community you serve, or if you lack taste—producing good work becomes significantly harder." | 三条原则 |
+
+**出处层级**：① 节目官方页（12 条要点、15 段章节时间轴、节目说明）＝ 节目方一手；② 上表引语＝该集逐字稿原话，经公开报道转引（引号内为原话，转引渠道见下）；③ 正文中未加引号的叙述＝对该集内容的整理。转引渠道：macrostream.ai（2026-09-10）、BigGo Finance、Podscripts 逐字稿页、becurious.to 摘要、bestblogs.dev 逐字稿节选。
 
 ---
 
 ## ⚠️ 编者注
 
-1. **底本形态与出处**：公众号「6KM企业AI落地」的口播稿（无署名、无日期，docx 由主理人提供，`docProps` 的 creator 是主理人本人 ⇒ **转录件，不是原件**）。底本转述的是 **The Pragmatic Engineer 播客《Building Codex with Tibo Sottiaux》**（主持 Gergely Orosz，2026-09 发布，约 1 小时 15 分）——底本自称「一个多小时的访谈」，与该集时长吻合；里头的关键细节都能在该集对位：Codex 默认接入 Slack／文档／代码、新人先被问「你有没有问过 Codex」、尽量在公开频道工作并放宽文档权限、Tibo 用手机发语音半小时拿到第一版报告、隔夜派 Agent 通宵查、「维护成本趋近于零」。**方向一致，但不是逐字引文**。
+1. **本页与旧底本的关系**。此前本站曾据一份**二手口播稿转录件**（微信公众号「6KM企业AI落地」，主理人提供 docx，无署名、无日期）落过一版页面。那一版按「照录原文、只分段」处理，**忠实地照录了那份转录稿**——其中也包含**转录者自己的评论与自建框架**。**本页改以一手原件为骨架重写**，正文只保留「Tibo 说了什么」，转录稿的话术与解读**一律不收**。
 
-2. **「可读／可操作／可迭代」三层是转述者的框架，不是 Tibo 的命名**：底本自己讲得诚实——「你把这一个多小时的访谈从头看到尾，都不一定能得出接下来我要说的这一些结论」。Tibo 在原件里没有给这三层起名、也没有这个结构；把它当作**一位「想做 AI 转型的一号位」读者的提炼**来读，别当 Tibo 的话引。同理，「Codex 就会自己去公司历史的数据库、知识库里面找」这类拟人化表述，是转述者的话。
+2. **旧底本中最需要剔除的一件，是「可读／可操作／可迭代」这套三层框架**。它并非 Tibo 的命名或结构——那份底本自己也说得诚实：「你把这一个多小时的访谈从头看到尾，都不一定能得出接下来我要说的这一些结论。」本页因此不再采用这套框架。**若你要引用这三点，请归给这套框架的作者（该公众号），不要归给 Tibo 或 OpenAI。**
 
-3. **与站内另一页 Tibo 的关系**：这是**同一个人、不同两场访谈**——隔壁「[🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)」专辑里的 [Tibo：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)，一手原件是 **Lenny's Podcast**，讲的是**产品与分发**（怎么被找到／被调用／把学习成本降到零）；本页讲的是**组织内部怎么用**（可读／可操作／可迭代）。两页互补：一页讲「Agent 时代的产品」，一页讲「AI 时代的公司自己」。
+3. **「一个周末上百个 Agent」这句，两半都是 Tibo 说的**（见引语 9），指的是**协作规模**——同一周末有上百个 agent 往同一个项目上贡献。旧底本把它写成「以前一个团队一个项目要花一年才能慢慢扩张到几十上百个工程师」，那是转录者的改写，**本页已按原话校正**。
 
-4. **四处处名／术语笔误**（一律照录，不臆改）：①「**Tebow**」＝「**Tibo**」（Thibault「Tibo」Sottiaux，本页出现 Tibo／Tebow 两种写法）；②「**Table** 描述的状态」应为「**Tibo** 描述的状态」；③「直接让 **A 卷**跑一个原型出来」疑为「让 **Agent** 跑一个原型出来」的转写串行；④「**Tibo Tibo** 自己就是一个非常典型的例子」重字。另：底本称他为「Codex 负责人」——按原件，他现在的职务是 OpenAI **核心产品与平台负责人（Head of Core Products & Platform）**，Codex 与 ChatGPT 都在其下。
+4. **必须分清「OpenAI 内部版的 Codex」与「对外卖的 Codex」**。第四节讲的「默认接入 Slack／文档／代码」「公开频道、宽文档权限」，都是 **OpenAI 内部**的用法——**对外部用户出售的 Codex 并没有这层上下文**。把内部流水线当成产品能力来预期，是读这类材料最容易踩的坑。
 
-5. **「一个周末上百个 Agent」这句是真的，但前半句是转述者的类比**：底本开头最像标题党的一句——「现在可能一个周末就突然有上百个 Agent 涌进去开始干活」——在原件里对应的是他描述自己的状态：「突然有上百个 agent 在往同一个东西上贡献，而这可能在一个周末里就发生」。**但紧接着的前半句（「以前一个团队一个项目要花一年才能扩张到几十上百个工程师」）是转述者加的画面，原件没有这句**——读的时候把这两句分开。同理，「30 分钟之内拿到第一版报告」「晚上派 Agent 通宵查」两处细节，均可核到原件。
+5. **「30 分钟拿到第一版报告」这条本页未采纳**。旧底本有此说法，但本次在一手材料里**未能核实到**；可核实的是他**用手机口述任务、把探索性任务留在隔夜跑**（见第六节）。存疑的数字宁可不写。
 
-6. **要分清「内部版 Codex」与「对外卖的 Codex」**：底本说「在 OpenAI，Codex 就已经默认接入了大量的内部信息」——指的是 **OpenAI 内部版**的 Codex（据公开整理，内部版接了 Slack／Databricks／Datadog／Notion 与内部日志）；**对外部用户卖的 Codex 并没有这层上下文**。把内部流水线当成产品能力来预期，是读这类材料最容易出错的地方。
+6. **人名与职务**：他的通行名是 **Tibo**（Thibault Sottiaux），底本里出现过「Tebow」「Table」等转写误写，本页统一为 Tibo。底本称他「Codex 负责人」——按原件，他现在的职务是 OpenAI **核心产品与平台负责人**（Head of Core Products & Platform），Codex 与 ChatGPT 都在其下。
 
 ---
 
-> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)
+> ← 返回 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　｜　相关：[Tibo：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)（同一人的另一场访谈 · 讲产品与分发）
