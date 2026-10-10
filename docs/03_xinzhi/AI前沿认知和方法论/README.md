@@ -28,4 +28,4 @@
 
 ---
 
-> ← 返回 [📚 新知小讲堂](03_xinzhi/README.md)　｜　相关：[🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)　[🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)　[🌟 淘知吧](03_xinzhi/taozhi/README.md)
+> ← 返回 [📚 新知小讲堂](03_xinzhi/README.md)　｜　相关：[🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)　[🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)　[🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)　[🌟 淘知吧](03_xinzhi/taozhi/README.md)
