@@ -28,6 +28,7 @@
 | ~~微信公众号「6KM企业AI落地」口播稿~~ | 曾据的**两份**二手转录稿（OpenAI 与 Anthropic 各一份，含转录者自建框架与评论）；**均已由一手原件版替代**——两页正文只留原访谈 / 原报告的内容，转录稿的话术与引申不再收录（OpenAI 页留一句交代于编者注；Anthropic 页整版不收录） | ↩ 已替代 |
 | **Anthropic Institute 报告** | 一手原件：《When AI builds itself》（Marina Favaro · Jack Clark，2026-06）＋《Measurements for understanding the pace of AI development inside frontier labs》（Marina Favaro · Phillie Wright，2026-09-17）；**整合两份报告**——正文只留「Anthropic 说了什么」，15 条英文引语附中译，配提示性小标题，底本引申与点评不收录 | ✅ 已落 [Anthropic 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md) |
 | **麦肯锡公开披露** | 一手原件：Sternfels 在 **CES 2026「All-In」**播客与 **HBR IdeaCast** 上的自述 ＋ 麦肯锡官网关于 Lilli 的署名文章 ＋ 高管（Smaje / Roth / Wright）对 Bloomberg、Business Insider、Boston Globe 的表述与发言人确认；**依一手材料整理**——正文只留「麦肯锡说了什么、做了什么」，12 条英文引语附中译，底本引申不收录 | ✅ 已落 [麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md) |
+| **a16z Podcast** | 一手原件：《The Self-Improving Company ｜ Kavak's AI Playbook》（主持 Angela Strange · Gabriel Vasquez · 2026-08-10 发布 · 约 37 分钟），嘉宾 **Alejandro Maza Ayala**（Kavak 首席产品与 AI 官）；**依官方节目页要点 ＋ 14 段章节时间轴 ＋ 可核对逐字稿引语整理**（引语给英文原话并附中译）。一家**普通交易型公司**把组织结构围绕 Agent 重做一遍的样本（96％ 客户互动 · 95％ 交易由 Agent 完成）；⚠️ 全部经营数字为高管自述、未经审计 | ✅ 已落 [Kavak 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Kavak内部怎么用AI·一家由Agent运营的公司.md) |
 | **🛠️ 隔壁的工具教程** | Cloud Code / Hermes Agent / Obsidian / Codex 的安装与操作 | ↗ 见 [AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)（本专辑不重复收录） |
 
 ---
@@ -38,6 +39,7 @@
 |---|---|---|
 | [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md) | **依一手原件整理**：Codex 的来路与三个工程决定（Rust ／ 开源 ／ 兼容别家模型）· harness 与模型谁领先谁 · **OpenAI 内部怎么用**（新人先被问「你问过 Codex 了吗」· 所有 PR 强制 AI 安全扫描 · 维护是税、重构从「年」压到「天」· 一个周末上百个 agent）· 合并与他的个人用法；**引语给英文原话并附中译，不掺第三方解读**（12 条引语见文末索引） | 把「AI 转型」从**买工具**，换成**改组织本身**：先让公司变成 AI 读得到、动得了的系统 |
 | [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md) | **整合两份一手报告**：RSI 与「五级台阶」· 任务时间视界每 4 个月翻倍 · 内部数字（80% 生产代码由 Claude 写 · 人均日产量 8 倍 · 开放任务成功率 76%）· 研究环节的三次实验（优化 3x→52x · 开放研究 23% vs 97% · 下一步判断 51%→64%）· **新瓶颈＝人的代码审核（Amdahl 定律）** · 三种未来 · 三把可核验尺子（26% / 3 万 Agent / 6%–12%）与它们的方法 | 把「飞轮」读全：**执行趋零之后，卡点会从产能移到「集体决策」** |
+| [Kavak 内部怎么用 AI：一家由 Agent 运营的公司](03_xinzhi/AI_Agent使用最佳实践/Kavak内部怎么用AI·一家由Agent运营的公司.md) | **依一手原件整理**：三个赌注（重建公司 · 造超过最好员工的 Agent · 换一套衡量体系）· **一个客户一个 Agent**（每天 10–20 万个 · 自带虚拟机与长期记忆 · 目标是终身价值）· 要做就做**超人类**的 Agent（96％ 互动 / 95％ 交易 / 转化 2.1 倍 / NPS 三倍）· **Evals 是刹车**（与造 Agent 花一样多的力气）· **人机反转**（Agent 是任务主人，人是它调用的能力）· 推倒两年的多 Agent 系统改用虚拟机骨架 · 库埃纳瓦卡的 AI CEO 与 Jedi Academy · Token 分三档算 ROI · 创造性破坏与那台发电机；⚠️ 数字均为自述未审计 | 看**一家非 AI 公司的普通企业**怎么把公司本身重做一遍：**不装 AI，重建公司** |
 | [麦肯锡内部怎么用 AI：4 万人身边的 2.5 万个 Agent](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md) | **依一手原件整理**：Lilli 平台（2023 上线 · 10 万+ 文档与访谈 · 约 75% 月活 · 每月 50 万条提问）· **第二支劳动力**（40,000 人 ＋ 25,000 个 Agent · 员工自建逾 1 万个）· **反常识的「25 平方」**（客户面扩编 25%、支撑面缩编 25% 而产出提高约一成）· 商业模式从**按小时**转向**按成果** · Sternfels 说的「模型做不了的三件事」（抱负 / 判断 / 真创造）；底本引申不收录 | 看**一家成熟的服务企业**怎么把 Agent 接进运转：**先搭知识底座，再让员工自己造 Agent** |
 
 
@@ -51,6 +53,7 @@
 - **想直接引用原话**：去文末「引语与出处索引」，**12 条英文原话 + 出处层级**。
 - **只想看「瓶颈在哪」**：读 [Anthropic 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md) 第六节——**人的代码审核成了新瓶颈**，以及报告那句「发现并打掉瓶颈的能力，可能成为任何组织最重要的能力」。
 - **想看一家传统服务企业怎么落地**：读 [麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md) 第五节——**「25 平方」**：客户面扩编 25%、支撑面缩编 25% 而产出提高约一成；再看官方那句「**同事已创建超过 1 万个 AI Agent**」。
+- **想看一家普通公司怎么被 Agent 重做一遍**：读 [Kavak 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Kavak内部怎么用AI·一家由Agent运营的公司.md)——**「一个客户一个 Agent」**（每天 10–20 万个）、并把**评估当刹车**（和造 Agent 花一样多的力气）；它最狠的动作是**把两年里跑通的多 Agent 系统推倒重来**。
 - **读完想动手**：去 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)。
 - **跳一层再看**：这篇讲**自己的公司**，想看清**产品与分发**去读 [Tibo：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)（同为 Tibo，另一场访谈）。
 
