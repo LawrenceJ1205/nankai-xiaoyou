@@ -6,31 +6,34 @@
 >
 > **本页体例**：依一手原件整理——正文只留「**Kavak 说了什么、做了什么**」。底本（微信公众号「猫不白」的一篇转述稿）的框架、人名转写与评议**不收录**，相关对勘见文末编者注。
 >
-> **读法提示**：这家公司公开的经营数字，**全部来自高管在一次风投播客上的自述——未经审计、也未交代基线**。读时请把「**他说做到了什么**」与「**已被证实到什么程度**」分开看（参见第四节与文末编者注）。
->
 > **怎么读**：想知道「他们到底改了什么」，看第二节；想知道「一个客户一个 Agent」长什么样，看第三节；想知道「评估为什么被当成刹车」，看第五节；想知道「他们为什么把两年的系统推倒」，看第七节。
 
 ---
 
-## 一、这份样本为什么值得看
+## 一、这场访谈的坐标
 
-**Kavak** 是**拉美最大的二手车交易平台**，墨西哥起家。本业说起来不复杂——**买车、翻新、卖车、做车贷**。
+| 项 | 内容 |
+|---|---|
+| **节目** | a16z Podcast《The Self-Improving Company ｜ Kavak's AI Playbook》（主持 **Angela Strange**、**Gabriel Vasquez**，均为 a16z 合伙人） |
+| **嘉宾** | **Alejandro Maza Ayala**（节目里称 Ale Maza）——Kavak **首席产品与 AI 官**（Chief Product & AI Officer） |
+| **发布** | 2026-08-10　｜　**时长** 约 37 分钟 |
+| **本页所据** | 节目官方页要点、14 段章节时间轴、若干可核对的逐字稿引语 |
 
-但它有一个别家没有的条件：**拉美没有现成的基础设施**。用 Alejandro 的话说——
+**Kavak** 是拉美最大的二手车交易平台，墨西哥起家，做的是**买车、翻新、卖车、做车贷**。
+
+它有一个别家没有的条件：**拉美没有现成的基础设施**。用 Alejandro 的话说——
 
 > "We also had to build a fintech and a logistics company and the Carfax… basically all the infrastructure for this to work didn't exist in LatAm. So we had to build everything vertically."
 >
 > 「我们还得自己造一家金融科技公司、一家物流公司，还有自己的 Carfax 式检测体系……因为让这件事成立的全部基础设施，在拉美根本不存在。所以我们只能把一切都垂直自建。」
 
-这件事的结果是：**没有一个环节外包，所有数据都在自己手里**。这也解释了为什么这套转型发生在一家二手车公司，而不是一家科技公司——**它的行业「低数字化」，反而成了重构阻力最小的试验场**。
-
-这家公司值得看的地方在于：它不是 OpenAI、Anthropic 那种生来就在 AI 里的公司，而是一家**普通的交易型公司**，却把自己**重建成了一家由 Agent 运营的公司**——并且是目前**少数公开了经营数字的样本**。
+因为这些能力都得自己造，**没有一个环节外包**。这一集访谈讲的，就是这家公司怎么把自己的组织结构围绕 Agent 重做了一遍。
 
 ---
 
-## 二、三个赌注：不是给旧公司装 AI，而是重建公司
+## 二、三个决定：围绕 Agent 重建公司
 
-a16z 官方页对这一段的概括很直白：Kavak 认为「**仅仅给员工发 AI 工具是不够的**」，于是**把公司的系统、团队与客户体验围绕 Agent 重新设计了一遍**。
+在这一段里，Kavak 的立场是「**仅仅给员工发 AI 工具是不够的**」，于是**把公司的系统、团队与客户体验围绕 Agent 重新设计了一遍**。
 
 Alejandro 用的词是「赌」：
 
@@ -38,7 +41,7 @@ Alejandro 用的词是「赌」：
 >
 > 「我们把整家公司押了上去，就为了转成一家**由 Agent 运营的公司**。」
 
-而他真正拿来问自己的，不是「我们哪里能加 AI」，而是一个反向问题：
+他拿来问自己的，不是「我们哪里能加 AI」，而是一个反向问题：
 
 > "The question we ask ourselves is: how would we build Kavak in 2035, with Fable 10 or GPT 10 level intelligence?"
 >
@@ -60,13 +63,13 @@ Alejandro 用的词是「赌」：
 
 **第三个决定：换一套衡量体系。** Kavak 原本是一家**交易型**公司——盯的是买了几辆车、卖了几辆车、要买多少刹车片。转型后它成了**关系型**公司：数据库里有一千万客户，每人配一个 Agent，**唯一的考核目标是这个客户的终身价值**。
 
-| 三个赌注 | 他原话里的说法 |
+| 三个决定 | 他原话里的说法 |
 |---|---|
 | 重建公司，而非加装工具 | 不改结构只发 ChatGPT／Claude ＝ 什么都不会发生 |
 | 造出「超过最好员工」的 Agent | 把 Agent 放到客户面前、拿评测、再训练 |
 | 从交易型指标换成关系型指标 | 从「卖了几辆车」换到「这个客户的终身价值」 |
 
-**还有一个不太好听的细节**：这条路不是一次做成的。主持人在节目里直接说，Kavak 在转型中「**不得不大幅收缩**」，而且「**第一年根本没跑通**」。Alejandro 没有否认，也没有给数字——他只是说，黑客松、赞助用例、自下而上的采纳，这些替代方案「**都行不通**」。
+**这条路不是一次做成的**：主持人在节目里直接说，Kavak 在转型中「**不得不大幅收缩**」，而且「**第一年根本没跑通**」。Alejandro 没有否认，也没有给数字——他只是说，黑客松、赞助用例、自下而上的采纳，这些替代方案「**都行不通**」。
 
 ---
 
@@ -97,7 +100,7 @@ Alejandro 用的词是「赌」：
 
 ---
 
-## 四、要做就做超过最好员工的 Agent
+## 四、超人类的 Agent
 
 Kavak 一开始就没打算做一个「够用」的 Agent：
 
@@ -105,13 +108,7 @@ Kavak 一开始就没打算做一个「够用」的 Agent：
 >
 > 「我们可以造出**超人类的 Agent**——意思是，在**每一个我们在意的维度上，Agent 的表现都超过我们雇过的最好的那个人**。」
 
-这件事为什么第一次可能成立？因为**最优秀的销售也会累、会忘、会情绪不好**，他不可能记住几百万个客户，也不可能同时是汽车专家、贷款专家、保险专家、金融专家。而 Agent 可以：**无限耐心、记得全部历史、永不疲惫，并且同时装着十几个专家的知识**。
-
-更关键的一点是规模效应的性质变了：
-
-> 一个人的经验只属于那一个人；**一个 Agent 犯了一次错、学会了一件事，第二天几十万个 Agent 可以同时学会。**
-
-用他的话说，**工业革命复制的是肌肉，软件复制的是流程，而 Agent 开始复制的是判断和经验**。
+他给的对照是：再好的销售也会累、会忘、会情绪不好，也记不住几百万个客户，更不可能同时是汽车专家、贷款专家、保险专家、金融专家；而 Agent 可以同时装着这些知识，并且不疲惫。
 
 Kavak 公开的几组数字（均为自述，见编者注）：
 
@@ -129,37 +126,31 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 
 > "We never built customer support or customer service agents. We built sales agents… the way Kavak did it back in 2020, 2021, you needed to be extremely good at 15 different things and have 15 different experts in 15 different teams… The first thing we did was, can we get an agent to be better than the expert in each of these things? And then put it together — a mega expert."
 
-「在拉美卖一辆车极难：客户要在两万个 SKU 里挑，还要选融资、走完贷款流程、配保险，多半还要把旧车折价卖回给我们。」所以他们的第一步是：**先让 Agent 在每一件事上都超过那个领域的专家，再把它们合成一个「超级专家」，然后把它放到客户面前。**
-
-**Kavak 的 Agent 不是「AI 副驾驶」，而是「AI 销售员」。**
+他说，在拉美卖一辆车极难：客户要在两万个 SKU 里挑，还要选融资、走完贷款流程、配保险，多半还要把旧车折价卖回给公司。所以他们的第一步是——**先让 Agent 在每一件事上都超过那个领域的专家，再把它们合成一个「超级专家」，然后把它放到客户面前**。
 
 ---
 
-## 五、Evals 是刹车：和造 Agent 花一样多的力气
+## 五、Evals：和造 Agent 花一样多的投入
 
-企业不敢让 Agent 真的干活，很多时候不是 AI 不够聪明，而是**你不知道它到底干得好不好**。Kavak 在评测上的投入，几乎和做 Agent 本身一样多：
+Kavak 在评测上的投入，几乎和做 Agent 本身一样多：
 
 > "We spend about the same amount of engineering time, tokens, and money on building evals as on building agents. We measure business results first — like whether the customer converted — not superficial KPIs like call minutes. This approach lets us move fast because we have the right brakes."
 >
 > 「我们在**评测上投入的工程时间、Token 与钱，和造 Agent 差不多**。我们先量业务结果——比如客户到底转化了没有——而不是像通话时长那种漂亮的表面指标。这套做法让我们能跑得快，**因为我们有对的刹车**。」
 
-底本把这句话的意译写成「想踩油门你得先有刹车」——意思不错，但那**不是他的原话**（见编者注）。
-
-那什么才算「业务结果」？**车卖出去没有、贷款批下来没有、客户回来没有、利润提高没有。** 而这套标准不只用于评测，也一路贯到管理上——一句话概括就是：**不要考核 AI 有多忙，要考核 AI 创造了什么结果。**
+他说的「业务结果」，指的是**车卖出去没有、贷款批下来没有、客户回来没有、利润提高没有**——而不是通话时长那类表面指标。
 
 ---
 
-## 六、人机反转：Agent 是任务的主人，人是它调用的能力
+## 六、Agent 撞墙时，调用一个 API
 
-企业里最常见的「人在环中」（human in the loop）设计是：**AI 不行了就转人工**。Kavak 发现这个设计有个大漏洞——**Agent 一旦把问题扔给人，它就丢掉了这个任务，学习闭环也就断了。**
-
-所以他们把它反过来：**Agent 遇到解决不了的问题，不退出，而是调一个 API 求助——而 API 另一头接的，可能是一个人。**
+常见的人在环（human in the loop）设计是「**AI 不行了就转人工**」；Kavak 的说法是，Agent 一旦把问题扔给人，它就丢掉了这个任务，学习闭环也断了。所以他们的做法相反——**Agent 遇到解决不了的问题不退出，而是调一个 API 求助，而 API 另一头接的，可能是一个人**。
 
 > "If an agent hits a wall, it calls an API for help, and a human assists. This closes the loop and generates data to train the agent."
 >
 > 「如果 Agent 撞了墙，它会调用一个 API 求助，然后由人来协助。**这样闭环才闭合，也才产生出可以训练 Agent 的数据。**」
 
-也就是说，**Agent 仍然是这个任务的 owner，人只是它调用的一种能力。** 有人把它画成组织图之后发现，说法整好相反：
+在这套设计里，Agent 仍然握着这个任务，人只是它调用的一种能力。而把这套关系画成组织图，得到的说法正好相反：
 
 > "If you map this out in an org chart, it's really human teams that have an agent."
 >
@@ -181,31 +172,27 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 
 ---
 
-## 七、推倒重建：模型越聪明，架构越薄
+## 七、推倒重来：把两年的系统删掉
 
-这条访谈里认知门槛最高的一段，是 Kavak **把自己已经跑通的系统删掉重来**。
+Kavak 还做了一件事：**把自己已经跑通的系统删掉重来**。
 
 > "We initially built multi-agent systems that could perform whole functions… We had **tens of thousands** of these agents running the business by December. But when **Opus 4.5** came out, I realized **the graph and multi-agent lattice work would constrain the new level of intelligence**. So we **destroyed everything we had built for two years** and started over with a virtual machine harness, where each agent has access to memory, evals, and a CLI to access every tool and API in the company."
 >
 > 「我们最初造的是多 Agent 系统……到 12 月已经**有几万个**这样的 Agent 在跑业务。但 **Opus 4.5** 出来之后，我意识到**那套图结构与多 Agent 网格，反而会限制新的智力水平**。所以我们**把两年里造的东西全推倒了**，改用一台虚拟机作为骨架——每个 Agent 都能访问记忆、评测，以及一个能调起全公司工具与 API 的命令行。」
 
-他说得最重的一句是这句：
+他自己的说法是：
 
 > "We decided to **destroy everything we had been building for two years** that was working — that brought us to profitability, that brought us amazing growth — and start over with a harness we thought would be robust and scalable."
 >
 > 「我们决定**推倒两年里建起来的一切**——它是有效的，它把我们带到了盈利，带来了惊人的增长——然后用一个我们认为更稳、更能扩展的骨架从头再来。」
 
-这套新骨架长这样：**给 Agent 一台虚拟机，给它记忆、评测、公司的 API 与工具，再给它一个长期目标，然后让它自己想辙。** 原因是他观察到的一条反比：
-
-> **模型越聪明，你替它写死的步骤就越是拖累；所以未来的功夫不在「你替 AI 设计了多少步」，而在「你能不能给它正确的目标、足够的上下文、真实的工具、清晰的权限，以及持续的反馈」。**
-
-（底本在这里下的判断是「**模型越聪明，workflow 可能越薄**」——方向一致，但那是底本作者自己的概括，不是他的原话，见编者注。）
+这套新骨架是：**给 Agent 一台虚拟机，连同记忆、评测与全公司的工具、API，再给它一个长期目标，让它自己想办法。**
 
 ---
 
 ## 八、从一支 Agent 的 CEO，到一所 Jedi Academy
 
-聊到「AI 到底能不能干领导层的活」时，Kavak 干脆试了一把：**把一个城市交给一个 Agent 当 CEO。**
+节目里谈到「AI 能不能干领导层的活」，Kavak 的做法是：**把一个城市交给一个 Agent 当 CEO。**
 
 > "We carved out a city in Mexico — Cuernavaca — and we put an agent in one of our harnesses as a CEO… It's only been running for six weeks now. The goal of the first month was to **double the profits**. It didn't reach it, but it was **1.5x — like 50％ more profits** — just by managing the city… People were like, that was the last job AI was supposed to take. And no, it isn't really."
 >
@@ -219,19 +206,19 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 >
 > 「我们在 Kavak 内部开了一个项目，叫 **Jedi Academy**。从 CEO 到 AI 工程师再到技师，**所有人都要训**。六周之后，他们能把最先进的 Agent 发到生产环境。」
 
-代价是：**要么学会，要么离开。**
+代价是：要么学会，要么离开。
 
 > "You have the choice to train and get the skills to perform in this new reality… Or maybe leave Kavak if this is not for you. But this is the way we're going."
 >
 > 「你有两个选择：学会它，在新现实里干活；或者，如果这不适合你，离开 Kavak。**但这就是我们要走的路。**」
 
-训练的结果是组织变了个样——**团队很平、成员很资深、授权极大**；而在 2020 或 2022 年，**没有人会造 Agent，更没有人会听 Agent 的指挥。**
+训练后的组织形态也变了样——**团队很平、成员很资深、授权极大**；而在 2020 或 2022 年，没有人会造 Agent，更没有人会听 Agent 的指挥。
 
 ---
 
-## 九、Token 分三档：先量清楚每一分钱
+## 九、Token 分三档
 
-给大机构领导者的建议，他给的是两条，一条管方向，一条管钱。
+给大机构领导者的建议，他给了两条：一条管方向，一条管钱。
 
 > "Two things. First, it has to be **top-down**… Leaders have to have a very clear plan on what to build… I've seen so many companies that's just like, we're doing a **hackathon**, people are coming up with use cases, we're sponsoring some of these use cases — **that doesn't work**."
 >
@@ -255,11 +242,11 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 
 ---
 
-## 十、在位者为什么做不到：创造性破坏与那台发电机
+## 十、创造性破坏：那台发电机与福特那座工厂
 
-访谈最后拐到了经济学——他搬出了 **熊彼特（Joseph Schumpeter）的创造性破坏**：
+访谈最后谈的是经济学——他提到 **熊彼特（Joseph Schumpeter）的创造性破坏**：
 
-> "There's this concept in economics about **creative destruction** from Joseph Schumpeter… It's hard to adopt AI deeply. It's really hard for a CEO today — especially of a large company or public company — to go and say: **Hey, I'm betting everything on AI. The company has to look this way. I'll destroy and rebuild everything I've been building for the past 40 years to become an AI-native company**——所以就在他们在位子上慢慢采纳的时候，**围绕 AI 优势新建的公司可以长起来，然后接管市场。**」
+> "There's this concept in economics about **creative destruction** from Joseph Schumpeter… It's hard to adopt AI deeply. It's really hard for a CEO today — especially of a large company or public company — to go and say: Hey, I'm betting everything on AI. The company has to look this way. I'll destroy and rebuild everything I've been building for the past 40 years to become an AI-native company."
 >
 > 「经济学里有个概念叫**创造性破坏**……**深度采纳 AI 是极难的**。今天一个 CEO——尤其是大公司或上市公司的 CEO——很难站出来说：『我把一切都押在 AI 上。公司必须变成这个样子。**我要推倒我过去 40 年建起来的一切，重新变成一家 AI 原生公司。』**所以就在他们在位子上慢慢采纳的时候，**围绕 AI 优势新建的公司可以长起来，然后接管市场。**」
 
@@ -269,19 +256,19 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 >
 > 「当时该做的是：**把那座工厂拆掉**，在一块平地上重建——不是建在纽约市中心，而是建到康涅狄格或者新泽西去——然后**围绕小型发电机和电力，把整座工厂重新设计一遍**。这样你才能拿到那个**把 20 世纪美国托起来的三倍生产力提升**。」
 
-爱迪生那台高效发电机在 1880 年代就已经在纽约和伦敦商用了，**技术等了几十年**；而多数工厂主做的事，只是**把烧煤的引擎换成电动机，厂房还是那座厂房**——于是只拿到大约 **6％** 的效率。用他的话说，「**你本来可以比福特早四十年建出福特那座工厂。**」
+爱迪生那台高效发电机在 1880 年代就已经在纽约和伦敦商用了，**技术等了几十年**；而多数工厂主做的事，只是**把烧煤的引擎换成电动机，厂房还是那座厂房**——于是只拿到大约 **6％** 的效率。他补了一句：「你本来可以比福特早四十年建出福特那座工厂。」
 
 > "Companies are swapping the coal engine for the electric engine."
 >
 > 「今天的公司，正在**把烧煤的引擎换成电动机**。」
 
-所以节目真正的落点，不是「AI 什么时候能自我进化」，而是：
+访谈收在这里：
 
 > "Economic value in humanity for the past 4,000 years **has been delivered by organizations, not by individuals**. So what you want to self-improve **is the organization**."
 >
 > 「过去四千年里，人类的经济价值**是由组织、而不是由个人交付的**。所以你要让它自我改进的东西——**是组织本身。**」
 
-**节目的名字就叫《自我改进的公司》**：模型会自我进化，但企业真正该问的是——**公司什么时候能自我进化？**
+节目的名字就叫《The Self-Improving Company》（自我改进的公司）。
 
 ---
 
@@ -345,17 +332,17 @@ Kavak 公开的几组数字（均为自述，见编者注）：
 
 3. **底本的几处笔误（均已在本页改正，留痕存档）**：①「**Ava** 捕捉问题」——同段前文写的是 **Eval**，此处应为 Eval 的转写错误；②「Kavak **比原来**其实也做了大量 multi agent workflow graph」——「比原来」应为「**本来**」；③「**开发**现在很多团队基本就三类工作」——「开发」为衍字；④ 底本说工厂当年是「把**蒸汽机**换成电动机」——原件说的是**把烧煤的引擎换成电动机**。
 
-4. **数字口径，请带着折扣读。** ① 本集全部经营数字（96％／95％／10–20 万／2.1 倍／三倍 NPS／3 分钟／1000 万客户）**均为高管在风投播客上的自述，未经审计、未给定义与基线**；② **2.1 倍没有基线**——是对哪一批人工、在多长时间窗、线索如何分配，都未说明，且漏斗由公司自己掌握；③ **「利润 50％」要写准**——是**首月做到 1.5 倍（＋50％），对 2 倍的目标**，且**只有一座城市、六周、没有对照组**；④ 底本说「96％ 的客户互动」「95％ 的交易流程」，与原件一致，可放心用。
+4. **数字口径。** ① 本集全部经营数字（96％／95％／10–20 万／2.1 倍／三倍 NPS／3 分钟／1000 万客户）**均为高管在风投播客上的自述，未经审计、未给定义与基线**；② **2.1 倍没有基线**——是对哪一批人工、在多长时间窗、线索如何分配，都未说明，且漏斗由公司自己掌握；③ **「利润 50％」要写准**——是**首月做到 1.5 倍（＋50％），对 2 倍的目标**，且**只有一座城市、六周、没有对照组**；④ 底本说「96％ 的客户互动」「95％ 的交易流程」，与原件一致，可放心用。
 
-5. **底本漏收、但本集分量很重的几件事**：**库埃纳瓦卡的 AI CEO 实验**、**技师副手 Agent 与保修索赔下降**、**Jedi Academy 全员再训练**、**Token 分三档算 ROI**、**「6％ 效率」这个说法**、**熊彼特与爱迪生／福特那套类比**，以及**「必须自上而下、黑客松没用」这条判断**。这些都不该丢，已补入正文。
+5. **底本漏收、但本集分量很重的几件事**：**库埃纳瓦卡的 AI CEO 实验**、**技师副手 Agent 与保修索赔下降**、**Jedi Academy 全员再训练**、**Token 分三档算 ROI**、**「6％ 效率」这个说法**、**熊彼特与爱迪生／福特那套类比**，以及**「必须自上而下、黑客松没用」这条判断**。以上均已补入正文。
 
 6. **语音转写噪声（已按上下文校正）。** 本集逐字稿为语音转写件，人名机构名多有错：Kavak 被转成 Kabag／Kabak／Kovac／Quebec，Oppy Analytics 转成 **Opi Analytics**，ChatGPT 转成 **Chad GPT**，库埃纳瓦卡 **Cuernavaca** 转成 Cuba，技师副手 Agent 的名字在 **El Mic ／ El Mike** 之间摆动（本页保留两写）。凡此类，本页按公开报道校正，不臆补。
 
 7. **两处容易读错的归属。** ①「**想踩油门你得先有刹车**」是底本对 he said「we have the right brakes」的**意译**，不是原话；②「**模型越聪明，workflow 可能越薄**」是**底本作者自己的判断**——他的原话指向的是「harness 更薄、约束更少」（见第七节），方向一致但不是他的词。③ 同理，「**AI 真正淘汰的不是员工而是公司**」是底本的标题式概括；他本人的说法是**创造性破坏与「AI 原生新公司接管市场」**。
 
-8. **一处需要点明的诚实**：Kavak 的**当前经营状况并未披露**。「带我们到盈利」那句话说的是**他们后来推倒的那套旧系统**；节目里还明确提到转型期**「不得不大幅收缩」且「第一年没跑通」**。这条**比任何数字都更值得记住**——它说明这套转型不是一次顺利的升级。
+8. **一处需要点明的事实**：Kavak 的**当前经营状况并未披露**。「带我们到盈利」那句话说的是**他们后来推倒的那套旧系统**；节目里还明确提到转型期**「不得不大幅收缩」且「第一年没跑通」**。这条与「转型顺利」的印象相反，读上面的数字时请一并记住。
 
-9. **与隔壁三页对照着读**：[OpenAI 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md) 是一家**工具公司**怎么用 Agent 造工具；[Anthropic 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md) 是一家**模型公司**怎么用 Agent 造下一代模型；[麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md) 是一家**靠人赚钱的服务企业**怎么把 Agent 接进运转。Kavak 是第四种：一家**普通交易型公司**，把整家公司的组织结构围绕 Agent 重做了一遍——**前三家都在「用 AI 做事」，这家是在「用 AI 改公司本身」。**
+9. **与隔壁三页对照着读**：[OpenAI 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md) 是一家**工具公司**怎么用 Agent 造工具；[Anthropic 内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md) 是一家**模型公司**怎么用 Agent 造下一代模型；[麦肯锡内部怎么用 AI](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md) 是一家**靠人赚钱的服务企业**怎么把 Agent 接进运转。Kavak 是第四种：一家**普通交易型公司**，把整家公司的组织结构围绕 Agent 重做了一遍。
 
 ---
 
