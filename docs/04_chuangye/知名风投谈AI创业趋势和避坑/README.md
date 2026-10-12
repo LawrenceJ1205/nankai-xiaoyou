@@ -101,6 +101,9 @@
 | Fall 2026 Request for Startups：官方 13 个主题 | YC 官方 · 2026-07 | 04 创业 / 小南创吧 · 选题参考 |
 | 外联销售的 8 个改进法（8 Ways To Improve Your Outbound Sales） | YC 官方播客 · 2026-09-13 | 04 创业 / 小南创吧 · 选题课 |
 | 机器人使用智能体：通用模型为何可能赢下机器人（Robot-Use Agents: Why General-Purpose Models May Win in Robotics） | YC 官方播客 · Decoded · 2026-09-26 | 04 创业 / 03 新知 |
+| 让 32000 名工程师像初创公司一样跑：思科的 AI 基建与 Agent 安全（How Jeetu Patel Runs Cisco Like the World's Largest Startup） | YC 官方播客 · 2026-10-08 | 07 允能南开人 / 04 创业 |
+| AI 原生服务公司怎么做：选市场四特征、按结果定价与损益表（How to Build an AI-Native Services Company） | Startup School · 2026-06-03 | 04 创业 / 小南创吧 · 选题课 |
+| 好公司为什么会腐化：股东至上、AB 股日落与使命控制（How The Best Companies Defend Against Mediocrity And Rot） | Main Function · Garry Tan × Eric Ries · 2026-05-25 | 07 允能南开人 / 04 创业 |
 
 ---
 
