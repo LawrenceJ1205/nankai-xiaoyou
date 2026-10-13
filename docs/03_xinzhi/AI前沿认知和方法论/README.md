@@ -16,7 +16,7 @@
 | 8 | **Dario：AI 重写工作的三层价值迁移** | 平滑的指数 · 护城河重新定价 · 前沿溢价（**含底本 × 原件对勘**） | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
 | 9 | **Linda Hill（哈佛商学院教授）：权力的迁移** | Wayfinding · 微型 CEO · 决策权设计（**原文＋千问评论，含核查**） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
 | 10 | **Tibo（OpenAI）：交互的变革** | Agent 时代的产品与分发 · 留存即分发 · 护城河＝脚手架（**原文照录、只分段**，底本千问评论层不收录） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md) |
-| 11 | **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」** | Almost Possible 清单 · 敢试也要敢停 · 每家公司都得像实验室一样运作（**原文照录、只分段**） | [→](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md) |
+| 11 | **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」** | Almost Possible 清单 · 敢试也要敢停 · 每家公司都得像实验室一样运作（**照录访谈转述 · 十二节导读小标题**） | [→](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md) |
 
 ## 🧭 怎么读
 
