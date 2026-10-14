@@ -14,7 +14,7 @@
 
 | # | 板块 | 内容 |
 |---|---|---|
-| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
+| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**、**吴恩达：AI 正在重新给人的能力定价**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
 | 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / Obsidian / Codex 等开箱即用教程 |
 | 3 | 🎓 **公开课候选导师池** | 校内学者（赵新、李文宇等）+ 校友实践者 + 海外专家（[点击进入](03_xinzhi/公开课导师候选池·新知小讲堂.md)） |
 | 4 | 💬 **淘知精选 10 问** | 每期课程配套 10 问思辨（淘知吧出品）|
@@ -119,7 +119,7 @@
 
 > 全球一线 AI 领袖与顶级机构的公开认知与方法论，已辑成一册——**先建认知框架，再学工具技能**。
 
-- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**11 篇**：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / Dario：AI 重写工作的三层价值迁移 / Linda Hill：权力的迁移 / Tibo（OpenAI）：交互的变革 / **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**（每家公司都得像实验室一样运作 · **照录访谈转述 · 十二节导读小标题**）
+- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**12 篇**：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / Dario：AI 重写工作的三层价值迁移 / Linda Hill：权力的迁移 / Tibo（OpenAI）：交互的变革 / **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**（每家公司都得像实验室一样运作 · **照录访谈转述 · 十二节导读小标题**）/ **吴恩达：AI 正在重新给人的能力定价**（**照录转述 · 只分段**）
 
 ---
 

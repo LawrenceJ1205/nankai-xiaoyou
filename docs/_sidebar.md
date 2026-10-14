@@ -136,6 +136,7 @@
       - [Linda Hill（哈佛商学院教授）：权力的迁移与AI时代的领导力](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md)
       - [Tibo（OpenAI）：交互的变革](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md)
       - [Josh Woodward（Google Labs）：全栈高手可能是个陷阱](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md)
+      - [吴恩达：AI 正在重新给人的能力定价](03_xinzhi/AI前沿认知和方法论/吴恩达·AI重新给人定价.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
       - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)
