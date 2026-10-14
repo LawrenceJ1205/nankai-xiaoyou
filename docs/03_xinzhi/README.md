@@ -14,7 +14,7 @@
 
 | # | 板块 | 内容 |
 |---|---|---|
-| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**、**吴恩达：AI 正在重新给人的能力定价**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
+| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**、**吴恩达：AI 正在重新给人的能力定价**、**吴恩达：当写代码快 100 倍，瓶颈会转移到哪里**、**李飞飞：从 ImageNet 到世界模型**、**Allie K. Miller：一小时搭出 AI 第二大脑**、**Aaron Levie（Box）：AI 的价值在应用层**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
 | 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / Obsidian / Codex 等开箱即用教程 |
 | 3 | 🎓 **公开课候选导师池** | 校内学者（赵新、李文宇等）+ 校友实践者 + 海外专家（[点击进入](03_xinzhi/公开课导师候选池·新知小讲堂.md)） |
 | 4 | 💬 **淘知精选 10 问** | 每期课程配套 10 问思辨（淘知吧出品）|
@@ -77,6 +77,11 @@
 | Linda Hill（哈佛商学院教授） · 权力的迁移 | Wayfinding / 微型 CEO / 决策权设计（原文＋千问评论，含核查） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
 | Tibo（OpenAI） · 交互的变革 | Agent 时代的产品与分发 / 留存即分发 / 护城河＝脚手架（原文照录、只分段） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md) |
 | Josh Woodward（Google Labs） · 全栈高手可能是个「陷阱」 | Almost Possible 清单 / 敢试也要敢停 / 每家公司都得像实验室一样运作（照录访谈转述 · 十二节导读小标题） | [→](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md) |
+| 吴恩达 · AI 正在重新给人的能力定价 | 产品管理瓶颈 / 上下文优势 / 主动性 / 认知卸载（照录转述、只分段） | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·AI重新给人定价.md) |
+| 吴恩达 · 当写代码快 100 倍，瓶颈会转移到哪里 | 一切环节都成瓶颈 / 一到十人通才小队 / 构建模块 / 自下而上 vs 自上而下（照录完整对话、只分段） | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·瓶颈转移到哪里.md) |
+| 李飞飞 · 从 ImageNet 到世界模型 | AI 的来路 / 2012 三件套 / AGI 是营销术语 / 世界模型与空间智能（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/李飞飞·从ImageNet到世界模型.md) |
+| Allie K. Miller · 一小时搭出 AI「第二大脑」 | 四个 Claude / 三份文档 / skill 即工具箱 / 「AI 是实习生」不对（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/AllieMiller·一小时搭出AI第二大脑.md) |
+| Aaron Levie（Box） · AI 的价值在应用层 | 应用层 vs 模型层 / Token 补贴是暂时的 / workslop / 聊天框 vs 后台流程（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/AaronLevie·AI的价值在应用层.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 | 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |
@@ -119,7 +124,7 @@
 
 > 全球一线 AI 领袖与顶级机构的公开认知与方法论，已辑成一册——**先建认知框架，再学工具技能**。
 
-- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**13 篇**：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / Dario：AI 重写工作的三层价值迁移 / Linda Hill：权力的迁移 / Tibo（OpenAI）：交互的变革 / **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**（每家公司都得像实验室一样运作 · **照录访谈转述 · 十二节导读小标题**）/ **吴恩达：AI 正在重新给人的能力定价**（**照录转述 · 只分段**） / **吴恩达：当写代码快 100 倍，瓶颈会转移到哪里**（**照录完整对话 · 只分段**）
+- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**16 篇**：AI 时代生存指南 / MIT NotebookLM 学习法 / Anthropic 多智能体 / Palantir / 红杉 ×2 / YC AI 原生公司 / Dario：AI 重写工作的三层价值迁移 / Linda Hill：权力的迁移 / Tibo（OpenAI）：交互的变革 / **Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**（每家公司都得像实验室一样运作 · **照录访谈转述 · 十二节导读小标题**）/ **吴恩达：AI 正在重新给人的能力定价**（**照录转述 · 只分段**） / **吴恩达：当写代码快 100 倍，瓶颈会转移到哪里**（**照录完整对话 · 只分段**） / **李飞飞：从 ImageNet 到世界模型**（**依一手原件整理**）/ **Allie K. Miller：一小时搭出 AI「第二大脑」**（**依一手原件整理**）/ **Aaron Levie（Box）：AI 的价值在应用层**（**依一手原件整理**）
 
 ---
 
