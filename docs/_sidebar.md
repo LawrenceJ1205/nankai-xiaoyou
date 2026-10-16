@@ -141,6 +141,7 @@
       - [李飞飞：从 ImageNet 到世界模型](03_xinzhi/AI前沿认知和方法论/李飞飞·从ImageNet到世界模型.md)
       - [Allie K. Miller：一小时搭出 AI 第二大脑](03_xinzhi/AI前沿认知和方法论/AllieMiller·一小时搭出AI第二大脑.md)
       - [Aaron Levie（Box）：AI 的价值在应用层](03_xinzhi/AI前沿认知和方法论/AaronLevie·AI的价值在应用层.md)
+      - [Sal Khan（可汗学院）：AI 机会藏在最无聊的行业](03_xinzhi/AI前沿认知和方法论/SalKhan·AI机会藏在最无聊的行业.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
       - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)
