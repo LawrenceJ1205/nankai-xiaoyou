@@ -104,6 +104,10 @@
 | 让 32000 名工程师像初创公司一样跑：思科的 AI 基建与 Agent 安全（How Jeetu Patel Runs Cisco Like the World's Largest Startup） | YC 官方播客 · 2026-10-08 | 07 允能南开人 / 04 创业 |
 | AI 原生服务公司怎么做：选市场四特征、按结果定价与损益表（How to Build an AI-Native Services Company） | Startup School · 2026-06-03 | 04 创业 / 小南创吧 · 选题课 |
 | 好公司为什么会腐化：股东至上、AB 股日落与使命控制（How The Best Companies Defend Against Mediocrity And Rot） | Main Function · Garry Tan × Eric Ries · 2026-05-25 | 07 允能南开人 / 04 创业 |
+| AI 安全：事实与虚构——形式化验证、运行时监控与压力测试怎么用于 agent 上线（AI Safety Fact vs. Fiction） | YC Paper Club · Francois Chaubard × 斯坦福 Michael Kochenderfer、Clark Barrett · 2026-10-17 | 03 新知 / 04 创业 |
+| 为每个人造 AI 智能体：Gumloop 的 1100 通客户电话与 IT 管控解法（Building AI Agents for Everyone） | Founder Firesides · Gumloop 联创 × YC 合伙人 Gustaf Alströmer · 2026-10-02 | 04 创业 / 小南创吧 · 选题课 |
+| AI 知识工作者的训练场：编码之外的 RL 环境与基准怎么做（The Training Ground for AI Knowledge Workers） | Founder Firesides · Halluminate 联创 × YC 合伙人 Jon Xu · 2026-10-01 | 04 创业 / 03 新知 |
+| 每个创始人都该懂的机器学习方法：扩散模型（The ML Technique Every Founder Should Know） | YC Decoded · Ankit Gupta × Francois Chaubard · 2026-09-26 | 03 新知 / 07 允能南开人 |
 
 ---
 
