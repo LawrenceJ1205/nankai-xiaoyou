@@ -143,7 +143,7 @@
       - [Aaron Levie（Box）：AI 的价值在应用层](03_xinzhi/AI前沿认知和方法论/AaronLevie·AI的价值在应用层.md)
       - [Sal Khan（可汗学院）：AI 机会藏在最无聊的行业](03_xinzhi/AI前沿认知和方法论/SalKhan·AI机会藏在最无聊的行业.md)
       - [Tibo（OpenAI）：AI 的瓶颈在搬家](03_xinzhi/AI前沿认知和方法论/Tibo·AI的瓶颈迁移.md)
-      - [钛动科技：能自主经营关系的 AI](03_xinzhi/AI前沿认知和方法论/钛动科技·能自主经营关系的AI.md)
+      - [能自主经营关系的 AI：两家公司](03_xinzhi/AI前沿认知和方法论/钛动科技·能自主经营关系的AI.md)
       - [新的收费站：AI 重新定价商业世界](03_xinzhi/AI前沿认知和方法论/新的收费站·AI重新定价商业世界.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
