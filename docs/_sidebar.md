@@ -82,19 +82,24 @@
   - <span class="nk-gap"></span>
   - **🔍 我的南开家园** 🆕
     - [板块首页](02_jiayuan/README.md)
-    - **🌐 南开公社**（聊吧）
-      - [🏠 公社首页](02_jiayuan/gongshe/README.md)
+    - **✍️ 我的南开故事**
+      - [李力 · 南开往事（86 金融）](02_jiayuan/gongshe/seed_李力_南开往事.md)
+      - [👉 提交 500 字故事（金数据表单）](https://twpitpbt.jsjform.com/f/yPYC7g)
+    - **📍 我的南开风采短视频墙** 🆕
+      - [👉 上传短视频（金数据表单）](https://twpitpbt.jsjform.com/f/xDa0g0)
+    - **🌐 南开公社聊吧**
+      - [🏠 公社首页 · 入群方式](02_jiayuan/gongshe/README.md)
       - [🎂 107 周年校庆 · 各地校友会活动播报](02_jiayuan/gongshe/107周年校庆·各地校友会活动.md) 🆕
-      - **✍️ 我的南开故事**
-        - [李力 · 南开往事（86 金融）](02_jiayuan/gongshe/seed_李力_南开往事.md)
-    - [✨ 参加线上线下兴趣小组](02_jiayuan/兴趣小组/README.md) 🆕
+    - **💼 专业南开人**（跨地区专业交流群）🆕
+      - [📋 栏目首页 · 方向名单与建群机制](02_jiayuan/专业南开人/README.md)
+      - [👉 发起或加入专业群（金数据表单）](https://twpitpbt.jsjform.com/f/TaiNOa)
+    - **✨ 参加线上线下兴趣小组** 🆕
+      - [📋 兴趣小组总览 · 建群机制](02_jiayuan/兴趣小组/README.md)
+      - [👉 报名参加（金数据表单）](https://twpitpbt.jsjform.com/f/aRlwy5)
       - [🏃 慢跑](https://twpitpbt.jsjform.com/f/fkkulD)
       - [🖌️ 书法·绘画](https://twpitpbt.jsjform.com/f/sTtFxJ)
       - [🏓 乒乓球](https://twpitpbt.jsjform.com/f/DSDAxS)
       - [🏸 羽毛球](https://twpitpbt.jsjform.com/f/VfmEbm)
-    - **💼 专业南开人**（跨地区专业交流群）🆕
-      - [📋 栏目首页 · 方向名单与建群机制](02_jiayuan/专业南开人/README.md)
-      - [👉 发起或加入专业群（金数据表单）](https://twpitpbt.jsjform.com/f/TaiNOa)
     - **📖 读书汇**（南开人的人文地平线）🆕
       - [📁 栏目首页 · 1000 字模板与投稿](02_jiayuan/读书汇/README.md)
       - [张一鸣荐读 ·《活法》拆解](02_jiayuan/读书汇/张一鸣荐读·活法·稻盛和夫.md)
