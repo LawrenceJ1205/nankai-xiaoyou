@@ -21,7 +21,7 @@
 > 在 [🔍 我的南开家园](02_jiayuan/README.md)，六扇门都为你开着：① 用 [✍️ 我的南开故事](02_jiayuan/gongshe/README.md) 写下 500 字的南开记忆；② 文字不过瘾，就上 [📍 我的南开风采短视频墙](02_jiayuan/README.md) 贴一段南开记忆短视频，与全南开的校友分享；③ 想了解南开的最新动态，进 [🌐 南开公社聊吧](02_jiayuan/gongshe/README.md) 与各院系南开达人直接互动；④ [💼 专业南开人](02_jiayuan/专业南开人/README.md) 按专业建群，从校友处成同行；⑤ [✨ 兴趣小组](02_jiayuan/兴趣小组/README.md) 按城市建群，把校友处成邻居；⑥ 再到 [📖 读书汇](02_jiayuan/读书汇/README.md)——南开人的人文地平线，写一篇 1000 字读后感，一本一投。
 
 > 🤖 **AI 的浪潮汹涌来袭，南开人准备好了吗？**  
-> 「[新知小讲堂](03_xinzhi/README.md)」不卖焦虑，小友帮您打开六扇应对法门：想**问**，去 [🌟 淘知吧](03_xinzhi/taozhi/README.md)（本板块聊吧，配「淘知精选 10 问」）；想**听**，[🎤 小讲堂开课了](03_xinzhi/README.md#小讲堂开课了-)（想分享实操干货也在这里恭迎大驾）；想**读**，想跟上 AI 最新实践，请细品 [🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md) 的 20 余篇；想**做**，跟 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)；想**修**身，不妨读一读 [🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)；想**用**，自取 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) 里的简明教程。
+> 「[新知小讲堂](03_xinzhi/README.md)」不卖焦虑，小友帮您打开六扇应对法门：想实时参与 AI 或行业热点讨论，来 [🌟 淘知吧](03_xinzhi/taozhi/README.md)（本板块聊吧，配「淘知精选 10 问」）；想听专家最新行业动态解析，请搬上小板凳 [🎤 小讲堂开课了](03_xinzhi/README.md#小讲堂开课了-)（想分享实操干货也在这里恭迎大驾）；想跟上 AI 最新实践，请细品 20 余篇 [🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)；想学企业级的 AI 智能体实操，必须研读 [🧭 AI Agent 使用最佳实践](03_xinzhi/AI_Agent使用最佳实践/README.md)；想**修**身，不妨读一读 [🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)；想知道有哪些 AI 技能工具和怎么用，请自取 [🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) 里的简明教程。
 
 > 🚀 **南开人 AI 时代创业会不会很难？肯定难！** 但「小友」帮你把创业拆成能动手的三件事：
 >
