@@ -59,4 +59,4 @@
 
 ---
 
-> ← 返回 [📚 新知小讲堂](03_xinzhi/README.md)　｜　相关：[🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)　[🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)　[🌱 个人成长方法论](03_xinzhi/个人成长方法论/README.md)
+> ← 返回 [📚 新知小讲堂](03_xinzhi/README.md)　｜　相关：[🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)　[🛠️ AI Skill 工具箱](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)　[🌱 个人成长方法论](07_yunneng/个人成长方法论/README.md)
