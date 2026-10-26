@@ -108,6 +108,12 @@
 | 为每个人造 AI 智能体：Gumloop 的 1100 通客户电话与 IT 管控解法（Building AI Agents for Everyone） | Founder Firesides · Gumloop 联创 × YC 合伙人 Gustaf Alströmer · 2026-10-02 | 04 创业 / 小南创吧 · 选题课 |
 | AI 知识工作者的训练场：编码之外的 RL 环境与基准怎么做（The Training Ground for AI Knowledge Workers） | Founder Firesides · Halluminate 联创 × YC 合伙人 Jon Xu · 2026-10-01 | 04 创业 / 03 新知 |
 | 每个创始人都该懂的机器学习方法：扩散模型（The ML Technique Every Founder Should Know） | YC Decoded · Ankit Gupta × Francois Chaubard · 2026-09-26 | 03 新知 / 07 允能南开人 |
+| 发布视频到底该怎么做：每次 demo 都是一次小发布、渠道看转化不看播放量（This Is How You Should Actually Make Launch Videos） | Startup School · Aaron Epstein × Farza Majeed · 2026-10-23 | 04 创业 / 小南创吧 · 选题课 |
+| 推理为什么比训练重要 12 倍：prefill 与 decode 的吞吐落差、同模型服务商之间的质量差距（Why Inference Matters 12x More Than Training） | YC Paper Club · Dan Fu、Jeff Morgan、Joe Fioti、Lianmin Zheng · 2026-10-24 | 04 创业 / 03 新知 |
+| 在满是 AI 设计的世界里怎么被看见：官网自检清单与品味即门槛（How To Stand Out In A World Of AI Designs） | Design Review · Aaron Epstein × Magic Patterns CEO Alex Danilowicz · 2026-10-22 | 03 新知 / 04 创业 |
+| 医疗业的 AI 职业学校：AI 家教加本地实训，把培养周期从两年压到五个月（AI Trade School for Healthcare） | Founder Firesides · Diana Hu × Stepful 联创 · 2026-10-21 | 04 创业 / 07 允能南开人 |
+| 一号工程师怎么「把公司当成自己的公司办」：加入早期团队前看代码库（How Vin Bui became engineer #1 at Nowadays） | YC 官方博客 · 2026-10-20 | 07 允能南开人 |
+| 七号员工的第一天从搬家具开始：day-one 员工怎么把公司从零搭起来（How Ryder Kemper became employee #7 at Corgi Insurance） | YC 官方博客 · 2026-10-19 | 07 允能南开人 |
 
 ---
 
