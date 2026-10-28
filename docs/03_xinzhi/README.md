@@ -84,6 +84,9 @@
 | Sal Khan（可汗学院） · AI 最大的机会，藏在最无聊的行业 | 去别人不愿去的地方 / 一天 3000 美金的算力账 / 从「千万别做错」到「多试几次」/ 岗位城墙坍塌（照录访谈转述 · 五节导读小标题，千问点评节录第 1 点） | [→](03_xinzhi/AI前沿认知和方法论/SalKhan·AI机会藏在最无聊的行业.md) |
 | Tibo（OpenAI） · AI 的瓶颈在搬家 | 使用差大过信息差 / 电脑成为 Agent 的物理瓶颈 / 速度改变工作形态 / 收敛为个人 AGI / 递归自我改进从「模型优化工厂」开始（转述稿＋一手对勘 · 五节判断式小标题，要点化入正文） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·AI的瓶颈迁移.md) |
 | Andy Jassy（亚马逊 CEO） · 成功的负债 | 四场重构（组织/产品/软件/价值）· 可调用可授权可验证可恢复 · 推理成本还高一个数量级 · 执行便宜判断昂贵（**转述照录 · 千问整理句作小标题 · 三段评论收文末 · a16z 播客一手对勘**） | [→](03_xinzhi/AI前沿认知和方法论/AndyJassy·成功的负债.md) |
+| Kavak 创始人篇 · 一年零增长换四倍 | copilot 采用率近零 · 让 agent 直接对结果负责 · 一年 go flat 换约四倍 · 摩擦即语料（**依 a16z 官网页一手整理 · 与站内「Kavak 运营篇」分工互链**） | [→](03_xinzhi/AI前沿认知和方法论/Kavak创始人篇·一年零增长换四倍.md) |
+| Decagon · 企业 AI 真正落地时买的不是模型 | 90% 推理迁开源是性能故事 · agent＝业务流程执行器 · 玻璃箱 vs 黑箱 · FDE 是桥不是家（**依 a16z 官网页一手整理**） | [→](03_xinzhi/AI前沿认知和方法论/Decagon·企业AI真正落地时买的不是模型.md) |
+| Grepr CEO · AI 会写代码但还不会跑系统 | 可观测性花 5–20% 基建预算买的是可靠性 · 生产代码 10–20 倍 · 差距放大 10 倍 · 语法 vs 语义（**依 a16z 官网页一手整理**） | [→](03_xinzhi/AI前沿认知和方法论/GreprCEO·AI会写代码但还不会跑系统.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 | 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |
