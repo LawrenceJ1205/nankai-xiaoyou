@@ -157,6 +157,7 @@
       - [Kavak 创始人篇：一年零增长，换四倍](03_xinzhi/AI前沿认知和方法论/Kavak创始人篇·一年零增长换四倍.md)
       - [Decagon：企业 AI 真正落地时买的不是模型](03_xinzhi/AI前沿认知和方法论/Decagon·企业AI真正落地时买的不是模型.md)
       - [Grepr CEO：AI 会写代码，但还不会跑系统](03_xinzhi/AI前沿认知和方法论/GreprCEO·AI会写代码但还不会跑系统.md)
+      - [Greg Brockman：野心的上限是创业者的天花板 🆕](03_xinzhi/AI前沿认知和方法论/GregBrockman·野心的上限是创业者的天花板.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
       - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)

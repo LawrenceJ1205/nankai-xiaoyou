@@ -114,6 +114,12 @@
 | 医疗业的 AI 职业学校：AI 家教加本地实训，把培养周期从两年压到五个月（AI Trade School for Healthcare） | Founder Firesides · Diana Hu × Stepful 联创 · 2026-10-21 | 04 创业 / 07 允能南开人 |
 | 一号工程师怎么「把公司当成自己的公司办」：加入早期团队前看代码库（How Vin Bui became engineer #1 at Nowadays） | YC 官方博客 · 2026-10-20 | 07 允能南开人 |
 | 七号员工的第一天从搬家具开始：day-one 员工怎么把公司从零搭起来（How Ryder Kemper became employee #7 at Corgi Insurance） | YC 官方博客 · 2026-10-19 | 07 允能南开人 |
+| 当每个人都能写软件：Supabase 1300 万用户、5000 万数据库与「个人数据库」时代（What Happens When Everyone Can Build Software） | The Lightcone · Supabase CEO Paul Copplestone · 2026-10-30 | 03 新知 / 04 创业 |
+| 给 6500 亿美元家修市场做 AI 前台：从「没人接的电话」切进去（Building AI for the $650B Home Services Market） | Founder Firesides · Broccoli（YC W22）AJ Jain、Aditya Ketkar × Gustaf Alströmer · 2026-10-29 | 04 创业 / 小南创吧 · 选题课 |
+| 医疗账单的 AI 栈：200+ 机构、年处理 70 亿美元索赔的自动化层（The AI Billing Stack for Healthcare） | Founder Firesides · Candid Health CEO Nick Perry × Gustaf Alströmer · 2026-10-27 | 04 创业 / 07 允能南开人 |
+| 全栈设计师的新定义：Shopify 团队的设计流程与 5 个网站现场改版（The New Full-Stack Designer） | Design Review · Aaron Epstein × Shopify Marvin Schwaibold · 2026-10-26 | 03 新知 / 04 创业 |
+| Winter 2027 Request for Startups：官方 11 个主题（时薪 15 美元的专家、会写作的 LLM、垂直基础模型等） | YC 官方 · 约 2026-10-28 | 04 创业 / 小南创吧 · 选题参考 |
+| 创始工程师系列补发：9 篇早期员工故事（Kalpa Labs、10x Science、Poetiq、Flex、Indemni、Magic Patterns 等） | YC 官方博客 · 2026-10-30 | 07 允能南开人 |
 
 ---
 
