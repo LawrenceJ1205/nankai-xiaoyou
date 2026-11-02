@@ -72,21 +72,21 @@
 | 红杉资本 · 结果即服务 | Result-as-a-Service + 十大赛道 | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_jieguo.md) |
 | 红杉资本 · MAD 框架 | Moat / Affordance / Diffusion | [→](03_xinzhi/AI前沿认知和方法论/Hongshan_MAD.md) |
 | YC 合伙人 · AI 原生公司 | 6 张卡片全集 | [→](03_xinzhi/AI前沿认知和方法论/YC_AI_yuansheng.md) |
-| Dario Amodei · AI 重写工作 | 平滑的指数 / 护城河重新定价 / 前沿溢价（含底本 × 原件对勘） | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
-| Linda Hill（哈佛商学院教授） · 权力的迁移 | Wayfinding / 微型 CEO / 决策权设计（原文＋千问评论，含核查） | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
-| Tibo（OpenAI） · 交互的变革 | Agent 时代的产品与分发 / 留存即分发 / 护城河＝脚手架（原文照录、只分段） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md) |
-| Josh Woodward（Google Labs） · 全栈高手可能是个「陷阱」 | Almost Possible 清单 / 敢试也要敢停 / 每家公司都得像实验室一样运作（照录访谈转述 · 十二节导读小标题） | [→](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md) |
-| 吴恩达 · AI 正在重新给人的能力定价 | 产品管理瓶颈 / 上下文优势 / 主动性 / 认知卸载（照录转述、只分段） | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·AI重新给人定价.md) |
-| 吴恩达 · 当写代码快 100 倍，瓶颈会转移到哪里 | 一切环节都成瓶颈 / 一到十人通才小队 / 构建模块 / 自下而上 vs 自上而下（照录完整对话、只分段） | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·瓶颈转移到哪里.md) |
-| 李飞飞 · 从 ImageNet 到世界模型 | AI 的来路 / 2012 三件套 / AGI 是营销术语 / 世界模型与空间智能（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/李飞飞·从ImageNet到世界模型.md) |
-| Allie K. Miller · 一小时搭出 AI「第二大脑」 | 四个 Claude / 三份文档 / skill 即工具箱 / 「AI 是实习生」不对（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/AllieMiller·一小时搭出AI第二大脑.md) |
-| Aaron Levie（Box） · AI 的价值在应用层 | 应用层 vs 模型层 / Token 补贴是暂时的 / workslop / 聊天框 vs 后台流程（依一手原件整理） | [→](03_xinzhi/AI前沿认知和方法论/AaronLevie·AI的价值在应用层.md) |
-| Sal Khan（可汗学院） · AI 最大的机会，藏在最无聊的行业 | 去别人不愿去的地方 / 一天 3000 美金的算力账 / 从「千万别做错」到「多试几次」/ 岗位城墙坍塌（照录访谈转述 · 五节导读小标题，千问点评节录第 1 点） | [→](03_xinzhi/AI前沿认知和方法论/SalKhan·AI机会藏在最无聊的行业.md) |
-| Tibo（OpenAI） · AI 的瓶颈在搬家 | 使用差大过信息差 / 电脑成为 Agent 的物理瓶颈 / 速度改变工作形态 / 收敛为个人 AGI / 递归自我改进从「模型优化工厂」开始（转述稿＋一手对勘 · 五节判断式小标题，要点化入正文） | [→](03_xinzhi/AI前沿认知和方法论/Tibo·AI的瓶颈迁移.md) |
-| Andy Jassy（亚马逊 CEO） · 成功的负债 | 四场重构（组织/产品/软件/价值）· 可调用可授权可验证可恢复 · 推理成本还高一个数量级 · 执行便宜判断昂贵（**转述照录 · 千问整理句作小标题 · 三段评论收文末 · a16z 播客一手对勘**） | [→](03_xinzhi/AI前沿认知和方法论/AndyJassy·成功的负债.md) |
-| Kavak 创始人篇 · 一年零增长换四倍 | copilot 采用率近零 · 让 agent 直接对结果负责 · 一年 go flat 换约四倍 · 摩擦即语料（**依 a16z 官网页一手整理 · 与站内「Kavak 运营篇」分工互链**） | [→](03_xinzhi/AI前沿认知和方法论/Kavak创始人篇·一年零增长换四倍.md) |
-| Decagon · 企业 AI 真正落地时买的不是模型 | 90% 推理迁开源是性能故事 · agent＝业务流程执行器 · 玻璃箱 vs 黑箱 · FDE 是桥不是家（**依 a16z 官网页一手整理**） | [→](03_xinzhi/AI前沿认知和方法论/Decagon·企业AI真正落地时买的不是模型.md) |
-| Grepr CEO · AI 会写代码但还不会跑系统 | 可观测性花 5–20% 基建预算买的是可靠性 · 生产代码 10–20 倍 · 差距放大 10 倍 · 语法 vs 语义（**依 a16z 官网页一手整理**） | [→](03_xinzhi/AI前沿认知和方法论/GreprCEO·AI会写代码但还不会跑系统.md) |
+| Dario Amodei · AI 重写工作 | 平滑的指数 / 护城河重新定价 / 前沿溢价 | [→](03_xinzhi/AI前沿认知和方法论/Dario·AI重写工作的三层价值迁移.md) |
+| Linda Hill（哈佛商学院教授） · 权力的迁移 | Wayfinding / 微型 CEO / 决策权设计 | [→](03_xinzhi/AI前沿认知和方法论/LindaHill·权力的迁移与AI时代的领导力.md) |
+| Tibo（OpenAI） · 交互的变革 | Agent 时代的产品与分发 / 留存即分发 / 护城河＝脚手架 | [→](03_xinzhi/AI前沿认知和方法论/Tibo·交互的变革.md) |
+| Josh Woodward（Google Labs） · 全栈高手可能是个「陷阱」 | Almost Possible 清单 / 敢试也要敢停 / 每家公司都得像实验室一样运作 | [→](03_xinzhi/AI前沿认知和方法论/JoshWoodward·全栈高手可能是个陷阱.md) |
+| 吴恩达 · AI 正在重新给人的能力定价 | 产品管理瓶颈 / 上下文优势 / 主动性 / 认知卸载 | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·AI重新给人定价.md) |
+| 吴恩达 · 当写代码快 100 倍，瓶颈会转移到哪里 | 一切环节都成瓶颈 / 一到十人通才小队 / 构建模块 / 自下而上 vs 自上而下 | [→](03_xinzhi/AI前沿认知和方法论/吴恩达·瓶颈转移到哪里.md) |
+| 李飞飞 · 从 ImageNet 到世界模型 | AI 的来路 / 2012 三件套 / AGI 是营销术语 / 世界模型与空间智能 | [→](03_xinzhi/AI前沿认知和方法论/李飞飞·从ImageNet到世界模型.md) |
+| Allie K. Miller · 一小时搭出 AI「第二大脑」 | 四个 Claude / 三份文档 / skill 即工具箱 / 「AI 是实习生」不对 | [→](03_xinzhi/AI前沿认知和方法论/AllieMiller·一小时搭出AI第二大脑.md) |
+| Aaron Levie（Box） · AI 的价值在应用层 | 应用层 vs 模型层 / Token 补贴是暂时的 / workslop / 聊天框 vs 后台流程 | [→](03_xinzhi/AI前沿认知和方法论/AaronLevie·AI的价值在应用层.md) |
+| Sal Khan（可汗学院） · AI 最大的机会，藏在最无聊的行业 | 去别人不愿去的地方 / 一天 3000 美金的算力账 / 从「千万别做错」到「多试几次」/ 岗位城墙坍塌 | [→](03_xinzhi/AI前沿认知和方法论/SalKhan·AI机会藏在最无聊的行业.md) |
+| Tibo（OpenAI） · AI 的瓶颈在搬家 | 使用差大过信息差 / 电脑成为 Agent 的物理瓶颈 / 速度改变工作形态 / 收敛为个人 AGI / 递归自我改进从「模型优化工厂」开始 | [→](03_xinzhi/AI前沿认知和方法论/Tibo·AI的瓶颈迁移.md) |
+| Andy Jassy（亚马逊 CEO） · 成功的负债 | 四场重构（组织/产品/软件/价值）· 可调用可授权可验证可恢复 · 推理成本还高一个数量级 · 执行便宜判断昂贵 | [→](03_xinzhi/AI前沿认知和方法论/AndyJassy·成功的负债.md) |
+| Kavak 创始人篇 · 一年零增长换四倍 | copilot 采用率近零 · 让 agent 直接对结果负责 · 一年 go flat 换约四倍 · 摩擦即语料 | [→](03_xinzhi/AI前沿认知和方法论/Kavak创始人篇·一年零增长换四倍.md) |
+| Decagon · 企业 AI 真正落地时买的不是模型 | 90% 推理迁开源是性能故事 · agent＝业务流程执行器 · 玻璃箱 vs 黑箱 · FDE 是桥不是家 | [→](03_xinzhi/AI前沿认知和方法论/Decagon·企业AI真正落地时买的不是模型.md) |
+| Grepr CEO · AI 会写代码但还不会跑系统 | 可观测性花 5–20% 基建预算买的是可靠性 · 生产代码 10–20 倍 · 差距放大 10 倍 · 语法 vs 语义 | [→](03_xinzhi/AI前沿认知和方法论/GreprCEO·AI会写代码但还不会跑系统.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 | 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |
