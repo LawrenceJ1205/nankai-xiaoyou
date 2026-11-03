@@ -1,0 +1,105 @@
+/* 南开小友 · 纸墨校史风（A 基调）设计令牌与组件库 v0.1
+   试点稿：尚未接入 index.html。先在 outputs/美工试点预览.html 里验证效果，
+   主理人确认后再挂全站并走六步发布。
+   参考：朋友「西游节律图」页的单文件设计系统做法；
+   主色由参考页朱砂 #bf3f2c 换成南开紫（青莲紫）#7E0C6E。 */
+
+:root{
+  /* 纸三层 · 墨三阶 */
+  --paper:#f7f1e3; --paper2:#ece2cc; --paper3:#d9cbb0;
+  --ink:#2f2a25; --ink2:#5c5148; --ink3:#8b7f72;
+  /* 南开紫主色 + 四辅色（各板块可领一色） */
+  --nk:#7E0C6E; --nk-d:#5d0851; --nk-l:#a8559a;
+  --qing:#33658a; --zhe:#a9743c; --lv:#6f8b52; --jin:#c9a227;
+  --card:#fdf8ec;
+  --serif:"Songti SC","STSong","SimSun","Source Han Serif SC","Noto Serif CJK SC",serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --shadow:0 6px 22px rgba(47,42,37,.08);
+}
+
+/* ——— 版心与纸底 ——— */
+.nk-wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 16px 72px}
+.nk-paper{background:linear-gradient(180deg,var(--paper) 0%,var(--paper2) 100%);color:var(--ink);font-family:var(--sans)}
+
+/* ——— 卷首插画 ——— */
+.nk-hero{display:block;width:100%;max-width:420px;height:auto;margin:0 auto 6px}
+.nk-hero-box{background:linear-gradient(160deg,var(--card) 0%,var(--paper2) 100%);
+  border:1px solid var(--paper3);border-radius:4px;padding:14px;box-shadow:var(--shadow);text-align:center}
+
+/* ——— 印章（朱改紫） ——— */
+.nk-seal{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;
+  color:var(--nk);border:2px solid var(--nk);border-radius:3px;font-family:var(--serif);
+  font-size:15px;font-weight:700;letter-spacing:.08em;line-height:1.05;
+  transform:rotate(-4deg);box-shadow:inset 0 0 0 2px rgba(126,12,110,.12)}
+
+/* ——— 节标题：墨线 + 中文序号 + 英文小字 ——— */
+.nk-sec-h{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);
+  padding-bottom:8px;margin-bottom:20px;flex-wrap:wrap;font-family:var(--serif)}
+.nk-sec-h .no{color:var(--nk);font-size:22px;font-weight:700}
+.nk-sec-h h2{margin:0;font-size:22px;letter-spacing:.06em}
+.nk-sec-h .en{margin-left:auto;color:var(--ink3);font-family:var(--sans);font-size:11px;letter-spacing:.16em}
+
+/* ——— 纸感卡片 ——— */
+.nk-card{background:linear-gradient(160deg,#fdf8ec 0%,#f4e9d2 100%);
+  border:1px solid var(--paper3);border-radius:4px;padding:18px;box-shadow:var(--shadow);
+  position:relative;overflow:hidden;font-family:var(--sans)}
+.nk-card h3{margin:0 0 8px;font-family:var(--serif);font-size:17px;color:var(--nk-d);letter-spacing:.04em}
+.nk-card p{margin:0;color:var(--ink2);font-size:14px;line-height:1.85}
+.nk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.nk-grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+
+/* ——— 引文块（左竖线 + 宽行距） ——— */
+.nk-verse{font-family:var(--serif);font-size:16.5px;line-height:2.15;letter-spacing:.06em;
+  padding-left:12px;border-left:3px solid var(--paper3);margin:0 0 12px;color:var(--ink)}
+.nk-verse.nk-strong{border-left-color:var(--nk)}
+
+/* ——— 标签与按钮 ——— */
+.nk-tag{display:inline-block;padding:2px 8px;border:1px solid var(--nk);border-radius:2px;
+  color:var(--nk);font-size:11px;letter-spacing:.04em;background:rgba(126,12,110,.04)}
+.nk-btn{font-family:var(--sans);font-size:13px;padding:7px 14px;border-radius:3px;
+  border:1px solid var(--nk);background:var(--nk);color:#fff;cursor:pointer;letter-spacing:.03em}
+.nk-btn:hover{background:var(--nk-d)}
+.nk-btn.ghost{background:transparent;color:var(--nk)}
+.nk-btn.ghost:hover{background:rgba(126,12,110,.08)}
+.nk-btn.on{background:var(--nk-d);border-color:var(--nk-d)}
+
+/* ——— 对照双栏 ——— */
+.nk-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nk-cmp-col{border:1px solid var(--paper3);border-radius:3px;padding:14px;background:var(--card)}
+.nk-cmp-h{font-family:var(--serif);font-size:15px;color:var(--nk-d);margin-bottom:8px}
+
+/* ——— 锚点条 ——— */
+.nk-anchor{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.nk-anchor a{font-size:12px;color:var(--ink2);text-decoration:none;padding:4px 10px;
+  border:1px solid var(--paper3);border-radius:2px;background:var(--card)}
+.nk-anchor a:hover{color:var(--nk);border-color:var(--nk)}
+
+/* ——— P4 拨盘 ——— */
+.nk-dial-layout{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:26px;align-items:start}
+.nk-dial{width:100%;max-width:360px;height:auto;display:block;margin:0 auto}
+.nk-dial .node{cursor:pointer}
+.nk-dial .node:hover circle{stroke-width:3}
+.nk-detail{min-height:230px}
+.nk-detail .step{font-family:var(--serif);font-size:12px;color:var(--ink3);letter-spacing:.16em}
+.nk-detail h3{font-family:var(--serif);font-size:20px;color:var(--nk-d);margin:6px 0 10px;letter-spacing:.04em}
+.nk-detail p{font-size:14px;line-height:1.9;color:var(--ink2);margin:0 0 12px}
+.nk-ctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:14px}
+
+/* ——— 提示条 ——— */
+.nk-toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(12px);
+  background:var(--ink);color:var(--paper);padding:9px 18px;border-radius:3px;font-size:13px;
+  opacity:0;pointer-events:none;transition:.25s;z-index:99}
+.nk-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ——— 小字与页脚 ——— */
+.nk-note{font-size:12px;color:var(--ink3);line-height:1.8}
+.nk-foot{border-top:1px solid var(--paper3);margin-top:36px;padding-top:16px;
+  font-size:12px;color:var(--ink3);line-height:1.9}
+
+/* ——— 手机端是主战场 ——— */
+@media (max-width:640px){
+  .nk-cmp,.nk-dial-layout{grid-template-columns:1fr}
+  .nk-sec-h .en{display:none}
+  .nk-wrap{padding:0 12px 48px}
+  .nk-detail{min-height:0}
+}
