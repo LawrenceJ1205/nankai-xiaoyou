@@ -6,9 +6,11 @@
 >
 > **整理方式**：本篇为**资料型**——按访谈顺序重新组织，关键判断保留英文原话，中文侧转述稿只作对照、不作底本。凡中文转述与原文不符处，一律以原文为准，并在文末「📡 编者注」逐条列出。
 >
-> **标注**：🔵 ＝ 英文原话可核　｜　🟡 ＝ 中文转述稿口径（原访谈中未找到）　｜　⚪ ＝ 本页归纳
+> **对勘底本**：节目官网的英文逐字稿已切成 **E01–E127** 共 127 段、4,742 词的编号底本（本站内部留存，不入站）。本页每处英文引语都逐条与该底本核过；中文稿对勘时可直接按段号咬合。
 >
-> **提醒**：文中的英文原话是**口语逐字稿**，有重复、断句和不完整句；引用时按原样，不要改写成书面语后仍称原话。
+> **标注**：🔵 ＝ 英文原话（与编号底本逐条核过）　｜　🟡 ＝ 待核口径（中文转述稿口径，或英文侧仅见于另一份转写、底本检索不到）　｜　⚪ ＝ 本页归纳
+>
+> **提醒**：文中的英文原话是**口语逐字稿**，逐字稿本身**没有标点、也不分句**。本站只按语义做分句、大小写与必要的逗号处理，**不增删任何词**；引用时按原样，不要改写成书面语后仍称原话。
 
 ---
 
@@ -28,11 +30,11 @@
 
 > 🔵 Marina： “We're abandoning the word vibe coding.”
 >
-> 🔵 Anton： “Vibe coding works for demos, but we're way past that. You don't build your company on vibes.”
+> 🔵 Anton： “Vibe works for demo, but we're way past that. You don't build your company on vibes.”
 
 他举的第一个例子不是大公司，是一个叫 **Plink** 的小产品：创始人想解决一个很具体的社会性焦虑——「我怎么判断正在约会的这个人可不可信」。这件事做到了数万美元收入。
 
-> 🔵 “She's been able to reach tens of thousands of dollars in revenue with something that's for social good.”
+> 🔵 “She's been able to reach tens of thousands of dollars in revenue on something that's just for social good.”
 
 然后他把话说回平台：
 
@@ -68,7 +70,7 @@
 
 那该做什么？他给的方向很实在：
 
-> 🔵 “Solve a problem that is not just on the internet, but usually want to build something connected to the real world. A combination of a service and a product, and those two things together can actually make it really good.”
+> 🔵 “I think what you want to do is solve a problem that is not just on the internet but usually want to build something connected to the real world. A combination of a service and a product, and those two things together can actually make it really good.”
 
 而且不必是全新的东西：
 
@@ -94,11 +96,11 @@
 
 他没有讲增长模型，讲的是一个近乎笨的办法：
 
-> 🔵 “The most reliable and fastest way to learn about your customers, which is key, is to get in front of 10 customers or potential customers and tell them about what you're thinking of building and actually dig into what they care about. Ask a lot of questions: what's a pain that you're experiencing, what interests excite you? Then get in front of 10 customers and try to make one of them actually buy and pay for what you're building.”
+> 🔵 “The most reliable and fastest way to learn about your customers, which is key, is to get in front of 10 customers or potential customers and tell them about what you're thinking of building and actually dig into what they care about. Ask a lot of questions from your customers: what's a pain that you're experiencing, what interests excite you? Then get in front of 10 customers and try to make one of them actually buy and pay for what you're building.”
 
 关于定价，他给了一条反直觉的：
 
-> 🔵 “You should get 10 really big fans of your product. One way to know that they are really big fans is to not make it too cheap and not make it free, because it's only if they actually pay that you know this is something they really care about. You introduce that friction to know that they really like the product.”
+> 🔵 “I think you should get 10 really big fans of your product. One way to know that they are really big fans is to not make it too cheap and not make it free, because it's only if they actually pay that you know this is something they really care about.”
 
 ⚪ 付费在这里不是收入手段，是**筛选器**：把「听起来不错」和「愿意付出代价」分开。🟡 中文侧流传的「免费证明好奇、付费证明在意、复购证明价值」是三段式概括，好听，但不是他的原话。
 
@@ -108,11 +110,15 @@
 
 主持人搬出创业圈的老话：想法不值钱，做出来才值钱。
 
-> 🔵 “The ideas are becoming more important. I think the creativity is the biggest differentiator as execution becomes easier.”
+> 🔵 “The ideas are becoming more important. I think the creativity is the biggest differentiator as the execution becomes easier.”
 
 那创造力怎么练？他的答案不是逛美术馆：
 
-> 🔵 “Being bored, I know, is good for creativity. But I think every person has creativity within them. And the best way to improve, increase your creativity is, sophisticating it by trying to build. And by taking your ideas and putting them to the test. And when you're doing that feedback loop, that's actually when your creativity that everyone has becomes more refined and more applicable, and you actually have more useful ideas.”
+> 🔵 “Being bored, I know is good for creativity. But I think every person has creativity within them. And the best way to improve, increase your creativity is, sophisticating it by trying to build.”
+>
+> 🟡 下面这句只见于另一份英文转写，**官网逐字稿（E01–E127）全文检索不到**，暂列待核，不作原话引用：
+>
+> 🟡 “And by taking your ideas and putting them to the test. And when you're doing that feedback loop, that's actually when your creativity that everyone has becomes more refined and more applicable, and you actually have more useful ideas.”
 
 至于「这么多想法，选哪个」，他先认了怂：
 
@@ -120,7 +126,7 @@
 
 然后给出判据——**找瓶颈**：
 
-> 🔵 “It's a learn skill to develop. In terms of, how big can this thing become and why isn't it working as I want it to work yet? Is it just me, not talking to more people? Is it me having to be better at marketing? Or is it that the product has some bugs and glitches that make people not retain? I think it's being good at spotting that bottleneck.”
+> 🔵 “The way to do it, I think it's a learn skill to develop. In terms of, is this thing, how big can this thing become and why isn't it working as I want it to work yet? Is it just me, not talking to more people? Is it me being better, have to be better at marketing, or is it that the product has some bugs and glitches that make people not retain? I think it's being good at spotting that bottleneck.”
 
 ⚪ 这一条其实是全篇最可操作的方法：**不要问「这个想法好不好」，要问「它现在卡在哪一环」**。卡在没人知道→去谈人；卡在转化→改营销；卡在留存→修产品。判断瓶颈的能力，决定了你该继续还是换下一个。
 
@@ -130,7 +136,7 @@
 
 主持人问得实在：到底做到哪一步就必须请工程师？
 
-> 🔵 “That line is probably moving. The line is very much moving, and it depends on how dedicated you are and how much of a creative problem solving person you are. If you are dedicated and curious and really want to learn the things, then the line is very far out. If you're building Facebook, requires you to have a lot of load, hundreds of thousands of customers at the same time and do it globally, that is outside of the line. But most of the software that I'm interacting with day-to-day you can build in Lovable.”
+> 🔵 “I think so. That line and the line is probably moving. The line is very much moving and it depends on how dedicated you are and how much of a creative problem solving person you are. If you are dedicated and curious and really want to learn the things, then the line is very far out. If you for example building Facebook requires you to have a lot of load, a lot of hundreds of thousands of customers at the same time and do it globally, that is outside of the line. But most of the software that I'm interacting with day-to-day you can build in Lovable.”
 
 成本他给得也直白：可以免费用，按额度付费，要升级的话默认每月 25 美元，托管包含在内。
 
@@ -152,7 +158,7 @@ App 与 Agent 的界线，他的回答只有一句：
 
 他的回答不太像 CEO，倒像在描述一种生活：
 
-> 🔵 “I think we're going to be in a world where focusing on your career and making money is going to be less important to many people, and it's more going to be focused on how am I a good person to those around me and to my community. But trying to build a business is still going to be one of the key ways of developing yourself, learning skill sets and creating valuable things for those around you.”
+> 🔵 “I think we're going to be in a world where focusing on your career and making money is going to be less important to many people, and it's more going to be focused on how am I a good person to those around me and to my community. But trying to build a business is still going to be one of the key ways of developing yourself, learn skill set and creating valuable things for those around you.”
 
 > 🔵 “What we're working towards is that the overhead and the cost of making a business run is going to be so low that there can be much much more companies that exist.”
 
@@ -172,12 +178,12 @@ App 与 Agent 的界线，他的回答只有一句：
 2. **找到愿意付钱的人**——真掏钱，是第一信号。
 3. **确认他们会回来**——继续付费、不是一时兴奋，这才叫清晰的产品市场契合。
 4. **再想怎么找到更多同类客户**——他们在哪、怎么发现新产品、在意什么。
-5. **讲一个只属于你的故事**——让这批人在意你，而不只是在意功能。
+5. **讲一个只属于你的故事**——让这批人在意你，而不只是在意功能。（此步所依据的英文句，官网逐字稿未见，待核）
 6. **最后才谈规模化**。
 
-> 🔵 “The first thing is to have an idea, and I think you get that by taking something from your own life or from people you're close to that experience a problem. Then you try to find a few people who are willing to pay for your solution. And when they're actually willing to pay, that's a great sign that they care and they're excited about what you're doing. But you still want to make sure that they keep coming back and they keep wanting to pay, and it wasn't just done from excitement. And when you've gone through those steps, that's one example of clear product market fit.”
+> 🔵 “The first thing is to have an idea, and I think you get that by taking something from your own life or from people you're close to that experience a problem and then you find your idea for how to solve that problem and you try to find a few people that are willing to pay for your solution. And when they're actually willing to pay, that's a great sign that they care and they're excited about what you're doing. But you still want to make sure that they keep coming back and they keep wanting to pay, and it wasn't just done from excitement. And when you've gone through those steps, that's one example of clear product market fit.”
 
-> 🔵 “What is it that's unique about me that I can tell as a story to make those people care about this product, and start scaling into a real business that makes serious money.”
+> 🟡 “What is it that's unique about me that I can tell as a story to make those people care about this product, and start scaling into a real business that makes serious money.”（**官网逐字稿未见此句**，待核）
 
 ---
 
@@ -191,6 +197,8 @@ App 与 Agent 的界线，他的回答只有一句：
 6. **与第 28 篇的关系** ⚪：两篇同属 **Silicon Valley Girl** 频道，该频道主持人为 **Marina Mogilko**。第 28 篇（Greg Brockman）页头原写「主持人身份与集号本页未逐一核实」，本篇只把频道与主持人这一层核实清楚，**未改动第 28 篇的原文标注**（那集的具体集号仍未核）。两场是不同集，观点可对读，**数字与例子不可互搬**——「手工做 3–5 遍」出自第 28 篇的转述，本集原话只说 “do things manually first”，没有遍数。
 7. **人名与站点拼写待核** 🟡：狗肖像站的创始人，逐字稿作 “Damian”，站名听作 “surrealism world”；Plink 创始人，逐字稿出现 “Sabrin”，官网整理作 “Sabrine”。均为口语转写，未逐一核实工商或官网信息，故本页只保留名，不写全名与链接。
 8. **「别做软件，做生意」是本站标题** ⚪：原话为 “We're not doing code generation. We're doing this creation of businesses for our customers.” 标题取意为本站归纳，不是引语。
-9. **对读建议** ⚪：与第 28 篇 Greg Brockman（野心上限——能力平权之后，差距落在你敢想多大）、第 12 篇吴恩达（执行便宜之后，判断与上下文涨价）、第 16 篇 Aaron Levie（价值在应用层）、第 25 篇 Kavak（采用率近零，改追结果责任）对读；创业一侧可接 [🚀 南开人创业](04_chuangye/README.md) 的「创业 ABC」与「🔬 创业案例分析」。
+9. **三处英文句在官网逐字稿中不存在**（本页第二次对勘的更正）🟡：初版曾把下面三句标为 🔵 原话，逐条核对编号底本（E01–E127）后，**“You introduce that friction to know that they really like the product.”、“And by taking your ideas and putting them to the test… feedback loop…”、“What is it that's unique about me… makes serious money.” 三句全篇检索不到**（`friction`、`feedback loop`、`unique`、`serious money` 均为 0 命中）。这三句应出自另一份英文转写，本页已降级为 🟡 待核，不再作原话引用；其中第三句支撑的「讲一个只属于你的故事」一步，已在正文标注待核。**若中文稿（猫不白说）中出现对应句，即可据以回改。**
+
+10. **对读建议** ⚪：与第 28 篇 Greg Brockman（野心上限——能力平权之后，差距落在你敢想多大）、第 12 篇吴恩达（执行便宜之后，判断与上下文涨价）、第 16 篇 Aaron Levie（价值在应用层）、第 25 篇 Kavak（采用率近零，改追结果责任）对读；创业一侧可接 [🚀 南开人创业](04_chuangye/README.md) 的「创业 ABC」与「🔬 创业案例分析」。
 
 > ← 返回 [🤖 AI 前沿认知和方法论](03_xinzhi/AI前沿认知和方法论/README.md)
