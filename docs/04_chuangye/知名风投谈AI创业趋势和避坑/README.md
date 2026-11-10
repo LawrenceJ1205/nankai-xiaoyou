@@ -120,6 +120,12 @@
 | 全栈设计师的新定义：Shopify 团队的设计流程与 5 个网站现场改版（The New Full-Stack Designer） | Design Review · Aaron Epstein × Shopify Marvin Schwaibold · 2026-10-26 | 03 新知 / 04 创业 |
 | Winter 2027 Request for Startups：官方 11 个主题（时薪 15 美元的专家、会写作的 LLM、垂直基础模型等） | YC 官方 · 约 2026-10-28 | 04 创业 / 小南创吧 · 选题参考 |
 | 创始工程师系列补发：9 篇早期员工故事（Kalpa Labs、10x Science、Poetiq、Flex、Indemni、Magic Patterns 等） | YC 官方博客 · 2026-10-30 | 07 允能南开人 |
+| 如何建造未来：1000 万美元的项目变成 25 万美元，vibe coding 之后是「自驾驶公司」（How To Build The Future: Paul Graham & Amjad Masad） | How to Build the Future · Paul Graham × Replit 联创 Amjad Masad · 2026-11-07 | 03 新知 / 04 创业 |
+| 博士创业必须戒掉的十个习惯：重要的问题不等于有趣的问题、抢第一反而是劣势（10 Habits PhDs Must Unlearn To Build a Startup） | Startup School · Francois Chaubard · 2026-11-04 | 03 新知 / 07 允能南开人 |
+| 别再浪费 AI token：按「每个产出的成本」而非 token 总量，做工程团队的 AI 投入产出表（Stop Wasting AI Tokens） | Founder Firesides · Weave（YC W25）联创 × YC 合伙人 · 2026-11-04 | 03 新知 / 04 创业 |
+| 为工业世界造物理 AI：从厂长父亲的车间痛点起家，ARR 1 亿美元、同比增 90%（Building Physical AI for the Industrial World） | Founder Firesides · Harj Taggar × Tractian 联创 Igor Marinelli · 2026-11-05 | 07 允能南开人 / 04 创业 |
+| 修 AI 软件瓶颈的十亿美元公司：一年 20 倍增长的 CI 加速基建，三个外行重做了 DevOps（The $1B Company Fixing AI’s Software Bottleneck） | Built to a Billion · Blacksmith 联创 · 2026-11-06 | 04 创业 / 03 新知 |
+| AI 现在够格治癌了吗：测序成本崩塌、建模细胞而非分子、DNA 模型的意外 in-context learning（Is AI Now Good Enough To Cure Cancer?） | YC Paper Club · Jared Friedman 主持 · 2026-11-08 | 03 新知 / 04 创业 |
 
 ---
 
