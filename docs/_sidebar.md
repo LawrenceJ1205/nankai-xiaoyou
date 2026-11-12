@@ -182,6 +182,7 @@
     - [🧩 AI 前沿认知推演案例 🆕](03_xinzhi/AI前沿认知推演案例/README.md)
       - [第 1 篇 · 街道解难：天津和平区街道排忧解难小程序](03_xinzhi/AI前沿认知推演案例/街道解难·天津和平区街道排忧解难小程序工作流.md)
       - [第 2 篇 · 行业推演：会计与律师遇上 AI 智能体（预判式）](03_xinzhi/AI前沿认知推演案例/行业推演·会计与律师遇上AI智能体.md)
+      - [第 3 篇 · 行业推演：房地产实操者的三到五年（预判式）](03_xinzhi/AI前沿认知推演案例/行业推演·房地产实操者的三到五年.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
       - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)
