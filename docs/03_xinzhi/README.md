@@ -153,6 +153,7 @@
 - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)（**整合两份一手报告** · 一手原件＝ Anthropic Institute《When AI builds itself》＋《Measurements…》；正文只留「Anthropic 说了什么」· 15 条英文引语附中译 · 提示性小标题 · 底本引申与点评不收录）
 - [Kavak 内部怎么用 AI：一家由 Agent 运营的公司](03_xinzhi/AI_Agent使用最佳实践/Kavak内部怎么用AI·一家由Agent运营的公司.md)（**依一手原件整理** · 一手原件＝ a16z Podcast《The Self-Improving Company ｜ Kavak's AI Playbook》（2026-08-10）；正文只留「Kavak 说了什么、做了什么」· 20 条英文引语附中译 · 底本（公众号「猫不白」转述稿）的框架与评议不收录，见编者注）
 - [麦肯锡内部怎么用 AI：4 万人身边的 2.5 万个 Agent](03_xinzhi/AI_Agent使用最佳实践/麦肯锡内部怎么用AI·4万人与2.5万个Agent.md)（**依一手原件整理** · 一手原件＝ Sternfels 在 CES 2026「All-In」与 HBR IdeaCast 的自述 ＋ 麦肯锡官网关于 Lilli 的署名文章 ＋ 高管对 Bloomberg / Business Insider / Boston Globe 的表述；正文只留「麦肯锡说了什么、做了什么」· 12 条英文引语附中译 · 提示性小标题 · 底本引申与未经核实的「17000 个 Agent」数字不采用，见编者注）
+- [各地怎么用 AI 智能体：两周城市实践扫描（天津适配视角）](03_xinzhi/AI_Agent使用最佳实践/各地怎么用AI智能体·两周城市实践扫描.md)（**资料型汇编** · 2026-10-30 ～ 11-13 七城＋内地省会逐城扫描：上海港航中试基地 · 宁波种子班 · 厦门 AI 找地 · 广东 AI 招商 · 深圳认证平台 · 长沙一人公司载体；信源 A／B／C 分层 · 事实挂出处 · 判断标 ⚪ · 附天津适配三梯队与本地同期对照）
 
 ---
 
