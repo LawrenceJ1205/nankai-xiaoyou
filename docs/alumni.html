@@ -36,6 +36,9 @@
     .sidebar .nk-anniv { margin: 2px 0 0; text-align: center; }
     .sidebar .nk-anniv svg { display: block; width: 100%; max-width: 216px; height: auto; margin: 0 auto; }
     .sidebar-nav > ul { margin-top: 6px !important; }
+    /* 全文搜索框（vendor/docsify-search.js）：聚焦态用南开紫 */
+    .search input:focus { box-shadow: 0 0 5px #7E0C6E !important; border: 1px solid #7E0C6E !important; }
+    .search .matching-post a:hover { color: #7E0C6E !important; }
   </style>
 </head>
 <body>
@@ -160,7 +163,22 @@
       auto2top: true,
       homepage: 'README.md',
       sidebarDisplayLevel: 2,
-      plugins: [nankaiAlumniView]
+      plugins: [nankaiAlumniView],
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        depth: 3,
+        placeholder: '搜索人名、公司、关键词…',
+        noData: '没有找到相关内容',
+        hideOtherSidebarContent: true,
+        /* ⚠️ 校友版搜索安全配置（vendor/docsify-search.js 支持的三级排除）：
+           excludeDirs  = 内部目录整目录不入索引；
+           excludePaths = 首页（README.md）不入索引——首页含内部版本沿革块（HIDE_BLOCKS），块级隐藏但全文仍在 md 里；
+           excludeKeywords = 含这些关键词的行不入索引——公开页里被隐去的「驾驶舱」入口行不再以搜索摘要形式泄漏。 */
+        excludeDirs: ['00_cockpit'],
+        excludePaths: ['/'],
+        excludeKeywords: ['00_cockpit', '工作流驾驶舱', '2026-09-10 v2.2']
+      }
     }
   </script>
   <script>
@@ -172,7 +190,9 @@
      * ⚠️ 本值必须与 index.html 中的 BUILD 一致 —— 发布前跑 check_build_sync.py。
      */
     (function () {
-      var BUILD = 'v2.5.168';
+      var BUILD = 'v2.5.169';
+      // 搜索索引按 BUILD 换命名空间（校友版独立前缀，与内部版互不覆盖）
+      window.$docsify.search.namespace = 'nk-alumni-' + BUILD;
       var rawOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (method, url) {
         var args = Array.prototype.slice.call(arguments);
@@ -185,5 +205,6 @@
   </script>
   <script src="vendor/docsify.min.js"></script>
   <script src="vendor/docsify-sidebar-collapse.min.js"></script>
+  <script src="vendor/docsify-search.js"></script>
 </body>
 </html>
