@@ -193,6 +193,7 @@
       - [各地怎么用 AI 智能体：两周城市实践扫描（天津适配视角）](03_xinzhi/AI_Agent使用最佳实践/各地怎么用AI智能体·两周城市实践扫描.md)
       - [复旦系企业家怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/复旦系企业家怎么用AI智能体·兄弟高校对照样本.md)
       - [浙大系企业家怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/浙大系企业家怎么用AI智能体·兄弟高校对照样本.md)
+      - [清华系上市公司怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/清华系上市公司怎么用AI智能体·兄弟高校对照样本.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
