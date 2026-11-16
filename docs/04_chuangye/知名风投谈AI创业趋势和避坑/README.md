@@ -126,6 +126,9 @@
 | 为工业世界造物理 AI：从厂长父亲的车间痛点起家，ARR 1 亿美元、同比增 90%（Building Physical AI for the Industrial World） | Founder Firesides · Harj Taggar × Tractian 联创 Igor Marinelli · 2026-11-05 | 07 允能南开人 / 04 创业 |
 | 修 AI 软件瓶颈的十亿美元公司：一年 20 倍增长的 CI 加速基建，三个外行重做了 DevOps（The $1B Company Fixing AI’s Software Bottleneck） | Built to a Billion · Blacksmith 联创 · 2026-11-06 | 04 创业 / 03 新知 |
 | AI 现在够格治癌了吗：测序成本崩塌、建模细胞而非分子、DNA 模型的意外 in-context learning（Is AI Now Good Enough To Cure Cancer?） | YC Paper Club · Jared Friedman 主持 · 2026-11-08 | 03 新知 / 04 创业 |
+| AI 同事来了：Grok Bot 七周从 0 到上线，智能体有自己的电话与信用卡、靠护栏自证能力、靠「挣」权限拿到更大访问面（The Rise Of AI Coworkers） | The Lightcone · Lauren Tan、Roman Ugarte（Grok Bot 核心团队）· 2026-11-14 | 03 新知 / 04 创业 |
+| 给专利律师做 AI：两年半 700+ IP 团队在用，打入 Big Law 与 Intel、Siemens，累计融资 5500 万美元（How Solve Intelligence Is Building the Future of AI Patent Law） | Founder Firesides · Diana Hu × Solve Intelligence（YC S23）三联创 · 2026-11-10 | 04 创业 / 03 新知 |
+| 造太空加注标准：轨道加注站与一美元授权的开放接口 OpenPort，卖燃料不卖港（Creating A New Universal Standard For Refueling Spacecraft） | Founder Firesides · Spaceium（S24）两联创 · 2026-11-12 | 04 创业（硬科技） |
 
 ---
 

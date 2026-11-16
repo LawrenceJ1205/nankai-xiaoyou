@@ -204,6 +204,7 @@
       - [Codex教程](03_xinzhi/AI_Skill工具箱/Codex.md)
     - [💡 高阶商业认知](03_xinzhi/高阶商业认知/README.md)
       - [光，不渡闭眼人 · 不无偿启蒙（配案例版）｜作者 Kevin Chu](03_xinzhi/高阶商业认知/光不渡闭眼人·不无偿启蒙（配案例版）.md)
+      - [黄仁勋脱困谈判 · 4BC 选择力推演（配案例版）](03_xinzhi/高阶商业认知/黄仁勋脱困谈判·4BC选择力推演（配案例版）.md)
 
   - <span class="nk-gap"></span>
   - **🚀 南开人创业**
