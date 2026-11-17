@@ -181,6 +181,7 @@
       - [马蒂亚斯（Google）：未来企业需要什么样的人才](03_xinzhi/AI前沿认知和方法论/马蒂亚斯·未来企业需要什么样的人才.md)
       - [Paul Graham × Amjad Masad（Replit）：自驾驶公司 🆕](03_xinzhi/AI前沿认知和方法论/PaulGraham×AmjadMasad·自驾驶公司.md)
       - [Chaubard（YC）：博士创业十个习惯 🆕](03_xinzhi/AI前沿认知和方法论/Chaubard·博士创业十个习惯.md)
+      - [哈萨比斯（Google DeepMind）：太懂技术反而错过机会 🆕](03_xinzhi/AI前沿认知和方法论/哈萨比斯·太懂技术反而错过机会.md)
     - [🧩 AI 前沿认知推演案例 🆕](03_xinzhi/AI前沿认知推演案例/README.md)
       - [第 1 篇 · 街道解难：天津和平区街道排忧解难小程序](03_xinzhi/AI前沿认知推演案例/街道解难·天津和平区街道排忧解难小程序工作流.md)
       - [第 2 篇 · 行业推演：会计与律师遇上 AI 智能体（预判式）](03_xinzhi/AI前沿认知推演案例/行业推演·会计与律师遇上AI智能体.md)
