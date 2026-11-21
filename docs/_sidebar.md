@@ -198,6 +198,7 @@
       - [浙大系企业家怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/浙大系企业家怎么用AI智能体·兄弟高校对照样本.md)
       - [清华系上市公司怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/清华系上市公司怎么用AI智能体·兄弟高校对照样本.md)
       - [北大系上市公司怎么用 AI 智能体：兄弟高校对照样本](03_xinzhi/AI_Agent使用最佳实践/北大系上市公司怎么用AI智能体·兄弟高校对照样本.md)
+      - [企业级 AI Agent 应用形态扫描：公开可核的十例样本](03_xinzhi/AI_Agent使用最佳实践/企业级AI Agent应用形态扫描·公开可核的十例样本.md)
     - **🛠️ AI Skill工具箱**
       - [Cloud Code教程](03_xinzhi/AI_Skill工具箱/Cloud_Code.md)
       - [Hermes Agent教程](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md)
