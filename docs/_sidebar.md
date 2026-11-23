@@ -53,6 +53,7 @@
 - **🎯 工作流驾驶舱**
   - [板块首页](00_cockpit/README.md)
   - [🛰️ 南开小友·工作流驾驶舱](00_cockpit/工作流驾驶舱.md)
+  - [📖 小友对象字典·Ontology v0.1 草案](00_cockpit/小友对象字典.md)
   - [📋 平台反馈·v0→v1.0 迭代记录](00_cockpit/平台反馈·v0→v1.0迭代记录.md)
 
 - <span class="nk-gap"></span>
