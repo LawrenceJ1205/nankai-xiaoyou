@@ -145,7 +145,8 @@
 - [第 4 篇 · 领导力提炼·一：33 篇企业自述的五个主题](03_xinzhi/AI前沿认知推演案例/领导力提炼·33篇企业自述的五个主题.md)——五桌人 × 反思／危机／客户／领导力／工作流，五条共性收束。
 - [第 5 篇 · 领导力提炼·二：黄仁勋事件与行业级领导力](03_xinzhi/AI前沿认知推演案例/领导力提炼·黄仁勋事件与行业级领导力.md)——三层＋一面框架、对话能力怎么练、南开校友六类岗位建议。
 - [第 6 篇 · 推演：Palantir Ontology 的两个应用场景](03_xinzhi/AI前沿认知推演案例/推演·Palantir-Ontology的两个应用场景.md)——静态预案 vs 动态决策，「翻倍／加分」三问框架，机场与 ICU 为何属翻倍区间（五组数字已核、一组待核）。
-- [第 7 篇 · 推演：Palantir Ontology 案例（2）· Tyson 与 NVIDIA](03_xinzhi/AI前沿认知推演案例/推演·Palantir-Ontology应用案例2·Tyson与NVIDIA.md)——运营调度级（流动本体改写 ERP）与战略分配级（人类判断沉淀为训练数据）两个「翻倍」实证；Tyson 迁移／账本与 NVIDIA 数字三组对上官方口径，演示数值一组待核。
+- [第 7 篇 · 真实案例：Palantir Ontology 应用案例（2）· Tyson 与 NVIDIA](03_xinzhi/AI前沿认知推演案例/推演·Palantir-Ontology应用案例2·Tyson与NVIDIA.md)——运营调度级（流动本体改写 ERP）与战略分配级（人类判断沉淀为训练数据）两个「翻倍」实证；Tyson 迁移／账本与 NVIDIA 数字三组对上官方口径，演示数值一组待核。
+- [第 8 篇 · 真实案例：Palantir Ontology 应用案例（3）· Coles 与 Lowe's](03_xinzhi/AI前沿认知推演案例/案例·Palantir-Ontology应用案例3·Coles与Lowes.md)——零售双实证：Coles 840 家超市运营决策本体、Lowe's 供应链数字复制品（cuOpt 实时重优化）；数字对上官方口径，Coles 治理信任失而终止的教训。
 
 ---
 
