@@ -190,6 +190,7 @@
       - [第 3 篇 · 行业推演：南开帮天津科技产业落地（预判式）](03_xinzhi/AI前沿认知推演案例/行业推演·南开帮天津科技产业落地.md)
       - [第 4 篇 · 领导力提炼·一：33 篇企业自述的五个主题](03_xinzhi/AI前沿认知推演案例/领导力提炼·33篇企业自述的五个主题.md)
       - [第 5 篇 · 领导力提炼·二：黄仁勋事件与行业级领导力](03_xinzhi/AI前沿认知推演案例/领导力提炼·黄仁勋事件与行业级领导力.md)
+      - [第 6 篇 · 推演：Palantir Ontology 的两个应用场景](03_xinzhi/AI前沿认知推演案例/推演·Palantir-Ontology的两个应用场景.md)
     - [🧭 AI Agent 使用最佳实践 🆕](03_xinzhi/AI_Agent使用最佳实践/README.md)
       - [OpenAI 内部怎么用 AI：Codex 负责人 Tibo 访谈](03_xinzhi/AI_Agent使用最佳实践/OpenAI内部怎么用AI·Tibo访谈.md)
       - [Anthropic 内部怎么用 AI：当 AI 开始建造自己](03_xinzhi/AI_Agent使用最佳实践/Anthropic内部怎么用AI·当AI开始建造自己.md)
