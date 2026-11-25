@@ -14,7 +14,7 @@
 
 | # | 板块 | 内容 |
 |---|---|---|
-| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**、**吴恩达：AI 正在重新给人的能力定价**、**吴恩达：当写代码快 100 倍，瓶颈会转移到哪里**、**李飞飞：从 ImageNet 到世界模型**、**Allie K. Miller：一小时搭出 AI 第二大脑**、**Aaron Levie（Box）：AI 的价值在应用层**、**Sal Khan（可汗学院）：AI 最大的机会，藏在最无聊的行业**、**Tibo（OpenAI）：AI 的瓶颈在搬家**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
+| 1 | 🧠 **AI 时代认知前沿** | 哈萨比斯 / 奥特曼 / 李飞飞 / 辛顿 / 马斯克核心建议、**Dario Amodei：AI 重写工作的三层价值迁移**、**Linda Hill（哈佛商学院教授）：权力的迁移（Wayfinding 与微型 CEO）**、MIT 学习法、Anthropic 多智能体、Palantir 方法论、红杉 MAD 框架、YC AI 原生公司、**Tibo（OpenAI）：交互的变革**、**Josh Woodward（Google Labs）：全栈高手可能是个「陷阱」**、**吴恩达：AI 正在重新给人的能力定价**、**吴恩达：当写代码快 100 倍，瓶颈会转移到哪里**、**李飞飞：从 ImageNet 到世界模型**、**Allie K. Miller：一小时搭出 AI 第二大脑**、**Aaron Levie（Box）：AI 的价值在应用层**、**Sal Khan（可汗学院）：AI 最大的机会，藏在最无聊的行业**、**Tibo（OpenAI）：AI 的瓶颈在搬家**、**Garry Tan（YC）：掌握你的 Agent 决定权**（[🤖 专辑首页](03_xinzhi/AI前沿认知和方法论/README.md)） |
 | 2 | 🛠️ **AI 工具技能** | Cloud Code / Hermes Agent / Obsidian / Codex 等开箱即用教程 |
 | 3 | 🎓 **公开课候选导师池** | 校内学者（赵新、李文宇等）+ 校友实践者 + 海外专家（[点击进入](03_xinzhi/公开课导师候选池·新知小讲堂.md)） |
 | 4 | 💬 **淘知精选 10 问** | 每期课程配套 10 问思辨（淘知吧出品）|
@@ -88,6 +88,7 @@
 | Decagon · 企业 AI 真正落地时买的不是模型 | 90% 推理迁开源是性能故事 · agent＝业务流程执行器 · 玻璃箱 vs 黑箱 · FDE 是桥不是家 | [→](03_xinzhi/AI前沿认知和方法论/Decagon·企业AI真正落地时买的不是模型.md) |
 | Grepr CEO · AI 会写代码但还不会跑系统 | 可观测性花 5–20% 基建预算买的是可靠性 · 生产代码 10–20 倍 · 差距放大 10 倍 · 语法 vs 语义 | [→](03_xinzhi/AI前沿认知和方法论/GreprCEO·AI会写代码但还不会跑系统.md) |
 | Broccoli 创始人 · 商机藏在漏接的电话里 | 学生身份走访 140 位承包商 · 漏接的电话＝流失的线索 · 水管店写出第一行代码 · 首日 3 个预约 vs 单晚最多 2 个 | [→](03_xinzhi/AI前沿认知和方法论/Broccoli创始人·商机藏在漏接的电话里.md) |
+| Garry Tan（YC） · 掌握你的 Agent 决定权 | 个人 AI 成操作系统 · Stray Light 公司大脑 · 五个国王 · 能力民主化入口寡头化 · 最终决定权 | [→](03_xinzhi/AI前沿认知和方法论/超级猫不白说·掌握你的Agent决定权.md) |
 | 🛠️ Cloud Code 教程 | AI Skill 工具箱 #1 | [→](03_xinzhi/AI_Skill工具箱/Cloud_Code.md) |
 | 🛠️ Hermes Agent 教程 | AI Skill 工具箱 #2 | [→](03_xinzhi/AI_Skill工具箱/Hermes_Agent.md) |
 | 🛠️ Obsidian 教程 | AI Skill 工具箱 #3 | [→](03_xinzhi/AI_Skill工具箱/Obsidian.md) |
@@ -130,7 +131,7 @@
 
 > 全球一线 AI 领袖与顶级机构的公开认知与方法论，已辑成一册——**先建认知框架，再学工具技能**。
 
-- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**37 篇**（36 场公开访谈 ＋ 1 篇资料特辑），按四类嘉宾编成导读，再按九类读者给出入口：**造模型与平台的人**（OpenAI 的 Brockman、Anthropic、Google Labs、李飞飞、Google Research 的马蒂亚斯、Google DeepMind 的哈萨比斯）／**卖企业软件与云服务的人**（亚马逊贾西、Canva、Decagon、Grepr、Palantir、Replit 的 Amjad Masad）／**拿钱的人**（红杉 ×2、YC、a16z ×2、新的收费站、软银孙正义）／**办实体与办教育的人**（Kavak ×2、可汗学院、Allie Miller、a16z 投资的 HAA）；2026-11 新增资料特辑《[中美高校·AI 进了课表与学位目录](03_xinzhi/AI前沿认知和方法论/中美高校·AI进课表与学位目录.md)》（教育部「至少 1 学分」硬要求、美国 AI 学士一年从 90 个涨到 193 个、南开 185 门课等官方口径照录）与《[孙正义·对使用AI的思考与实践](03_xinzhi/AI前沿认知和方法论/孙正义·对使用AI的思考与实践.md)》（黑石会客厅访谈照录，主理人已校对）、与《[马蒂亚斯·未来企业需要什么样的人才](03_xinzhi/AI前沿认知和方法论/马蒂亚斯·未来企业需要什么样的人才.md)》（Google Research 负责人对谈转述照录，「环境智能」为其原词，主理人已校对）、与《[Paul Graham × Amjad Masad·自驾驶公司](03_xinzhi/AI前沿认知和方法论/PaulGraham×AmjadMasad·自驾驶公司.md)》（YC 官方对谈，**依 YC 官方英文转录整理**：千万美元企业项目被 25 万美元用量替掉、token 按 ROI 不按人头配给）与《[Chaubard·博士创业十个习惯](03_xinzhi/AI前沿认知和方法论/Chaubard·博士创业十个习惯.md)》（YC Startup School 单人课，**依 YC 官方英文转录整理**：AI 公司先人肉闭环再花算力；与第 31 篇同堂课的两层关系见该页编者注）与《[哈萨比斯·太懂技术反而错过机会](03_xinzhi/AI前沿认知和方法论/哈萨比斯·太懂技术反而错过机会.md)》（Intelligence Squared 座谈的公众号转述照录：Google 因 20% 错误率压住 LaMDA、ChatGPT 带缺陷成功、「模型—搜索—目标」、AI 越强判断越贵；一手座谈已定位，见该页编者注）与《[Broccoli 创始人·商机藏在漏接的电话里](03_xinzhi/AI前沿认知和方法论/Broccoli创始人·商机藏在漏接的电话里.md)》（YC Root Access 对谈的中文整理稿照录：先做客户发现、用「学生身份」访谈约 140 位承包商，再从漏接电话这个最窄切口做起；一手逐字稿已对勘、更正「搬到挪威」误记，见该页编者注）
+- [**🤖 AI 前沿认知和方法论 · 专辑首页**](03_xinzhi/AI前沿认知和方法论/README.md)——**38 篇**（37 场公开访谈 ＋ 1 篇资料特辑），按四类嘉宾编成导读，再按九类读者给出入口：**造模型与平台的人**（OpenAI 的 Brockman、Anthropic、Google Labs、李飞飞、Google Research 的马蒂亚斯、Google DeepMind 的哈萨比斯）／**卖企业软件与云服务的人**（亚马逊贾西、Canva、Decagon、Grepr、Palantir、Replit 的 Amjad Masad）／**拿钱的人**（红杉 ×2、YC、a16z ×2、新的收费站、软银孙正义）／**办实体与办教育的人**（Kavak ×2、可汗学院、Allie Miller、a16z 投资的 HAA）；2026-11 新增资料特辑《[中美高校·AI 进了课表与学位目录](03_xinzhi/AI前沿认知和方法论/中美高校·AI进课表与学位目录.md)》（教育部「至少 1 学分」硬要求、美国 AI 学士一年从 90 个涨到 193 个、南开 185 门课等官方口径照录）与《[孙正义·对使用AI的思考与实践](03_xinzhi/AI前沿认知和方法论/孙正义·对使用AI的思考与实践.md)》（黑石会客厅访谈照录，主理人已校对）、与《[马蒂亚斯·未来企业需要什么样的人才](03_xinzhi/AI前沿认知和方法论/马蒂亚斯·未来企业需要什么样的人才.md)》（Google Research 负责人对谈转述照录，「环境智能」为其原词，主理人已校对）、与《[Paul Graham × Amjad Masad·自驾驶公司](03_xinzhi/AI前沿认知和方法论/PaulGraham×AmjadMasad·自驾驶公司.md)》（YC 官方对谈，**依 YC 官方英文转录整理**：千万美元企业项目被 25 万美元用量替掉、token 按 ROI 不按人头配给）与《[Chaubard·博士创业十个习惯](03_xinzhi/AI前沿认知和方法论/Chaubard·博士创业十个习惯.md)》（YC Startup School 单人课，**依 YC 官方英文转录整理**：AI 公司先人肉闭环再花算力；与第 31 篇同堂课的两层关系见该页编者注）与《[哈萨比斯·太懂技术反而错过机会](03_xinzhi/AI前沿认知和方法论/哈萨比斯·太懂技术反而错过机会.md)》（Intelligence Squared 座谈的公众号转述照录：Google 因 20% 错误率压住 LaMDA、ChatGPT 带缺陷成功、「模型—搜索—目标」、AI 越强判断越贵；一手座谈已定位，见该页编者注）与《[Broccoli 创始人·商机藏在漏接的电话里](03_xinzhi/AI前沿认知和方法论/Broccoli创始人·商机藏在漏接的电话里.md)》（YC Root Access 对谈的中文整理稿照录：先做客户发现、用「学生身份」访谈约 140 位承包商，再从漏接电话这个最窄切口做起；一手逐字稿已对勘、更正「搬到挪威」误记，见该页编者注）与《[超级猫不白说·掌握你的Agent决定权](03_xinzhi/AI前沿认知和方法论/超级猫不白说·掌握你的Agent决定权.md)》（Garry Tan 访谈的公众号转述照录：Stray Light 公司大脑、五个国王、能力民主化入口寡头化，收在「最终决定权要握在自己手里」；人名异写与时效口径见该页编者注）
 
 ---
 
