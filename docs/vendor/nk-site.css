@@ -106,6 +106,15 @@ html,body{
 }
 .sidebar-toggle span{background:var(--purple)!important}
 
+/* ——— 侧栏字号层级（2026-11-26 样页确认）———
+   站名 56px ＞ 板块名 19px 加粗 ＞ 子标题 12.5px 不加粗 ＞ 条目 12px。
+   注：样页里为截图临时加宽的 760px 侧栏不落地，线上仍用默认 300px。 */
+.sidebar>h1.app-name,.sidebar>h1.app-name>a.app-name-link{font-size:56px!important}
+.sidebar li.folder>p{font-size:15px!important}
+.sidebar li.folder>p>strong{font-size:19px!important;font-weight:700!important}
+.sidebar li.folder>strong{font-size:12.5px!important;font-weight:400!important}
+.sidebar li.file>a{font-size:12px!important}
+
 /* ——— 正文：纸面编辑式版面 ——— */
 .content{background:var(--paper)!important}
 .markdown-section{
