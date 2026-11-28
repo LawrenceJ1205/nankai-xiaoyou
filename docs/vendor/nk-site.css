@@ -254,3 +254,16 @@ html,body{
   .markdown-section h2{font-size:21px!important}
   .sidebar-toggle{width:auto}
 }
+
+/* ——— 掌门人创业故事页专用：校友名字紫色加粗、正文加粗回归墨色 ———
+   docsify 把当前 md 路径（URL 编码）写入 body[data-page]，据此只作用于本页；
+   不动全站 strong 配色，也不改任何 md（照录体例保持原样）。 */
+body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section strong{
+  color:var(--ink)!important;
+  font-weight:700!important;
+}
+body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3,
+body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3 a{
+  color:var(--purple)!important;
+  font-weight:700!important;
+}
