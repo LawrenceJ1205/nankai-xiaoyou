@@ -263,7 +263,8 @@ body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A
   font-weight:700!important;
 }
 body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3,
-body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3 a{
+body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3 a,
+body[data-page*="%E5%8D%97%E5%BC%80%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B.md"] .markdown-section h3 a.anchor span{
   color:var(--purple)!important;
   font-weight:700!important;
 }
