@@ -95,7 +95,7 @@ def main():
     print("被剪枝隐藏的元素:", len(ah))
 
     bad = []
-    for kw in ["00_cockpit", "工作流驾驶舱", "见 ）", "见）", "（）"] + extra:
+    for kw in ["00_cockpit", "工作流驾驶舱", "信息入库工作流", "见 ）", "见）", "（）"] + extra:
         n = at.count(kw) + st.count(kw)
         print("  关键词 %-14s 可见命中 %d" % (kw, n))
         if n:

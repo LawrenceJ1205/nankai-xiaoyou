@@ -3,7 +3,8 @@
   南开小友 · 校友版入口（alumni.html）
   --------------------------------------------------------------
   与 index.html（主入口 / 内部版）共用同一套 md 与 _sidebar.md，唯一区别：
-  本版**隐去内部「工作流驾驶舱」**——侧边栏分组、正文入口与整节、直达路由兜底。
+  本版**隐去内部「工作流」内容**——「工作流驾驶舱」整组，以及「信息入库工作流」内部运营 SOP：
+  侧边栏分组与单页条目、正文入口与整节、直达路由兜底、搜索索引一并排除。
 
   维护规则：
     ① BUILD 必须与 index.html 保持一致 —— 发布前跑 check_build_sync.py；
@@ -54,11 +55,13 @@
      *   ⑤ 正文：隐藏正文块关键词命中 HIDE_BLOCKS 的整块（首页版本公告＝内部沿革）——
      *        显式规则，不再依赖「与驾驶舱同段而被连坐」这一副作用
      *   ⑥ 兜底：手输内部路径（如 #/00_cockpit/…）时直接回首页
+     *   ⑦ 侧栏文件条目与搜索索引：按 HIDE_FILES 精确隐去（如「信息入库工作流」内部 SOP）
      */
     function nankaiAlumniView(hook) {
       // ── 校友版隐去清单 ──
       var HIDE_DIRS = ['00_cockpit'];        // 目录前缀：其下的页面与入口一律隐去
       var HIDE_TITLES = ['工作流驾驶舱'];    // 标题关键词：整节 + 侧边栏分组
+      var HIDE_FILES = ['信息入库工作流'];   // 单页标题关键词：侧栏文件条目 + 直达路由 + 搜索索引
       // 正文块关键词：命中即隐去承载它的整块（首页 v2.2–v2.5 版本公告＝内部沿革，不对校友露出）
       var HIDE_BLOCKS = ['2026-09-10 v2.2 信息架构上线'];
 
@@ -71,8 +74,12 @@
       }
 
       function hitTitle(text) {
-        for (var k = 0; k < HIDE_TITLES.length; k++) {
+        var k;
+        for (k = 0; k < HIDE_TITLES.length; k++) {
           if (text.indexOf(HIDE_TITLES[k]) > -1) return true;
+        }
+        for (k = 0; k < HIDE_FILES.length; k++) {
+          if (text.indexOf(HIDE_FILES[k]) > -1) return true;
         }
         return false;
       }
@@ -84,14 +91,27 @@
         return false;
       }
 
+      function hitFile(text) {
+        for (var k = 0; k < HIDE_FILES.length; k++) {
+          if (text.indexOf(HIDE_FILES[k]) > -1) return true;
+        }
+        return false;
+      }
+
       hook.doneEach(function () {
-        var i, j, el, node, head, groups, links, heads, cells, sec, blocks;
+        var i, j, el, node, head, groups, links, heads, cells, sec, blocks, files;
 
         // ① 侧边栏分组
         groups = document.querySelectorAll('.sidebar-nav li');
         for (i = 0; i < groups.length; i++) {
           head = groups[i].querySelector(':scope > p');
           if (head && hitTitle(head.textContent)) groups[i].style.display = 'none';
+        }
+
+        // ①b 侧边栏文件条目（leaf link）：标题命中 HIDE_FILES 的整条隐去
+        files = document.querySelectorAll('.sidebar-nav li.file > a');
+        for (i = 0; i < files.length; i++) {
+          if (hitFile(files[i].textContent)) files[i].parentNode.style.display = 'none';
         }
 
         // ② 表格单元格里的内部链接：连同其外层的全角括号一起删掉
@@ -113,6 +133,9 @@
         var sel = [];
         for (j = 0; j < HIDE_DIRS.length; j++) {
           sel.push('.markdown-section a[href*="' + HIDE_DIRS[j] + '"]');
+        }
+        for (j = 0; j < HIDE_FILES.length; j++) {
+          sel.push('.markdown-section a[href*="' + HIDE_FILES[j] + '"]');
         }
         links = document.querySelectorAll(sel.join(','));
         for (i = 0; i < links.length; i++) {
@@ -147,13 +170,13 @@
           if (sec && !hasVisibleChild(sec)) sec.style.display = 'none';
         }
 
-        // ⑥ 直达兜底
+        // ⑥ 直达兜底：手输内部路径直接回首页（中文路径需解码后再比对）
+        var hash = location.hash;
+        try { hash = decodeURIComponent(hash); } catch (e) {}
         for (j = 0; j < HIDE_DIRS.length; j++) {
-          if (location.hash.indexOf('#/' + HIDE_DIRS[j]) === 0) {
-            location.hash = '#/';
-            break;
-          }
+          if (hash.indexOf('#/' + HIDE_DIRS[j]) === 0) break;
         }
+        if (j < HIDE_DIRS.length || hitFile(hash)) location.hash = '#/';
       });
     }
 
@@ -175,10 +198,10 @@
         /* ⚠️ 校友版搜索安全配置（vendor/docsify-search.js 支持的三级排除）：
            excludeDirs  = 内部目录整目录不入索引；
            excludePaths = 首页（README.md）不入索引——首页含内部版本沿革块（HIDE_BLOCKS），块级隐藏但全文仍在 md 里；
-           excludeKeywords = 含这些关键词的行不入索引——公开页里被隐去的「驾驶舱」入口行不再以搜索摘要形式泄漏。 */
+           excludeKeywords = 含这些关键词的行不入索引——公开页里被隐去的「驾驶舱」「信息入库工作流」入口行不再以搜索摘要形式泄漏。 */
         excludeDirs: ['00_cockpit'],
         excludePaths: ['/'],
-        excludeKeywords: ['00_cockpit', '工作流驾驶舱', '2026-09-10 v2.2']
+        excludeKeywords: ['00_cockpit', '工作流驾驶舱', '信息入库工作流', '2026-09-10 v2.2']
       }
     }
   </script>
@@ -191,7 +214,7 @@
      * ⚠️ 本值必须与 index.html 中的 BUILD 一致 —— 发布前跑 check_build_sync.py。
      */
     (function () {
-      var BUILD = 'v2.5.209';
+      var BUILD = 'v2.5.210';
       // 搜索索引按 BUILD 换命名空间（校友版独立前缀，与内部版互不覆盖）
       window.$docsify.search.namespace = 'nk-alumni-' + BUILD;
       var rawOpen = XMLHttpRequest.prototype.open;

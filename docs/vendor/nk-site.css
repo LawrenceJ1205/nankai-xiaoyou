@@ -49,6 +49,23 @@ html,body{
   color:var(--muted);
   margin-top:5px;
 }
+/* ——— 侧栏滚动条：加粗 + 微闪光，便于在长目录里快速定位 ———
+   覆盖 vue.css 默认的 4px / hover 才显浅灰；这里常显紫灰渐变并缓慢呼吸。
+   Firefox 不支持 ::-webkit-scrollbar，用 scrollbar-color 兜底。 */
+.sidebar{scrollbar-width:thin;scrollbar-color:var(--purple-l) rgba(126,12,110,.06)}
+.sidebar::-webkit-scrollbar{width:11px!important}
+.sidebar::-webkit-scrollbar-track{background:rgba(126,12,110,.06)!important;border-left:1px solid var(--cream-d)!important}
+.sidebar::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,var(--purple-l),var(--purple) 55%,var(--purple-d))!important;
+  border:2px solid var(--cream)!important;
+  border-radius:8px!important;
+  animation:nk-scroll-glow 3.2s ease-in-out infinite alternate;
+}
+.sidebar::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,var(--purple),var(--purple-d))!important}
+@keyframes nk-scroll-glow{
+  from{box-shadow:0 0 2px rgba(126,12,110,.25)}
+  to{box-shadow:0 0 9px 1px rgba(162,76,151,.55)}
+}
 .sidebar .sidebar-nav{padding-bottom:36px}
 .sidebar ul li{
   margin:5px 0!important;
